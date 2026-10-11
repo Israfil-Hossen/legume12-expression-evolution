@@ -1,0 +1,41 @@
+Step 5 analysis   2026-10-01 19:50:39   project: /home/liuchuanfa/israfil/legume2
+
+== QC (spec section 5)
+samples quantified: 109 of 109;  passing QC: 108
+  Gmax  12 of 12 pass
+  Pvul   9 of  9 pass
+  Vrad  12 of 12 pass
+  Vung  10 of 10 pass
+  Ccaj   6 of  6 pass
+  Mtru  12 of 12 pass
+  Cari   8 of  8 pass
+  Psat  11 of 12 pass
+  Tpra  10 of 10 pass
+  Ljap   3 of  3 pass
+  Lang  10 of 10 pass
+  Adur   5 of  5 pass
+excluded:
+  Psat_Messire_T2_01  < 5M reads after fastp
+
+== Orthogroups: Results_Sep23 (24960 rows in the file)
+hierarchical orthogroups (deviation D3): N1.tsv;  rows with genes outside the 12 legumes: 0
+orthogroups with >= 1 copy in any legume: 24960;  single-copy in all 12: 1033
+
+== variant primary: 12 species, 2 samples per side
+  within  Gmax  n=12  rho = +0.1473  (19854 orthogroups)
+  within  Pvul  n= 9  rho = +0.1025  (18798 orthogroups)
+  within  Vrad  n=12  rho = +0.0473  (18919 orthogroups)
+  within  Vung  n=10  rho = +0.0091  (19116 orthogroups)
+  within  Ccaj  n= 6  rho = +0.0307  (19188 orthogroups)
+  within  Mtru  n=12  rho = +0.0478  (18923 orthogroups)
+  within  Cari  n= 8  rho = +0.0390  (17974 orthogroups)
+  within  Psat  n=11  rho = -0.0488  (18716 orthogroups)
+  within  Tpra  n=10  rho = +0.1104  (18837 orthogroups)
+  within  Lang  n=10  rho = +0.0321  (17621 orthogroups)
+  within  Adur  n= 5  rho = +0.0707  (20115 orthogroups)
+  between: 66 pairs, rho -0.0010 to +0.0932 (median +0.0286)
+  primary: rho_between ~ divergence time           est -0.0274  [-0.0514, -0.0014]  -> supports technical account 
+  secondary: mean rho_between - mean rho_within    est -0.0188  [-0.0465, +0.0139]  -> supports technical account 
+Sensitivity 5 is not part of analysis C.
+
+wrote /home/liuchuanfa/israfil/legume2/results_step3C

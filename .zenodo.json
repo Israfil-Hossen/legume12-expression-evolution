@@ -1,0 +1,57 @@
+{
+  "title": "Study effects mimic, and conserved duplicate asymmetry reveals, expression evolution across twelve legumes: code, data and results",
+  "upload_type": "dataset",
+  "description": "Code, specifications, metadata, quantification outputs and results for the study “Study effects mimic, and conserved duplicate asymmetry reveals, expression evolution across twelve legumes”. 142 public leaf RNA-seq libraries from 12 papilionoid legumes (15 studies) were processed uniformly (fastp, salmon), orthology was inferred with OrthoFinder and a species tree with IQ-TREE. The archive contains the analysis code for every step, the dated analysis specifications (Steps 2–5), the run tables and study metadata, salmon quantifications (quant.sf) for all 142 libraries, OrthoFinder results, the species-tree alignments and support analyses, paralog Ks tables, per-orthogroup divergence tables, all test results, figure source data and the numbers ledger from which every value in the article is generated. The between-species analyses were pre-registered at https://doi.org/10.17605/OSF.IO/S5QXK.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Hossen, Md. Isrfil",
+      "orcid": "0009-0001-2189-1039",
+      "affiliation": "State Key Laboratory of Soil and Sustainable Agriculture, Institute of Soil Science, Chinese Academy of Sciences, Nanjing, China"
+    },
+    {
+      "name": "Albaghdady, Dosouky Mohammad Dosouky",
+      "orcid": "0000-0001-9963-4465",
+      "affiliation": "Department of Agricultural Zoology and Nematology, Faculty of Agriculture, Al-Azhar University, Cairo, Egypt"
+    },
+    {
+      "name": "Kabir, Md. Golam",
+      "orcid": "0000-0003-3387-9958",
+      "affiliation": "State Key Laboratory of Soil and Sustainable Agriculture, Institute of Soil Science, Chinese Academy of Sciences, Nanjing, China"
+    },
+    {
+      "name": "Rahman, Md. Mosaddekur",
+      "orcid": "0009-0002-1274-1837",
+      "affiliation": "Department of Agriculture, Faculty of Environmental Science, King Abdulaziz University, Jeddah, Saudi Arabia"
+    },
+    {
+      "name": "Karim, Md. Parvez",
+      "orcid": "0009-0007-3668-6373",
+      "affiliation": "Department of Genetics and Plant Breeding, Bangladesh Agricultural University, Mymensingh, Bangladesh"
+    },
+    {
+      "name": "Helal, Md. Mostofa Uddin",
+      "orcid": "0000-0002-7033-3578",
+      "affiliation": "Plant Molecular Biotechnology Laboratory, Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh"
+    }
+  ],
+  "keywords": [
+    "gene duplication",
+    "comparative transcriptomics",
+    "expression evolution",
+    "whole-genome duplication",
+    "ohnologs",
+    "Fabaceae",
+    "batch effects",
+    "pre-registration",
+    "RNA-seq"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/S5QXK",
+      "relation": "isDocumentedBy",
+      "scheme": "doi"
+    }
+  ]
+}

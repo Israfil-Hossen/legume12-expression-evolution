@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -N tree
+#PBS -q cpu
+#PBS -l nodes=1:ppn=24
+#PBS -l walltime=72:00:00
+#PBS -j oe
+# Sensitivity 5 (docs/step2_spec.md): species tree from concatenated single-copy orthologues.
+# IMPLEMENTATION: MAFFT --auto per orthogroup; IQ-TREE with LG+G4, rooted on A. thaliana.
+P=/home/liuchuanfa/israfil/legume2
+cd $P; exec > logs/tree.log 2>&1
+source ~/miniconda3/etc/profile.d/conda.sh && conda activate legume
+R=$(ls -d proteomes/OrthoFinder/Results_* | tail -1)
+mkdir -p tree/aln
+echo "start $(date) on $(hostname)   single-copy orthogroups: $(ls $R/Single_Copy_Orthologue_Sequences/*.fa | wc -l)"
+ls $R/Single_Copy_Orthologue_Sequences/*.fa | parallel --will-cite -j 24 'test -s tree/aln/{/.}.aln || mafft --quiet --thread 1 --auto {} > tree/aln/{/.}.aln'
+python3 concat_aln.py tree/aln tree/concat.fa
+iqtree -s tree/concat.fa -m LG+G4 -nt 24 -o Atha -redo
+echo "done $(date)"

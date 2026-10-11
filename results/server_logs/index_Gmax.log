@@ -1,0 +1,116 @@
+node node3  start Wed Sep 23 10:22:29 CST 2026  salmon 2.4.1
+transcripts 87852  genes 53587  proteins 74206
+transcripts in fasta: 87852   without a gene mapping: 0
+[2m2026-09-23T02:25:56.039446Z[0m [32m INFO[0m [2msalmon_index[0m[2m:[0m replaced 2711 non-ACGT base(s) with random bases
+[2m2026-09-23T02:25:56.039585Z[0m [32m INFO[0m [2msalmon_index[0m[2m:[0m clipped poly-A tails from 1814 transcripts
+[2m2026-09-23T02:25:56.039605Z[0m [32m INFO[0m [2msalmon_index[0m[2m:[0m removed 770 transcripts that were exact sequence duplicates (use --keepDuplicates to retain them)
+[2m2026-09-23T02:25:56.040382Z[0m [32m INFO[0m [2msalmon_index[0m[2m:[0m building compacted dBG (k=31, threads=12)
+[2m2026-09-23T02:25:56.067725Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m RSS at start: current=281 MB, peak=380 MB
+[2m2026-09-23T02:25:56.067773Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m Phase 1: Counting minimizer frequencies...
+[2m2026-09-23T02:25:56.067793Z[0m [32m INFO[0m [2mcf1_rs::minimizer[0m[2m:[0m Counting minimizer frequencies with m=15, w=17, k=31
+[2m2026-09-23T02:26:02.529333Z[0m [32m INFO[0m [2mcf1_rs::minimizer[0m[2m:[0m Histogram: 125683809 total minimizer occurrences across 65536 non-empty buckets
+[2m2026-09-23T02:26:02.553911Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m RSS after P1: current=206 MB, peak=396 MB
+[2m2026-09-23T02:26:02.553947Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m Phase 2: Partitioning minimizers and routing super k-mers...
+[2m2026-09-23T02:26:02.554027Z[0m [32m INFO[0m [2mcf1_rs::minimizer[0m[2m:[0m Partitioned into 128 bins (target 981904/bin)
+[2m2026-09-23T02:26:02.554125Z[0m [32m INFO[0m [2mcf1_rs::superkmer[0m[2m:[0m Routing super k-mers to 128 bins with m=15, w=17
+[2m2026-09-23T02:26:52.014049Z[0m [32m INFO[0m [2mcf1_rs::superkmer[0m[2m:[0m Finished routing super k-mers to bin files
+[2m2026-09-23T02:26:52.044761Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m RSS after P2: current=236 MB, peak=398 MB
+[2m2026-09-23T02:26:52.044794Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m Phase 3: Building global MPHF...
+[2m2026-09-23T02:26:52.044806Z[0m [32m INFO[0m [2mcf1_rs::mphf[0m[2m:[0m Reading canonical k-mers from 128 bins
+[2m2026-09-23T02:26:52.068089Z[0m [32m INFO[0m [2mcf1_rs::mphf[0m[2m:[0m P3a: RSS before dedup: current=236 MB, peak=398 MB
+[2m2026-09-23T02:28:07.124145Z[0m [32m INFO[0m [2mcf1_rs::mphf[0m[2m:[0m Total 681935834 distinct canonical k-mers across 128 bins (per-bin: min=1859400, max=5496557, avg=5327623)
+[2m2026-09-23T02:28:07.158053Z[0m [32m INFO[0m [2mcf1_rs::mphf[0m[2m:[0m P3a: RSS after dedup: current=1298 MB, peak=2056 MB
+[2m2026-09-23T02:30:08.233796Z[0m [32m INFO[0m [2mcf1_rs::mphf[0m[2m:[0m P3b: RSS after consolidation: current=113 MB, peak=2056 MB
+[2m2026-09-23T02:30:08.233841Z[0m [32m INFO[0m [2mcf1_rs::mphf[0m[2m:[0m Building global MPHF for 681935834 distinct canonical k-mers (streaming, clone_threshold=300000000, threads=12)
+[2m2026-09-23T02:30:24.990271Z[0m [32m INFO[0m [2mcf1_rs::mphf[0m[2m:[0m MPHF construction complete
+[2m2026-09-23T02:30:25.018676Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m RSS after P3 MPHF: current=1369 MB, peak=5986 MB
+[2m2026-09-23T02:30:25.195420Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m RSS after P3 StateVector: current=1483 MB, peak=5986 MB
+[2m2026-09-23T02:30:25.213623Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m Phase 4: Classifying k-mer vertices...
+[2m2026-09-23T02:30:25.213639Z[0m [32m INFO[0m [2mcf1_rs::classify[0m[2m:[0m Phase 4: Classifying k-mer vertices
+[2m2026-09-23T02:30:59.053624Z[0m [32m INFO[0m [2mcf1_rs::classify[0m[2m:[0m Classification complete
+[2m2026-09-23T02:30:59.081597Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m RSS after P4: current=994 MB, peak=5986 MB
+[2m2026-09-23T02:30:59.081626Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m Phase 5: Extracting unitigs and writing output...
+[2m2026-09-23T02:30:59.081651Z[0m [32m INFO[0m [2mcf1_rs::output[0m[2m:[0m Phase 5: Extracting unitigs and writing output
+[2m2026-09-23T02:32:12.982541Z[0m [32m INFO[0m [2mcf1_rs::output[0m[2m:[0m Extracted 17970011 unitigs, 681935834 vertices, avg length 67
+[2m2026-09-23T02:32:13.013382Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m RSS after P5: current=1144 MB, peak=5986 MB
+[2m2026-09-23T02:32:13.013981Z[0m [32m INFO[0m [2mcf1_rs::output[0m[2m:[0m Wrote JSON output to /home/liuchuanfa/israfil/legume2/index/Gmax/cdbg.json
+[2m2026-09-23T02:32:13.014004Z[0m [32m INFO[0m [2mcf1_rs::pipeline[0m[2m:[0m Pipeline complete.
+[2m2026-09-23T02:32:13.014292Z[0m [32m INFO[0m [2msalmon_index[0m[2m:[0m cDBG: 17970011 unitigs, 681935834 distinct k-mers
+[2m2026-09-23T02:32:13.014602Z[0m [32m INFO[0m [2msalmon_index[0m[2m:[0m building piscem index (m=19)
+[2m2026-09-23T02:32:13.014709Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m Parsing segment file: /home/liuchuanfa/israfil/legume2/index/Gmax/cdbg.cf_seg
+[2m2026-09-23T02:32:20.728949Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   17970011 segments
+[2m2026-09-23T02:32:20.790665Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m Building SSHash dictionary (k=31, m=19)
+[2m2026-09-23T02:32:20.791910Z[0m [32m INFO[0m [2msshash_lib::builder::config[0m[2m:[0m Build Configuration:
+[2m2026-09-23T02:32:20.791953Z[0m [32m INFO[0m [2msshash_lib::builder::config[0m[2m:[0m   k = 31
+[2m2026-09-23T02:32:20.791972Z[0m [32m INFO[0m [2msshash_lib::builder::config[0m[2m:[0m   m = 19
+[2m2026-09-23T02:32:20.791981Z[0m [32m INFO[0m [2msshash_lib::builder::config[0m[2m:[0m   num_threads = 12
+[2m2026-09-23T02:32:20.791997Z[0m [32m INFO[0m [2msshash_lib::builder::config[0m[2m:[0m   canonical = true
+[2m2026-09-23T02:32:20.792007Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Building SSHash Dictionary
+[2m2026-09-23T02:32:20.792024Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Step 1: Encoding sequences...
+[2m2026-09-23T02:32:37.504028Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m   Encoded 17970011 sequences
+[2m2026-09-23T02:32:37.504077Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m   Total bases: 1221036164
+[2m2026-09-23T02:32:37.504090Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Using external sorting: estimated 681935834 k-mers exceeds RAM limit of 8 GiB
+[2m2026-09-23T02:32:37.504114Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Step 2: External sort...
+[2m2026-09-23T02:32:37.504441Z[0m [32m INFO[0m [2msshash_lib::builder::minimizer_tuples[0m[2m:[0m External sorting: 12 threads, 8 GiB RAM limit, 19884107 tuples/buffer
+[2m2026-09-23T02:33:21.652276Z[0m [32m INFO[0m [2msshash_lib::builder::external_sort[0m[2m:[0m Merging 12 temp files...
+[2m2026-09-23T02:34:48.214895Z[0m [32m INFO[0m [2msshash_lib::builder::external_sort[0m[2m:[0m Merged 100000000 tuples...
+[2m2026-09-23T02:35:19.381734Z[0m [32m INFO[0m [2msshash_lib::builder::external_sort[0m[2m:[0m Merge complete: 99518644 minimizers, 134623807 positions, 139339166 super-kmers
+[2m2026-09-23T02:35:19.382169Z[0m [32m INFO[0m [2msshash_lib::builder::external_sort[0m[2m:[0m Opened merged file: 139339166 tuples (2.34 GB on disk)
+[2m2026-09-23T02:35:19.383362Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m   Sorted 139339166 tuples to disk
+[2m2026-09-23T02:35:19.383389Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Step 3: Scanning buckets (pass A + B)...
+[2m2026-09-23T02:35:34.680202Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Building PHast MPHF for 99518644 minimizers (partitioned=true)
+[2m2026-09-23T02:36:10.614456Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m   Total k-mers: 681935834
+[2m2026-09-23T02:36:10.614555Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m   Found 99518644 buckets (88328495 singleton, 11160875 light, 29274 heavy)
+[2m2026-09-23T02:36:10.614569Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m   Built MPHF for 99518644 minimizers
+[2m2026-09-23T02:36:10.614578Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Step 5: Building sparse and skew index (pass 2)...
+[2m2026-09-23T02:36:30.405990Z[0m [32m INFO[0m [2msshash_lib::sparse_and_skew_index[0m[2m:[0m   Pass 1 (EF build): 19.79s — 99518644 buckets, 134623807 total super-kmers, max_bucket_size=153050
+[2m2026-09-23T02:36:38.617454Z[0m [32m INFO[0m [2msshash_lib::sparse_and_skew_index[0m[2m:[0m   Pass 2 (fill offsets from file): 8.21s — 29274 heavy buckets materialized
+[2m2026-09-23T02:36:38.618451Z[0m [32m INFO[0m [2msshash_lib::sparse_and_skew_index[0m[2m:[0m     SkewIndex: max_bucket_size=153050, num_partitions=8
+[2m2026-09-23T02:36:51.888536Z[0m [32m INFO[0m [2msshash_lib::sparse_and_skew_index[0m[2m:[0m   Pass 3 (skew index): 13.27s
+[2m2026-09-23T02:36:51.892445Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m   Index built successfully
+[2m2026-09-23T02:36:51.892466Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Dictionary Build Complete
+[2m2026-09-23T02:36:51.892476Z[0m [32m INFO[0m [2msshash_lib::builder::dictionary_builder[0m[2m:[0m Total memory: 897.91 MB
+[2m2026-09-23T02:36:51.892845Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   Dictionary built: 17970011 strings
+[2m2026-09-23T02:36:53.999624Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m First pass over /home/liuchuanfa/israfil/legume2/index/Gmax/cdbg.cf_seq
+[2m2026-09-23T02:36:54.111817Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processed 10000 references
+[2m2026-09-23T02:36:54.233924Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processed 20000 references
+[2m2026-09-23T02:36:54.355803Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processed 30000 references
+[2m2026-09-23T02:36:54.500047Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processed 40000 references
+[2m2026-09-23T02:36:54.646793Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processed 50000 references
+[2m2026-09-23T02:36:54.814303Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processed 60000 references
+[2m2026-09-23T02:36:54.991251Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processed 70000 references
+[2m2026-09-23T02:36:55.154150Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processed 80000 references
+[2m2026-09-23T02:37:31.846193Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   87366 references, max_ref_len=58286270
+[2m2026-09-23T02:37:31.846250Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m Second pass over /home/liuchuanfa/israfil/legume2/index/Gmax/cdbg.cf_seq to fill contig entries
+[2m2026-09-23T02:37:32.950009Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #0
+[2m2026-09-23T02:37:33.043037Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #10000
+[2m2026-09-23T02:37:33.178286Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #20000
+[2m2026-09-23T02:37:33.319668Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #30000
+[2m2026-09-23T02:37:33.490491Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #40000
+[2m2026-09-23T02:37:33.668344Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #50000
+[2m2026-09-23T02:37:33.879639Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #60000
+[2m2026-09-23T02:37:34.086915Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #70000
+[2m2026-09-23T02:37:34.278550Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   processing reference #80000
+[2m2026-09-23T02:38:26.153610Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   ContigTable: 17970011 contigs, 187798539 entries
+[2m2026-09-23T02:38:26.153687Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m Building equivalence class table
+[2m2026-09-23T02:38:34.530400Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m   EqClassMap: 17970011 tiles, 3500056 ECs, 31360017 label entries
+[2m2026-09-23T02:38:34.530723Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Saving SSHash dictionary to /home/liuchuanfa/israfil/legume2/index/Gmax/index.ssi
+[2m2026-09-23T02:38:45.612309Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Saving contig table to /home/liuchuanfa/israfil/legume2/index/Gmax/index.ctab
+[2m2026-09-23T02:39:09.371123Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Saving reference info to /home/liuchuanfa/israfil/legume2/index/Gmax/index.refinfo
+[2m2026-09-23T02:39:09.378691Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Saving equivalence class table to /home/liuchuanfa/israfil/legume2/index/Gmax/index.ectab
+[2m2026-09-23T02:39:10.604143Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Index saved to /home/liuchuanfa/israfil/legume2/index/Gmax/index
+[2m2026-09-23T02:39:10.604399Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m Index built and saved to /home/liuchuanfa/israfil/legume2/index/Gmax/index
+[2m2026-09-23T02:39:10.604454Z[0m [32m INFO[0m [2mpiscem_rs::index::build[0m[2m:[0m auto dict selection: 681935834 canonical k-mers (100000000 threshold), emitting Tiny artifacts: false
+[2m2026-09-23T02:39:10.610729Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from /home/liuchuanfa/israfil/legume2/index/Gmax/index.ssi
+[2m2026-09-23T02:39:11.410612Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 17970011 strings, canonical=true
+[2m2026-09-23T02:39:11.410662Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from /home/liuchuanfa/israfil/legume2/index/Gmax/index.ctab
+[2m2026-09-23T02:39:11.860283Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   17970011 contigs, 187798539 entries, entry_width=44 bits
+[2m2026-09-23T02:39:11.860326Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from /home/liuchuanfa/israfil/legume2/index/Gmax/index.refinfo
+[2m2026-09-23T02:39:11.884861Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   87366 references, max_ref_len=58286270
+[2m2026-09-23T02:39:11.885131Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from /home/liuchuanfa/israfil/legume2/index/Gmax/index.ectab
+[2m2026-09-23T02:39:11.940676Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   17970011 tiles, 3500056 ECs, 31360017 label entries
+[2m2026-09-23T02:39:11.940863Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=27, pos_mask=0x3ffffff
+[2m2026-09-23T02:39:22.508560Z[0m [32m INFO[0m [2msalmon_index[0m[2m:[0m 284 decoy reference(s) (first decoy index 87082); 0 short (sub-k, 0-count) transcript(s) recorded after the decoys
+[2m2026-09-23T02:39:32.845444Z[0m [32m INFO[0m [2msalmon_index[0m[2m:[0m index built: 87366 references
+indexed 87366 references (k=31, m=19)
+done Wed Sep 23 10:39:32 CST 2026

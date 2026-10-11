@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -q cpu
+#PBS -l walltime=24:00:00
+#PBS -j oe
+# Step 3A for one species (docs/step3_spec.md section A). Submit with:
+#   qsub -N par_<SP> -l nodes=<node>:ppn=12 -v SP=<SP> step07_paralogs.pbs
+P=/home/liuchuanfa/israfil/legume2
+cd $P; mkdir -p logs/step3; exec > logs/step3/paralogs_$SP.log 2>&1
+source ~/miniconda3/etc/profile.d/conda.sh && conda activate legume
+export PATH=$HOME/miniconda3/envs/dup/bin:$PATH
+D=$P/step3/$SP
+echo "[$SP] start $(date) on $(hostname)"
+python3 pipeline09/prep_paralogs.py $SP || exit 1
+cd $D
+diamond makedb --in proteins.fa -d prot --quiet
+diamond blastp -q proteins.fa -d prot -o $SP.blast --evalue 1e-10 --max-target-seqs 5 --outfmt 6 -p 12 --quiet
+MCScanX $SP > mcscanx.out 2>&1
+duplicate_gene_classifier $SP > classifier.out 2>&1
+echo "[$SP] blast hits $(wc -l < $SP.blast); collinear anchor lines $(grep -vc '^#' $SP.collinearity)"
+cd $P
+python3 pipeline09/pairs_ks.py $SP 12 && touch $D/.done
+echo "[$SP] done $(date)"

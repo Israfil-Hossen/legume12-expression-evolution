@@ -1,0 +1,5 @@
+[Adur] start Fri Sep 25 10:57:51 CST 2026 on node9
+Adur: genes with longest protein 33525; kept with matching CDS 32653; sequences in gff 286
+[Adur] blast hits 129389; collinear anchor lines 4384
+Adur: reciprocal-best-hit pairs 7902; with Ks 7618; collinear 2534
+[Adur] done Fri Sep 25 11:47:59 CST 2026

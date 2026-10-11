@@ -1,0 +1,5 @@
+[Cari] start Fri Sep 25 10:50:30 CST 2026 on node1
+Cari: genes with longest protein 24841; kept with matching CDS 24788; sequences in gff 295
+[Cari] blast hits 91750; collinear anchor lines 3957
+Cari: reciprocal-best-hit pairs 6416; with Ks 6315; collinear 2345
+[Cari] done Fri Sep 25 11:42:12 CST 2026

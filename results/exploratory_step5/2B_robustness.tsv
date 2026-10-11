@@ -1,0 +1,5 @@
+check	estimate	lo	hi	n_pairs
+a. without G. max and L. angustifolius	-0.22702971339139746	-0.2786808115809774	-0.15088276704101972	36
+b. only comparisons with >= 100 shared ohnolog pairs	-0.2338221646897711	-0.288190507887942	-0.14964643603340844	45
+c. attenuation-corrected rho_r (Lotus has no ceiling)	-0.22466748610520712	-0.28084483935609894	-0.14483553898573204	45
+d. joint OLS time effect (ceiling held constant)	-0.2204006291270079			45

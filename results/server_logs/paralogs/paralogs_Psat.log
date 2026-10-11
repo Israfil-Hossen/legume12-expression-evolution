@@ -1,0 +1,5 @@
+[Psat] start Fri Sep 25 11:15:53 CST 2026 on node3
+Psat: genes with longest protein 40030; kept with matching CDS 40002; sequences in gff 179
+[Psat] blast hits 167406; collinear anchor lines 3031
+Psat: reciprocal-best-hit pairs 8485; with Ks 8470; collinear 1897
+[Psat] done Fri Sep 25 11:41:20 CST 2026

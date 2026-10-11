@@ -1,0 +1,1454 @@
+#nexus
+begin sets;
+  charset OG0013647.aln = tree/aln_sp/OG0013647.aln: ;
+  charset OG0013649.aln = tree/aln_sp/OG0013649.aln: ;
+  charset OG0013651.aln = tree/aln_sp/OG0013651.aln: ;
+  charset OG0013653.aln = tree/aln_sp/OG0013653.aln: ;
+  charset OG0013656.aln = tree/aln_sp/OG0013656.aln: ;
+  charset OG0013662.aln = tree/aln_sp/OG0013662.aln: ;
+  charset OG0013666.aln = tree/aln_sp/OG0013666.aln: ;
+  charset OG0013669.aln = tree/aln_sp/OG0013669.aln: ;
+  charset OG0013670.aln = tree/aln_sp/OG0013670.aln: ;
+  charset OG0013677.aln = tree/aln_sp/OG0013677.aln: ;
+  charset OG0013680.aln = tree/aln_sp/OG0013680.aln: ;
+  charset OG0013681.aln = tree/aln_sp/OG0013681.aln: ;
+  charset OG0013682.aln = tree/aln_sp/OG0013682.aln: ;
+  charset OG0013686.aln = tree/aln_sp/OG0013686.aln: ;
+  charset OG0013687.aln = tree/aln_sp/OG0013687.aln: ;
+  charset OG0013695.aln = tree/aln_sp/OG0013695.aln: ;
+  charset OG0013696.aln = tree/aln_sp/OG0013696.aln: ;
+  charset OG0013699.aln = tree/aln_sp/OG0013699.aln: ;
+  charset OG0013705.aln = tree/aln_sp/OG0013705.aln: ;
+  charset OG0013707.aln = tree/aln_sp/OG0013707.aln: ;
+  charset OG0013709.aln = tree/aln_sp/OG0013709.aln: ;
+  charset OG0013711.aln = tree/aln_sp/OG0013711.aln: ;
+  charset OG0013712.aln = tree/aln_sp/OG0013712.aln: ;
+  charset OG0013714.aln = tree/aln_sp/OG0013714.aln: ;
+  charset OG0013715.aln = tree/aln_sp/OG0013715.aln: ;
+  charset OG0013719.aln = tree/aln_sp/OG0013719.aln: ;
+  charset OG0013720.aln = tree/aln_sp/OG0013720.aln: ;
+  charset OG0013722.aln = tree/aln_sp/OG0013722.aln: ;
+  charset OG0013725.aln = tree/aln_sp/OG0013725.aln: ;
+  charset OG0013726.aln = tree/aln_sp/OG0013726.aln: ;
+  charset OG0013733.aln = tree/aln_sp/OG0013733.aln: ;
+  charset OG0013737.aln = tree/aln_sp/OG0013737.aln: ;
+  charset OG0013738.aln = tree/aln_sp/OG0013738.aln: ;
+  charset OG0013739.aln = tree/aln_sp/OG0013739.aln: ;
+  charset OG0013741.aln = tree/aln_sp/OG0013741.aln: ;
+  charset OG0013742.aln = tree/aln_sp/OG0013742.aln: ;
+  charset OG0013744.aln = tree/aln_sp/OG0013744.aln: ;
+  charset OG0013749.aln = tree/aln_sp/OG0013749.aln: ;
+  charset OG0013751.aln = tree/aln_sp/OG0013751.aln: ;
+  charset OG0013753.aln = tree/aln_sp/OG0013753.aln: ;
+  charset OG0013754.aln = tree/aln_sp/OG0013754.aln: ;
+  charset OG0013755.aln = tree/aln_sp/OG0013755.aln: ;
+  charset OG0013759.aln = tree/aln_sp/OG0013759.aln: ;
+  charset OG0013760.aln = tree/aln_sp/OG0013760.aln: ;
+  charset OG0013761.aln = tree/aln_sp/OG0013761.aln: ;
+  charset OG0013762.aln = tree/aln_sp/OG0013762.aln: ;
+  charset OG0013764.aln = tree/aln_sp/OG0013764.aln: ;
+  charset OG0013766.aln = tree/aln_sp/OG0013766.aln: ;
+  charset OG0013767.aln = tree/aln_sp/OG0013767.aln: ;
+  charset OG0013768.aln = tree/aln_sp/OG0013768.aln: ;
+  charset OG0013769.aln = tree/aln_sp/OG0013769.aln: ;
+  charset OG0013773.aln = tree/aln_sp/OG0013773.aln: ;
+  charset OG0013778.aln = tree/aln_sp/OG0013778.aln: ;
+  charset OG0013779.aln = tree/aln_sp/OG0013779.aln: ;
+  charset OG0013780.aln = tree/aln_sp/OG0013780.aln: ;
+  charset OG0013781.aln = tree/aln_sp/OG0013781.aln: ;
+  charset OG0013782.aln = tree/aln_sp/OG0013782.aln: ;
+  charset OG0013784.aln = tree/aln_sp/OG0013784.aln: ;
+  charset OG0013785.aln = tree/aln_sp/OG0013785.aln: ;
+  charset OG0013786.aln = tree/aln_sp/OG0013786.aln: ;
+  charset OG0013788.aln = tree/aln_sp/OG0013788.aln: ;
+  charset OG0013789.aln = tree/aln_sp/OG0013789.aln: ;
+  charset OG0013790.aln = tree/aln_sp/OG0013790.aln: ;
+  charset OG0013791.aln = tree/aln_sp/OG0013791.aln: ;
+  charset OG0013794.aln = tree/aln_sp/OG0013794.aln: ;
+  charset OG0013795.aln = tree/aln_sp/OG0013795.aln: ;
+  charset OG0013796.aln = tree/aln_sp/OG0013796.aln: ;
+  charset OG0013797.aln = tree/aln_sp/OG0013797.aln: ;
+  charset OG0013799.aln = tree/aln_sp/OG0013799.aln: ;
+  charset OG0013803.aln = tree/aln_sp/OG0013803.aln: ;
+  charset OG0013805.aln = tree/aln_sp/OG0013805.aln: ;
+  charset OG0013806.aln = tree/aln_sp/OG0013806.aln: ;
+  charset OG0013807.aln = tree/aln_sp/OG0013807.aln: ;
+  charset OG0013808.aln = tree/aln_sp/OG0013808.aln: ;
+  charset OG0013809.aln = tree/aln_sp/OG0013809.aln: ;
+  charset OG0013810.aln = tree/aln_sp/OG0013810.aln: ;
+  charset OG0013812.aln = tree/aln_sp/OG0013812.aln: ;
+  charset OG0013813.aln = tree/aln_sp/OG0013813.aln: ;
+  charset OG0013816.aln = tree/aln_sp/OG0013816.aln: ;
+  charset OG0013818.aln = tree/aln_sp/OG0013818.aln: ;
+  charset OG0013819.aln = tree/aln_sp/OG0013819.aln: ;
+  charset OG0013820.aln = tree/aln_sp/OG0013820.aln: ;
+  charset OG0013821.aln = tree/aln_sp/OG0013821.aln: ;
+  charset OG0013822.aln = tree/aln_sp/OG0013822.aln: ;
+  charset OG0013824.aln = tree/aln_sp/OG0013824.aln: ;
+  charset OG0013825.aln = tree/aln_sp/OG0013825.aln: ;
+  charset OG0013826.aln = tree/aln_sp/OG0013826.aln: ;
+  charset OG0013827.aln = tree/aln_sp/OG0013827.aln: ;
+  charset OG0013831.aln = tree/aln_sp/OG0013831.aln: ;
+  charset OG0013832.aln = tree/aln_sp/OG0013832.aln: ;
+  charset OG0013834.aln = tree/aln_sp/OG0013834.aln: ;
+  charset OG0013835.aln = tree/aln_sp/OG0013835.aln: ;
+  charset OG0013837.aln = tree/aln_sp/OG0013837.aln: ;
+  charset OG0013838.aln = tree/aln_sp/OG0013838.aln: ;
+  charset OG0013839.aln = tree/aln_sp/OG0013839.aln: ;
+  charset OG0013840.aln = tree/aln_sp/OG0013840.aln: ;
+  charset OG0013841.aln = tree/aln_sp/OG0013841.aln: ;
+  charset OG0013843.aln = tree/aln_sp/OG0013843.aln: ;
+  charset OG0013846.aln = tree/aln_sp/OG0013846.aln: ;
+  charset OG0013847.aln = tree/aln_sp/OG0013847.aln: ;
+  charset OG0013848.aln = tree/aln_sp/OG0013848.aln: ;
+  charset OG0013850.aln = tree/aln_sp/OG0013850.aln: ;
+  charset OG0013851.aln = tree/aln_sp/OG0013851.aln: ;
+  charset OG0013855.aln = tree/aln_sp/OG0013855.aln: ;
+  charset OG0013857.aln = tree/aln_sp/OG0013857.aln: ;
+  charset OG0013859.aln = tree/aln_sp/OG0013859.aln: ;
+  charset OG0013860.aln = tree/aln_sp/OG0013860.aln: ;
+  charset OG0013861.aln = tree/aln_sp/OG0013861.aln: ;
+  charset OG0013862.aln = tree/aln_sp/OG0013862.aln: ;
+  charset OG0013863.aln = tree/aln_sp/OG0013863.aln: ;
+  charset OG0013867.aln = tree/aln_sp/OG0013867.aln: ;
+  charset OG0013870.aln = tree/aln_sp/OG0013870.aln: ;
+  charset OG0013871.aln = tree/aln_sp/OG0013871.aln: ;
+  charset OG0013873.aln = tree/aln_sp/OG0013873.aln: ;
+  charset OG0013874.aln = tree/aln_sp/OG0013874.aln: ;
+  charset OG0013875.aln = tree/aln_sp/OG0013875.aln: ;
+  charset OG0013876.aln = tree/aln_sp/OG0013876.aln: ;
+  charset OG0013878.aln = tree/aln_sp/OG0013878.aln: ;
+  charset OG0013880.aln = tree/aln_sp/OG0013880.aln: ;
+  charset OG0013881.aln = tree/aln_sp/OG0013881.aln: ;
+  charset OG0013882.aln = tree/aln_sp/OG0013882.aln: ;
+  charset OG0013884.aln = tree/aln_sp/OG0013884.aln: ;
+  charset OG0013886.aln = tree/aln_sp/OG0013886.aln: ;
+  charset OG0013887.aln = tree/aln_sp/OG0013887.aln: ;
+  charset OG0013888.aln = tree/aln_sp/OG0013888.aln: ;
+  charset OG0013889.aln = tree/aln_sp/OG0013889.aln: ;
+  charset OG0013890.aln = tree/aln_sp/OG0013890.aln: ;
+  charset OG0013891.aln = tree/aln_sp/OG0013891.aln: ;
+  charset OG0013892.aln = tree/aln_sp/OG0013892.aln: ;
+  charset OG0013893.aln = tree/aln_sp/OG0013893.aln: ;
+  charset OG0013894.aln = tree/aln_sp/OG0013894.aln: ;
+  charset OG0013896.aln = tree/aln_sp/OG0013896.aln: ;
+  charset OG0013897.aln = tree/aln_sp/OG0013897.aln: ;
+  charset OG0013899.aln = tree/aln_sp/OG0013899.aln: ;
+  charset OG0013900.aln = tree/aln_sp/OG0013900.aln: ;
+  charset OG0013901.aln = tree/aln_sp/OG0013901.aln: ;
+  charset OG0013902.aln = tree/aln_sp/OG0013902.aln: ;
+  charset OG0013903.aln = tree/aln_sp/OG0013903.aln: ;
+  charset OG0013906.aln = tree/aln_sp/OG0013906.aln: ;
+  charset OG0013909.aln = tree/aln_sp/OG0013909.aln: ;
+  charset OG0013910.aln = tree/aln_sp/OG0013910.aln: ;
+  charset OG0013912.aln = tree/aln_sp/OG0013912.aln: ;
+  charset OG0013916.aln = tree/aln_sp/OG0013916.aln: ;
+  charset OG0013917.aln = tree/aln_sp/OG0013917.aln: ;
+  charset OG0013919.aln = tree/aln_sp/OG0013919.aln: ;
+  charset OG0013920.aln = tree/aln_sp/OG0013920.aln: ;
+  charset OG0013925.aln = tree/aln_sp/OG0013925.aln: ;
+  charset OG0013928.aln = tree/aln_sp/OG0013928.aln: ;
+  charset OG0013929.aln = tree/aln_sp/OG0013929.aln: ;
+  charset OG0013930.aln = tree/aln_sp/OG0013930.aln: ;
+  charset OG0013931.aln = tree/aln_sp/OG0013931.aln: ;
+  charset OG0013933.aln = tree/aln_sp/OG0013933.aln: ;
+  charset OG0013934.aln = tree/aln_sp/OG0013934.aln: ;
+  charset OG0013935.aln = tree/aln_sp/OG0013935.aln: ;
+  charset OG0013937.aln = tree/aln_sp/OG0013937.aln: ;
+  charset OG0013938.aln = tree/aln_sp/OG0013938.aln: ;
+  charset OG0013941.aln = tree/aln_sp/OG0013941.aln: ;
+  charset OG0013942.aln = tree/aln_sp/OG0013942.aln: ;
+  charset OG0013943.aln = tree/aln_sp/OG0013943.aln: ;
+  charset OG0013945.aln = tree/aln_sp/OG0013945.aln: ;
+  charset OG0013951.aln = tree/aln_sp/OG0013951.aln: ;
+  charset OG0013952.aln = tree/aln_sp/OG0013952.aln: ;
+  charset OG0013953.aln = tree/aln_sp/OG0013953.aln: ;
+  charset OG0013958.aln = tree/aln_sp/OG0013958.aln: ;
+  charset OG0013959.aln = tree/aln_sp/OG0013959.aln: ;
+  charset OG0013961.aln = tree/aln_sp/OG0013961.aln: ;
+  charset OG0013965.aln = tree/aln_sp/OG0013965.aln: ;
+  charset OG0013969.aln = tree/aln_sp/OG0013969.aln: ;
+  charset OG0013970.aln = tree/aln_sp/OG0013970.aln: ;
+  charset OG0013971.aln = tree/aln_sp/OG0013971.aln: ;
+  charset OG0013972.aln = tree/aln_sp/OG0013972.aln: ;
+  charset OG0013973.aln = tree/aln_sp/OG0013973.aln: ;
+  charset OG0013975.aln = tree/aln_sp/OG0013975.aln: ;
+  charset OG0013977.aln = tree/aln_sp/OG0013977.aln: ;
+  charset OG0013979.aln = tree/aln_sp/OG0013979.aln: ;
+  charset OG0013980.aln = tree/aln_sp/OG0013980.aln: ;
+  charset OG0013983.aln = tree/aln_sp/OG0013983.aln: ;
+  charset OG0013985.aln = tree/aln_sp/OG0013985.aln: ;
+  charset OG0013986.aln = tree/aln_sp/OG0013986.aln: ;
+  charset OG0013987.aln = tree/aln_sp/OG0013987.aln: ;
+  charset OG0013988.aln = tree/aln_sp/OG0013988.aln: ;
+  charset OG0013990.aln = tree/aln_sp/OG0013990.aln: ;
+  charset OG0013992.aln = tree/aln_sp/OG0013992.aln: ;
+  charset OG0013993.aln = tree/aln_sp/OG0013993.aln: ;
+  charset OG0013995.aln = tree/aln_sp/OG0013995.aln: ;
+  charset OG0013996.aln = tree/aln_sp/OG0013996.aln: ;
+  charset OG0013997.aln = tree/aln_sp/OG0013997.aln: ;
+  charset OG0013998.aln = tree/aln_sp/OG0013998.aln: ;
+  charset OG0014000.aln = tree/aln_sp/OG0014000.aln: ;
+  charset OG0014001.aln = tree/aln_sp/OG0014001.aln: ;
+  charset OG0014002.aln = tree/aln_sp/OG0014002.aln: ;
+  charset OG0014003.aln = tree/aln_sp/OG0014003.aln: ;
+  charset OG0014004.aln = tree/aln_sp/OG0014004.aln: ;
+  charset OG0014005.aln = tree/aln_sp/OG0014005.aln: ;
+  charset OG0014006.aln = tree/aln_sp/OG0014006.aln: ;
+  charset OG0014007.aln = tree/aln_sp/OG0014007.aln: ;
+  charset OG0014008.aln = tree/aln_sp/OG0014008.aln: ;
+  charset OG0014009.aln = tree/aln_sp/OG0014009.aln: ;
+  charset OG0014012.aln = tree/aln_sp/OG0014012.aln: ;
+  charset OG0014013.aln = tree/aln_sp/OG0014013.aln: ;
+  charset OG0014014.aln = tree/aln_sp/OG0014014.aln: ;
+  charset OG0014017.aln = tree/aln_sp/OG0014017.aln: ;
+  charset OG0014019.aln = tree/aln_sp/OG0014019.aln: ;
+  charset OG0014020.aln = tree/aln_sp/OG0014020.aln: ;
+  charset OG0014021.aln = tree/aln_sp/OG0014021.aln: ;
+  charset OG0014022.aln = tree/aln_sp/OG0014022.aln: ;
+  charset OG0014024.aln = tree/aln_sp/OG0014024.aln: ;
+  charset OG0014025.aln = tree/aln_sp/OG0014025.aln: ;
+  charset OG0014027.aln = tree/aln_sp/OG0014027.aln: ;
+  charset OG0014029.aln = tree/aln_sp/OG0014029.aln: ;
+  charset OG0014031.aln = tree/aln_sp/OG0014031.aln: ;
+  charset OG0014034.aln = tree/aln_sp/OG0014034.aln: ;
+  charset OG0014036.aln = tree/aln_sp/OG0014036.aln: ;
+  charset OG0014039.aln = tree/aln_sp/OG0014039.aln: ;
+  charset OG0014040.aln = tree/aln_sp/OG0014040.aln: ;
+  charset OG0014044.aln = tree/aln_sp/OG0014044.aln: ;
+  charset OG0014045.aln = tree/aln_sp/OG0014045.aln: ;
+  charset OG0014047.aln = tree/aln_sp/OG0014047.aln: ;
+  charset OG0014049.aln = tree/aln_sp/OG0014049.aln: ;
+  charset OG0014050.aln = tree/aln_sp/OG0014050.aln: ;
+  charset OG0014051.aln = tree/aln_sp/OG0014051.aln: ;
+  charset OG0014052.aln = tree/aln_sp/OG0014052.aln: ;
+  charset OG0014053.aln = tree/aln_sp/OG0014053.aln: ;
+  charset OG0014054.aln = tree/aln_sp/OG0014054.aln: ;
+  charset OG0014056.aln = tree/aln_sp/OG0014056.aln: ;
+  charset OG0014058.aln = tree/aln_sp/OG0014058.aln: ;
+  charset OG0014060.aln = tree/aln_sp/OG0014060.aln: ;
+  charset OG0014062.aln = tree/aln_sp/OG0014062.aln: ;
+  charset OG0014063.aln = tree/aln_sp/OG0014063.aln: ;
+  charset OG0014064.aln = tree/aln_sp/OG0014064.aln: ;
+  charset OG0014066.aln = tree/aln_sp/OG0014066.aln: ;
+  charset OG0014067.aln = tree/aln_sp/OG0014067.aln: ;
+  charset OG0014068.aln = tree/aln_sp/OG0014068.aln: ;
+  charset OG0014069.aln = tree/aln_sp/OG0014069.aln: ;
+  charset OG0014070.aln = tree/aln_sp/OG0014070.aln: ;
+  charset OG0014071.aln = tree/aln_sp/OG0014071.aln: ;
+  charset OG0014072.aln = tree/aln_sp/OG0014072.aln: ;
+  charset OG0014076.aln = tree/aln_sp/OG0014076.aln: ;
+  charset OG0014077.aln = tree/aln_sp/OG0014077.aln: ;
+  charset OG0014079.aln = tree/aln_sp/OG0014079.aln: ;
+  charset OG0014080.aln = tree/aln_sp/OG0014080.aln: ;
+  charset OG0014083.aln = tree/aln_sp/OG0014083.aln: ;
+  charset OG0014084.aln = tree/aln_sp/OG0014084.aln: ;
+  charset OG0014085.aln = tree/aln_sp/OG0014085.aln: ;
+  charset OG0014086.aln = tree/aln_sp/OG0014086.aln: ;
+  charset OG0014089.aln = tree/aln_sp/OG0014089.aln: ;
+  charset OG0014090.aln = tree/aln_sp/OG0014090.aln: ;
+  charset OG0014091.aln = tree/aln_sp/OG0014091.aln: ;
+  charset OG0014093.aln = tree/aln_sp/OG0014093.aln: ;
+  charset OG0014094.aln = tree/aln_sp/OG0014094.aln: ;
+  charset OG0014096.aln = tree/aln_sp/OG0014096.aln: ;
+  charset OG0014098.aln = tree/aln_sp/OG0014098.aln: ;
+  charset OG0014100.aln = tree/aln_sp/OG0014100.aln: ;
+  charset OG0014102.aln = tree/aln_sp/OG0014102.aln: ;
+  charset OG0014103.aln = tree/aln_sp/OG0014103.aln: ;
+  charset OG0014104.aln = tree/aln_sp/OG0014104.aln: ;
+  charset OG0014105.aln = tree/aln_sp/OG0014105.aln: ;
+  charset OG0014106.aln = tree/aln_sp/OG0014106.aln: ;
+  charset OG0014107.aln = tree/aln_sp/OG0014107.aln: ;
+  charset OG0014108.aln = tree/aln_sp/OG0014108.aln: ;
+  charset OG0014109.aln = tree/aln_sp/OG0014109.aln: ;
+  charset OG0014111.aln = tree/aln_sp/OG0014111.aln: ;
+  charset OG0014112.aln = tree/aln_sp/OG0014112.aln: ;
+  charset OG0014113.aln = tree/aln_sp/OG0014113.aln: ;
+  charset OG0014114.aln = tree/aln_sp/OG0014114.aln: ;
+  charset OG0014115.aln = tree/aln_sp/OG0014115.aln: ;
+  charset OG0014116.aln = tree/aln_sp/OG0014116.aln: ;
+  charset OG0014118.aln = tree/aln_sp/OG0014118.aln: ;
+  charset OG0014119.aln = tree/aln_sp/OG0014119.aln: ;
+  charset OG0014120.aln = tree/aln_sp/OG0014120.aln: ;
+  charset OG0014121.aln = tree/aln_sp/OG0014121.aln: ;
+  charset OG0014123.aln = tree/aln_sp/OG0014123.aln: ;
+  charset OG0014124.aln = tree/aln_sp/OG0014124.aln: ;
+  charset OG0014125.aln = tree/aln_sp/OG0014125.aln: ;
+  charset OG0014126.aln = tree/aln_sp/OG0014126.aln: ;
+  charset OG0014127.aln = tree/aln_sp/OG0014127.aln: ;
+  charset OG0014128.aln = tree/aln_sp/OG0014128.aln: ;
+  charset OG0014129.aln = tree/aln_sp/OG0014129.aln: ;
+  charset OG0014130.aln = tree/aln_sp/OG0014130.aln: ;
+  charset OG0014131.aln = tree/aln_sp/OG0014131.aln: ;
+  charset OG0014132.aln = tree/aln_sp/OG0014132.aln: ;
+  charset OG0014134.aln = tree/aln_sp/OG0014134.aln: ;
+  charset OG0014138.aln = tree/aln_sp/OG0014138.aln: ;
+  charset OG0014139.aln = tree/aln_sp/OG0014139.aln: ;
+  charset OG0014141.aln = tree/aln_sp/OG0014141.aln: ;
+  charset OG0014143.aln = tree/aln_sp/OG0014143.aln: ;
+  charset OG0014144.aln = tree/aln_sp/OG0014144.aln: ;
+  charset OG0014145.aln = tree/aln_sp/OG0014145.aln: ;
+  charset OG0014146.aln = tree/aln_sp/OG0014146.aln: ;
+  charset OG0014150.aln = tree/aln_sp/OG0014150.aln: ;
+  charset OG0014161.aln = tree/aln_sp/OG0014161.aln: ;
+  charset OG0014162.aln = tree/aln_sp/OG0014162.aln: ;
+  charset OG0014164.aln = tree/aln_sp/OG0014164.aln: ;
+  charset OG0014165.aln = tree/aln_sp/OG0014165.aln: ;
+  charset OG0014166.aln = tree/aln_sp/OG0014166.aln: ;
+  charset OG0014169.aln = tree/aln_sp/OG0014169.aln: ;
+  charset OG0014170.aln = tree/aln_sp/OG0014170.aln: ;
+  charset OG0014172.aln = tree/aln_sp/OG0014172.aln: ;
+  charset OG0014173.aln = tree/aln_sp/OG0014173.aln: ;
+  charset OG0014174.aln = tree/aln_sp/OG0014174.aln: ;
+  charset OG0014175.aln = tree/aln_sp/OG0014175.aln: ;
+  charset OG0014177.aln = tree/aln_sp/OG0014177.aln: ;
+  charset OG0014182.aln = tree/aln_sp/OG0014182.aln: ;
+  charset OG0014185.aln = tree/aln_sp/OG0014185.aln: ;
+  charset OG0014186.aln = tree/aln_sp/OG0014186.aln: ;
+  charset OG0014187.aln = tree/aln_sp/OG0014187.aln: ;
+  charset OG0014188.aln = tree/aln_sp/OG0014188.aln: ;
+  charset OG0014189.aln = tree/aln_sp/OG0014189.aln: ;
+  charset OG0014190.aln = tree/aln_sp/OG0014190.aln: ;
+  charset OG0014191.aln = tree/aln_sp/OG0014191.aln: ;
+  charset OG0014192.aln = tree/aln_sp/OG0014192.aln: ;
+  charset OG0014194.aln = tree/aln_sp/OG0014194.aln: ;
+  charset OG0014195.aln = tree/aln_sp/OG0014195.aln: ;
+  charset OG0014196.aln = tree/aln_sp/OG0014196.aln: ;
+  charset OG0014197.aln = tree/aln_sp/OG0014197.aln: ;
+  charset OG0014198.aln = tree/aln_sp/OG0014198.aln: ;
+  charset OG0014199.aln = tree/aln_sp/OG0014199.aln: ;
+  charset OG0014200.aln = tree/aln_sp/OG0014200.aln: ;
+  charset OG0014201.aln = tree/aln_sp/OG0014201.aln: ;
+  charset OG0014202.aln = tree/aln_sp/OG0014202.aln: ;
+  charset OG0014203.aln = tree/aln_sp/OG0014203.aln: ;
+  charset OG0014205.aln = tree/aln_sp/OG0014205.aln: ;
+  charset OG0014206.aln = tree/aln_sp/OG0014206.aln: ;
+  charset OG0014207.aln = tree/aln_sp/OG0014207.aln: ;
+  charset OG0014209.aln = tree/aln_sp/OG0014209.aln: ;
+  charset OG0014211.aln = tree/aln_sp/OG0014211.aln: ;
+  charset OG0014212.aln = tree/aln_sp/OG0014212.aln: ;
+  charset OG0014214.aln = tree/aln_sp/OG0014214.aln: ;
+  charset OG0014216.aln = tree/aln_sp/OG0014216.aln: ;
+  charset OG0014217.aln = tree/aln_sp/OG0014217.aln: ;
+  charset OG0014218.aln = tree/aln_sp/OG0014218.aln: ;
+  charset OG0014219.aln = tree/aln_sp/OG0014219.aln: ;
+  charset OG0014220.aln = tree/aln_sp/OG0014220.aln: ;
+  charset OG0014221.aln = tree/aln_sp/OG0014221.aln: ;
+  charset OG0014222.aln = tree/aln_sp/OG0014222.aln: ;
+  charset OG0014224.aln = tree/aln_sp/OG0014224.aln: ;
+  charset OG0014225.aln = tree/aln_sp/OG0014225.aln: ;
+  charset OG0014226.aln = tree/aln_sp/OG0014226.aln: ;
+  charset OG0014227.aln = tree/aln_sp/OG0014227.aln: ;
+  charset OG0014229.aln = tree/aln_sp/OG0014229.aln: ;
+  charset OG0014230.aln = tree/aln_sp/OG0014230.aln: ;
+  charset OG0014231.aln = tree/aln_sp/OG0014231.aln: ;
+  charset OG0014232.aln = tree/aln_sp/OG0014232.aln: ;
+  charset OG0014233.aln = tree/aln_sp/OG0014233.aln: ;
+  charset OG0014235.aln = tree/aln_sp/OG0014235.aln: ;
+  charset OG0014239.aln = tree/aln_sp/OG0014239.aln: ;
+  charset OG0014240.aln = tree/aln_sp/OG0014240.aln: ;
+  charset OG0014241.aln = tree/aln_sp/OG0014241.aln: ;
+  charset OG0014242.aln = tree/aln_sp/OG0014242.aln: ;
+  charset OG0014244.aln = tree/aln_sp/OG0014244.aln: ;
+  charset OG0014246.aln = tree/aln_sp/OG0014246.aln: ;
+  charset OG0014247.aln = tree/aln_sp/OG0014247.aln: ;
+  charset OG0014248.aln = tree/aln_sp/OG0014248.aln: ;
+  charset OG0014250.aln = tree/aln_sp/OG0014250.aln: ;
+  charset OG0014251.aln = tree/aln_sp/OG0014251.aln: ;
+  charset OG0014252.aln = tree/aln_sp/OG0014252.aln: ;
+  charset OG0014253.aln = tree/aln_sp/OG0014253.aln: ;
+  charset OG0014254.aln = tree/aln_sp/OG0014254.aln: ;
+  charset OG0014255.aln = tree/aln_sp/OG0014255.aln: ;
+  charset OG0014256.aln = tree/aln_sp/OG0014256.aln: ;
+  charset OG0014257.aln = tree/aln_sp/OG0014257.aln: ;
+  charset OG0014258.aln = tree/aln_sp/OG0014258.aln: ;
+  charset OG0014259.aln = tree/aln_sp/OG0014259.aln: ;
+  charset OG0014261.aln = tree/aln_sp/OG0014261.aln: ;
+  charset OG0014262.aln = tree/aln_sp/OG0014262.aln: ;
+  charset OG0014264.aln = tree/aln_sp/OG0014264.aln: ;
+  charset OG0014266.aln = tree/aln_sp/OG0014266.aln: ;
+  charset OG0014267.aln = tree/aln_sp/OG0014267.aln: ;
+  charset OG0014268.aln = tree/aln_sp/OG0014268.aln: ;
+  charset OG0014269.aln = tree/aln_sp/OG0014269.aln: ;
+  charset OG0014270.aln = tree/aln_sp/OG0014270.aln: ;
+  charset OG0014271.aln = tree/aln_sp/OG0014271.aln: ;
+  charset OG0014274.aln = tree/aln_sp/OG0014274.aln: ;
+  charset OG0014275.aln = tree/aln_sp/OG0014275.aln: ;
+  charset OG0014278.aln = tree/aln_sp/OG0014278.aln: ;
+  charset OG0014281.aln = tree/aln_sp/OG0014281.aln: ;
+  charset OG0014282.aln = tree/aln_sp/OG0014282.aln: ;
+  charset OG0014283.aln = tree/aln_sp/OG0014283.aln: ;
+  charset OG0014284.aln = tree/aln_sp/OG0014284.aln: ;
+  charset OG0014285.aln = tree/aln_sp/OG0014285.aln: ;
+  charset OG0014290.aln = tree/aln_sp/OG0014290.aln: ;
+  charset OG0014291.aln = tree/aln_sp/OG0014291.aln: ;
+  charset OG0014292.aln = tree/aln_sp/OG0014292.aln: ;
+  charset OG0014295.aln = tree/aln_sp/OG0014295.aln: ;
+  charset OG0014296.aln = tree/aln_sp/OG0014296.aln: ;
+  charset OG0014297.aln = tree/aln_sp/OG0014297.aln: ;
+  charset OG0014298.aln = tree/aln_sp/OG0014298.aln: ;
+  charset OG0014302.aln = tree/aln_sp/OG0014302.aln: ;
+  charset OG0014303.aln = tree/aln_sp/OG0014303.aln: ;
+  charset OG0014304.aln = tree/aln_sp/OG0014304.aln: ;
+  charset OG0014305.aln = tree/aln_sp/OG0014305.aln: ;
+  charset OG0014307.aln = tree/aln_sp/OG0014307.aln: ;
+  charset OG0014308.aln = tree/aln_sp/OG0014308.aln: ;
+  charset OG0014309.aln = tree/aln_sp/OG0014309.aln: ;
+  charset OG0014310.aln = tree/aln_sp/OG0014310.aln: ;
+  charset OG0014311.aln = tree/aln_sp/OG0014311.aln: ;
+  charset OG0014312.aln = tree/aln_sp/OG0014312.aln: ;
+  charset OG0014313.aln = tree/aln_sp/OG0014313.aln: ;
+  charset OG0014314.aln = tree/aln_sp/OG0014314.aln: ;
+  charset OG0014315.aln = tree/aln_sp/OG0014315.aln: ;
+  charset OG0014316.aln = tree/aln_sp/OG0014316.aln: ;
+  charset OG0014317.aln = tree/aln_sp/OG0014317.aln: ;
+  charset OG0014318.aln = tree/aln_sp/OG0014318.aln: ;
+  charset OG0014319.aln = tree/aln_sp/OG0014319.aln: ;
+  charset OG0014320.aln = tree/aln_sp/OG0014320.aln: ;
+  charset OG0014321.aln = tree/aln_sp/OG0014321.aln: ;
+  charset OG0014322.aln = tree/aln_sp/OG0014322.aln: ;
+  charset OG0014326.aln = tree/aln_sp/OG0014326.aln: ;
+  charset OG0014327.aln = tree/aln_sp/OG0014327.aln: ;
+  charset OG0014328.aln = tree/aln_sp/OG0014328.aln: ;
+  charset OG0014330.aln = tree/aln_sp/OG0014330.aln: ;
+  charset OG0014332.aln = tree/aln_sp/OG0014332.aln: ;
+  charset OG0014333.aln = tree/aln_sp/OG0014333.aln: ;
+  charset OG0014337.aln = tree/aln_sp/OG0014337.aln: ;
+  charset OG0014340.aln = tree/aln_sp/OG0014340.aln: ;
+  charset OG0014341.aln = tree/aln_sp/OG0014341.aln: ;
+  charset OG0014342.aln = tree/aln_sp/OG0014342.aln: ;
+  charset OG0014347.aln = tree/aln_sp/OG0014347.aln: ;
+  charset OG0014349.aln = tree/aln_sp/OG0014349.aln: ;
+  charset OG0014351.aln = tree/aln_sp/OG0014351.aln: ;
+  charset OG0014352.aln = tree/aln_sp/OG0014352.aln: ;
+  charset OG0014353.aln = tree/aln_sp/OG0014353.aln: ;
+  charset OG0014354.aln = tree/aln_sp/OG0014354.aln: ;
+  charset OG0014356.aln = tree/aln_sp/OG0014356.aln: ;
+  charset OG0014357.aln = tree/aln_sp/OG0014357.aln: ;
+  charset OG0014358.aln = tree/aln_sp/OG0014358.aln: ;
+  charset OG0014359.aln = tree/aln_sp/OG0014359.aln: ;
+  charset OG0014360.aln = tree/aln_sp/OG0014360.aln: ;
+  charset OG0014361.aln = tree/aln_sp/OG0014361.aln: ;
+  charset OG0014362.aln = tree/aln_sp/OG0014362.aln: ;
+  charset OG0014363.aln = tree/aln_sp/OG0014363.aln: ;
+  charset OG0014365.aln = tree/aln_sp/OG0014365.aln: ;
+  charset OG0014366.aln = tree/aln_sp/OG0014366.aln: ;
+  charset OG0014368.aln = tree/aln_sp/OG0014368.aln: ;
+  charset OG0014372.aln = tree/aln_sp/OG0014372.aln: ;
+  charset OG0014374.aln = tree/aln_sp/OG0014374.aln: ;
+  charset OG0014375.aln = tree/aln_sp/OG0014375.aln: ;
+  charset OG0014376.aln = tree/aln_sp/OG0014376.aln: ;
+  charset OG0014379.aln = tree/aln_sp/OG0014379.aln: ;
+  charset OG0014380.aln = tree/aln_sp/OG0014380.aln: ;
+  charset OG0014381.aln = tree/aln_sp/OG0014381.aln: ;
+  charset OG0014384.aln = tree/aln_sp/OG0014384.aln: ;
+  charset OG0014385.aln = tree/aln_sp/OG0014385.aln: ;
+  charset OG0014386.aln = tree/aln_sp/OG0014386.aln: ;
+  charset OG0014387.aln = tree/aln_sp/OG0014387.aln: ;
+  charset OG0014388.aln = tree/aln_sp/OG0014388.aln: ;
+  charset OG0014390.aln = tree/aln_sp/OG0014390.aln: ;
+  charset OG0014391.aln = tree/aln_sp/OG0014391.aln: ;
+  charset OG0014392.aln = tree/aln_sp/OG0014392.aln: ;
+  charset OG0014393.aln = tree/aln_sp/OG0014393.aln: ;
+  charset OG0014394.aln = tree/aln_sp/OG0014394.aln: ;
+  charset OG0014395.aln = tree/aln_sp/OG0014395.aln: ;
+  charset OG0014396.aln = tree/aln_sp/OG0014396.aln: ;
+  charset OG0014397.aln = tree/aln_sp/OG0014397.aln: ;
+  charset OG0014398.aln = tree/aln_sp/OG0014398.aln: ;
+  charset OG0014400.aln = tree/aln_sp/OG0014400.aln: ;
+  charset OG0014401.aln = tree/aln_sp/OG0014401.aln: ;
+  charset OG0014402.aln = tree/aln_sp/OG0014402.aln: ;
+  charset OG0014404.aln = tree/aln_sp/OG0014404.aln: ;
+  charset OG0014405.aln = tree/aln_sp/OG0014405.aln: ;
+  charset OG0014406.aln = tree/aln_sp/OG0014406.aln: ;
+  charset OG0014407.aln = tree/aln_sp/OG0014407.aln: ;
+  charset OG0014408.aln = tree/aln_sp/OG0014408.aln: ;
+  charset OG0014409.aln = tree/aln_sp/OG0014409.aln: ;
+  charset OG0014411.aln = tree/aln_sp/OG0014411.aln: ;
+  charset OG0014412.aln = tree/aln_sp/OG0014412.aln: ;
+  charset OG0014413.aln = tree/aln_sp/OG0014413.aln: ;
+  charset OG0014414.aln = tree/aln_sp/OG0014414.aln: ;
+  charset OG0014416.aln = tree/aln_sp/OG0014416.aln: ;
+  charset OG0014417.aln = tree/aln_sp/OG0014417.aln: ;
+  charset OG0014418.aln = tree/aln_sp/OG0014418.aln: ;
+  charset OG0014419.aln = tree/aln_sp/OG0014419.aln: ;
+  charset OG0014421.aln = tree/aln_sp/OG0014421.aln: ;
+  charset OG0014424.aln = tree/aln_sp/OG0014424.aln: ;
+  charset OG0014425.aln = tree/aln_sp/OG0014425.aln: ;
+  charset OG0014426.aln = tree/aln_sp/OG0014426.aln: ;
+  charset OG0014429.aln = tree/aln_sp/OG0014429.aln: ;
+  charset OG0014430.aln = tree/aln_sp/OG0014430.aln: ;
+  charset OG0014431.aln = tree/aln_sp/OG0014431.aln: ;
+  charset OG0014432.aln = tree/aln_sp/OG0014432.aln: ;
+  charset OG0014436.aln = tree/aln_sp/OG0014436.aln: ;
+  charset OG0014437.aln = tree/aln_sp/OG0014437.aln: ;
+  charset OG0014438.aln = tree/aln_sp/OG0014438.aln: ;
+  charset OG0014439.aln = tree/aln_sp/OG0014439.aln: ;
+  charset OG0014440.aln = tree/aln_sp/OG0014440.aln: ;
+  charset OG0014441.aln = tree/aln_sp/OG0014441.aln: ;
+  charset OG0014443.aln = tree/aln_sp/OG0014443.aln: ;
+  charset OG0014444.aln = tree/aln_sp/OG0014444.aln: ;
+  charset OG0014446.aln = tree/aln_sp/OG0014446.aln: ;
+  charset OG0014447.aln = tree/aln_sp/OG0014447.aln: ;
+  charset OG0014448.aln = tree/aln_sp/OG0014448.aln: ;
+  charset OG0014449.aln = tree/aln_sp/OG0014449.aln: ;
+  charset OG0014451.aln = tree/aln_sp/OG0014451.aln: ;
+  charset OG0014452.aln = tree/aln_sp/OG0014452.aln: ;
+  charset OG0014454.aln = tree/aln_sp/OG0014454.aln: ;
+  charset OG0014455.aln = tree/aln_sp/OG0014455.aln: ;
+  charset OG0014456.aln = tree/aln_sp/OG0014456.aln: ;
+  charset OG0014457.aln = tree/aln_sp/OG0014457.aln: ;
+  charset OG0014458.aln = tree/aln_sp/OG0014458.aln: ;
+  charset OG0014460.aln = tree/aln_sp/OG0014460.aln: ;
+  charset OG0014461.aln = tree/aln_sp/OG0014461.aln: ;
+  charset OG0014462.aln = tree/aln_sp/OG0014462.aln: ;
+  charset OG0014463.aln = tree/aln_sp/OG0014463.aln: ;
+  charset OG0014464.aln = tree/aln_sp/OG0014464.aln: ;
+  charset OG0014465.aln = tree/aln_sp/OG0014465.aln: ;
+  charset OG0014466.aln = tree/aln_sp/OG0014466.aln: ;
+  charset OG0014467.aln = tree/aln_sp/OG0014467.aln: ;
+  charset OG0014468.aln = tree/aln_sp/OG0014468.aln: ;
+  charset OG0014469.aln = tree/aln_sp/OG0014469.aln: ;
+  charset OG0014470.aln = tree/aln_sp/OG0014470.aln: ;
+  charset OG0014471.aln = tree/aln_sp/OG0014471.aln: ;
+  charset OG0014476.aln = tree/aln_sp/OG0014476.aln: ;
+  charset OG0014481.aln = tree/aln_sp/OG0014481.aln: ;
+  charset OG0014482.aln = tree/aln_sp/OG0014482.aln: ;
+  charset OG0014483.aln = tree/aln_sp/OG0014483.aln: ;
+  charset OG0014484.aln = tree/aln_sp/OG0014484.aln: ;
+  charset OG0014486.aln = tree/aln_sp/OG0014486.aln: ;
+  charset OG0014488.aln = tree/aln_sp/OG0014488.aln: ;
+  charset OG0014489.aln = tree/aln_sp/OG0014489.aln: ;
+  charset OG0014490.aln = tree/aln_sp/OG0014490.aln: ;
+  charset OG0014491.aln = tree/aln_sp/OG0014491.aln: ;
+  charset OG0014492.aln = tree/aln_sp/OG0014492.aln: ;
+  charset OG0014493.aln = tree/aln_sp/OG0014493.aln: ;
+  charset OG0014494.aln = tree/aln_sp/OG0014494.aln: ;
+  charset OG0014495.aln = tree/aln_sp/OG0014495.aln: ;
+  charset OG0014496.aln = tree/aln_sp/OG0014496.aln: ;
+  charset OG0014498.aln = tree/aln_sp/OG0014498.aln: ;
+  charset OG0014499.aln = tree/aln_sp/OG0014499.aln: ;
+  charset OG0014500.aln = tree/aln_sp/OG0014500.aln: ;
+  charset OG0014501.aln = tree/aln_sp/OG0014501.aln: ;
+  charset OG0014504.aln = tree/aln_sp/OG0014504.aln: ;
+  charset OG0014505.aln = tree/aln_sp/OG0014505.aln: ;
+  charset OG0014506.aln = tree/aln_sp/OG0014506.aln: ;
+  charset OG0014508.aln = tree/aln_sp/OG0014508.aln: ;
+  charset OG0014509.aln = tree/aln_sp/OG0014509.aln: ;
+  charset OG0014510.aln = tree/aln_sp/OG0014510.aln: ;
+  charset OG0014512.aln = tree/aln_sp/OG0014512.aln: ;
+  charset OG0014514.aln = tree/aln_sp/OG0014514.aln: ;
+  charset OG0014515.aln = tree/aln_sp/OG0014515.aln: ;
+  charset OG0014517.aln = tree/aln_sp/OG0014517.aln: ;
+  charset OG0014518.aln = tree/aln_sp/OG0014518.aln: ;
+  charset OG0014519.aln = tree/aln_sp/OG0014519.aln: ;
+  charset OG0014520.aln = tree/aln_sp/OG0014520.aln: ;
+  charset OG0014522.aln = tree/aln_sp/OG0014522.aln: ;
+  charset OG0014523.aln = tree/aln_sp/OG0014523.aln: ;
+  charset OG0014525.aln = tree/aln_sp/OG0014525.aln: ;
+  charset OG0014526.aln = tree/aln_sp/OG0014526.aln: ;
+  charset OG0014527.aln = tree/aln_sp/OG0014527.aln: ;
+  charset OG0014528.aln = tree/aln_sp/OG0014528.aln: ;
+  charset OG0014530.aln = tree/aln_sp/OG0014530.aln: ;
+  charset OG0014534.aln = tree/aln_sp/OG0014534.aln: ;
+  charset OG0014535.aln = tree/aln_sp/OG0014535.aln: ;
+  charset OG0014536.aln = tree/aln_sp/OG0014536.aln: ;
+  charset OG0014537.aln = tree/aln_sp/OG0014537.aln: ;
+  charset OG0014538.aln = tree/aln_sp/OG0014538.aln: ;
+  charset OG0014539.aln = tree/aln_sp/OG0014539.aln: ;
+  charset OG0014540.aln = tree/aln_sp/OG0014540.aln: ;
+  charset OG0014541.aln = tree/aln_sp/OG0014541.aln: ;
+  charset OG0014544.aln = tree/aln_sp/OG0014544.aln: ;
+  charset OG0014545.aln = tree/aln_sp/OG0014545.aln: ;
+  charset OG0014546.aln = tree/aln_sp/OG0014546.aln: ;
+  charset OG0014547.aln = tree/aln_sp/OG0014547.aln: ;
+  charset OG0014549.aln = tree/aln_sp/OG0014549.aln: ;
+  charset OG0014551.aln = tree/aln_sp/OG0014551.aln: ;
+  charset OG0014552.aln = tree/aln_sp/OG0014552.aln: ;
+  charset OG0014555.aln = tree/aln_sp/OG0014555.aln: ;
+  charset OG0014557.aln = tree/aln_sp/OG0014557.aln: ;
+  charset OG0014558.aln = tree/aln_sp/OG0014558.aln: ;
+  charset OG0014560.aln = tree/aln_sp/OG0014560.aln: ;
+  charset OG0014563.aln = tree/aln_sp/OG0014563.aln: ;
+  charset OG0014565.aln = tree/aln_sp/OG0014565.aln: ;
+  charset OG0014566.aln = tree/aln_sp/OG0014566.aln: ;
+  charset OG0014567.aln = tree/aln_sp/OG0014567.aln: ;
+  charset OG0014571.aln = tree/aln_sp/OG0014571.aln: ;
+  charset OG0014572.aln = tree/aln_sp/OG0014572.aln: ;
+  charset OG0014573.aln = tree/aln_sp/OG0014573.aln: ;
+  charset OG0014574.aln = tree/aln_sp/OG0014574.aln: ;
+  charset OG0014575.aln = tree/aln_sp/OG0014575.aln: ;
+  charset OG0014576.aln = tree/aln_sp/OG0014576.aln: ;
+  charset OG0014578.aln = tree/aln_sp/OG0014578.aln: ;
+  charset OG0014579.aln = tree/aln_sp/OG0014579.aln: ;
+  charset OG0014580.aln = tree/aln_sp/OG0014580.aln: ;
+  charset OG0014581.aln = tree/aln_sp/OG0014581.aln: ;
+  charset OG0014582.aln = tree/aln_sp/OG0014582.aln: ;
+  charset OG0014584.aln = tree/aln_sp/OG0014584.aln: ;
+  charset OG0014585.aln = tree/aln_sp/OG0014585.aln: ;
+  charset OG0014588.aln = tree/aln_sp/OG0014588.aln: ;
+  charset OG0014589.aln = tree/aln_sp/OG0014589.aln: ;
+  charset OG0014591.aln = tree/aln_sp/OG0014591.aln: ;
+  charset OG0014593.aln = tree/aln_sp/OG0014593.aln: ;
+  charset OG0014594.aln = tree/aln_sp/OG0014594.aln: ;
+  charset OG0014595.aln = tree/aln_sp/OG0014595.aln: ;
+  charset OG0014596.aln = tree/aln_sp/OG0014596.aln: ;
+  charset OG0014597.aln = tree/aln_sp/OG0014597.aln: ;
+  charset OG0014599.aln = tree/aln_sp/OG0014599.aln: ;
+  charset OG0014600.aln = tree/aln_sp/OG0014600.aln: ;
+  charset OG0014601.aln = tree/aln_sp/OG0014601.aln: ;
+  charset OG0014602.aln = tree/aln_sp/OG0014602.aln: ;
+  charset OG0014604.aln = tree/aln_sp/OG0014604.aln: ;
+  charset OG0014606.aln = tree/aln_sp/OG0014606.aln: ;
+  charset OG0014608.aln = tree/aln_sp/OG0014608.aln: ;
+  charset OG0014609.aln = tree/aln_sp/OG0014609.aln: ;
+  charset OG0014610.aln = tree/aln_sp/OG0014610.aln: ;
+  charset OG0014612.aln = tree/aln_sp/OG0014612.aln: ;
+  charset OG0014613.aln = tree/aln_sp/OG0014613.aln: ;
+  charset OG0014614.aln = tree/aln_sp/OG0014614.aln: ;
+  charset OG0014616.aln = tree/aln_sp/OG0014616.aln: ;
+  charset OG0014617.aln = tree/aln_sp/OG0014617.aln: ;
+  charset OG0014620.aln = tree/aln_sp/OG0014620.aln: ;
+  charset OG0014622.aln = tree/aln_sp/OG0014622.aln: ;
+  charset OG0014623.aln = tree/aln_sp/OG0014623.aln: ;
+  charset OG0014624.aln = tree/aln_sp/OG0014624.aln: ;
+  charset OG0014627.aln = tree/aln_sp/OG0014627.aln: ;
+  charset OG0014628.aln = tree/aln_sp/OG0014628.aln: ;
+  charset OG0014629.aln = tree/aln_sp/OG0014629.aln: ;
+  charset OG0014630.aln = tree/aln_sp/OG0014630.aln: ;
+  charset OG0014632.aln = tree/aln_sp/OG0014632.aln: ;
+  charset OG0014634.aln = tree/aln_sp/OG0014634.aln: ;
+  charset OG0014635.aln = tree/aln_sp/OG0014635.aln: ;
+  charset OG0014637.aln = tree/aln_sp/OG0014637.aln: ;
+  charset OG0014638.aln = tree/aln_sp/OG0014638.aln: ;
+  charset OG0014640.aln = tree/aln_sp/OG0014640.aln: ;
+  charset OG0014641.aln = tree/aln_sp/OG0014641.aln: ;
+  charset OG0014642.aln = tree/aln_sp/OG0014642.aln: ;
+  charset OG0014644.aln = tree/aln_sp/OG0014644.aln: ;
+  charset OG0014645.aln = tree/aln_sp/OG0014645.aln: ;
+  charset OG0014646.aln = tree/aln_sp/OG0014646.aln: ;
+  charset OG0014647.aln = tree/aln_sp/OG0014647.aln: ;
+  charset OG0014648.aln = tree/aln_sp/OG0014648.aln: ;
+  charset OG0014649.aln = tree/aln_sp/OG0014649.aln: ;
+  charset OG0014653.aln = tree/aln_sp/OG0014653.aln: ;
+  charset OG0014654.aln = tree/aln_sp/OG0014654.aln: ;
+  charset OG0014656.aln = tree/aln_sp/OG0014656.aln: ;
+  charset OG0014659.aln = tree/aln_sp/OG0014659.aln: ;
+  charset OG0014660.aln = tree/aln_sp/OG0014660.aln: ;
+  charset OG0014661.aln = tree/aln_sp/OG0014661.aln: ;
+  charset OG0014662.aln = tree/aln_sp/OG0014662.aln: ;
+  charset OG0014663.aln = tree/aln_sp/OG0014663.aln: ;
+  charset OG0014665.aln = tree/aln_sp/OG0014665.aln: ;
+  charset OG0014666.aln = tree/aln_sp/OG0014666.aln: ;
+  charset OG0014667.aln = tree/aln_sp/OG0014667.aln: ;
+  charset OG0014668.aln = tree/aln_sp/OG0014668.aln: ;
+  charset OG0014669.aln = tree/aln_sp/OG0014669.aln: ;
+  charset OG0014670.aln = tree/aln_sp/OG0014670.aln: ;
+  charset OG0014671.aln = tree/aln_sp/OG0014671.aln: ;
+  charset OG0014676.aln = tree/aln_sp/OG0014676.aln: ;
+  charset OG0014677.aln = tree/aln_sp/OG0014677.aln: ;
+  charset OG0014678.aln = tree/aln_sp/OG0014678.aln: ;
+  charset OG0014679.aln = tree/aln_sp/OG0014679.aln: ;
+  charset OG0014680.aln = tree/aln_sp/OG0014680.aln: ;
+  charset OG0014681.aln = tree/aln_sp/OG0014681.aln: ;
+  charset OG0014682.aln = tree/aln_sp/OG0014682.aln: ;
+  charset OG0014683.aln = tree/aln_sp/OG0014683.aln: ;
+  charset OG0014684.aln = tree/aln_sp/OG0014684.aln: ;
+  charset OG0014686.aln = tree/aln_sp/OG0014686.aln: ;
+  charset OG0014689.aln = tree/aln_sp/OG0014689.aln: ;
+  charset OG0014690.aln = tree/aln_sp/OG0014690.aln: ;
+  charset OG0014692.aln = tree/aln_sp/OG0014692.aln: ;
+  charset OG0014693.aln = tree/aln_sp/OG0014693.aln: ;
+  charset OG0014694.aln = tree/aln_sp/OG0014694.aln: ;
+  charset OG0014696.aln = tree/aln_sp/OG0014696.aln: ;
+  charset OG0014697.aln = tree/aln_sp/OG0014697.aln: ;
+  charset OG0014698.aln = tree/aln_sp/OG0014698.aln: ;
+  charset OG0014701.aln = tree/aln_sp/OG0014701.aln: ;
+  charset OG0014702.aln = tree/aln_sp/OG0014702.aln: ;
+  charset OG0014704.aln = tree/aln_sp/OG0014704.aln: ;
+  charset OG0014705.aln = tree/aln_sp/OG0014705.aln: ;
+  charset OG0014706.aln = tree/aln_sp/OG0014706.aln: ;
+  charset OG0014708.aln = tree/aln_sp/OG0014708.aln: ;
+  charset OG0014709.aln = tree/aln_sp/OG0014709.aln: ;
+  charset OG0014711.aln = tree/aln_sp/OG0014711.aln: ;
+  charset OG0014712.aln = tree/aln_sp/OG0014712.aln: ;
+  charset OG0014713.aln = tree/aln_sp/OG0014713.aln: ;
+  charset OG0014715.aln = tree/aln_sp/OG0014715.aln: ;
+  charset OG0014716.aln = tree/aln_sp/OG0014716.aln: ;
+  charset OG0014717.aln = tree/aln_sp/OG0014717.aln: ;
+  charset OG0014719.aln = tree/aln_sp/OG0014719.aln: ;
+  charset OG0014721.aln = tree/aln_sp/OG0014721.aln: ;
+  charset OG0014723.aln = tree/aln_sp/OG0014723.aln: ;
+  charset OG0014724.aln = tree/aln_sp/OG0014724.aln: ;
+  charset OG0014725.aln = tree/aln_sp/OG0014725.aln: ;
+  charset OG0014726.aln = tree/aln_sp/OG0014726.aln: ;
+  charset OG0014728.aln = tree/aln_sp/OG0014728.aln: ;
+  charset OG0014730.aln = tree/aln_sp/OG0014730.aln: ;
+  charset OG0014731.aln = tree/aln_sp/OG0014731.aln: ;
+  charset OG0014732.aln = tree/aln_sp/OG0014732.aln: ;
+  charset OG0014734.aln = tree/aln_sp/OG0014734.aln: ;
+  charset OG0014740.aln = tree/aln_sp/OG0014740.aln: ;
+  charset OG0014741.aln = tree/aln_sp/OG0014741.aln: ;
+  charset OG0014742.aln = tree/aln_sp/OG0014742.aln: ;
+  charset OG0014744.aln = tree/aln_sp/OG0014744.aln: ;
+  charset OG0014745.aln = tree/aln_sp/OG0014745.aln: ;
+  charset OG0014746.aln = tree/aln_sp/OG0014746.aln: ;
+  charset OG0014747.aln = tree/aln_sp/OG0014747.aln: ;
+  charset OG0014748.aln = tree/aln_sp/OG0014748.aln: ;
+  charset OG0014749.aln = tree/aln_sp/OG0014749.aln: ;
+  charset OG0014750.aln = tree/aln_sp/OG0014750.aln: ;
+  charset OG0014752.aln = tree/aln_sp/OG0014752.aln: ;
+  charset OG0014755.aln = tree/aln_sp/OG0014755.aln: ;
+  charset OG0014756.aln = tree/aln_sp/OG0014756.aln: ;
+  charset OG0014757.aln = tree/aln_sp/OG0014757.aln: ;
+  charset OG0014760.aln = tree/aln_sp/OG0014760.aln: ;
+  charset OG0014761.aln = tree/aln_sp/OG0014761.aln: ;
+  charset OG0014762.aln = tree/aln_sp/OG0014762.aln: ;
+  charset OG0014763.aln = tree/aln_sp/OG0014763.aln: ;
+  charset OG0014764.aln = tree/aln_sp/OG0014764.aln: ;
+  charset OG0014765.aln = tree/aln_sp/OG0014765.aln: ;
+  charset OG0014766.aln = tree/aln_sp/OG0014766.aln: ;
+  charset OG0014768.aln = tree/aln_sp/OG0014768.aln: ;
+  charset OG0014769.aln = tree/aln_sp/OG0014769.aln: ;
+  charset OG0014770.aln = tree/aln_sp/OG0014770.aln: ;
+  charset OG0014771.aln = tree/aln_sp/OG0014771.aln: ;
+  charset OG0014772.aln = tree/aln_sp/OG0014772.aln: ;
+  charset OG0014773.aln = tree/aln_sp/OG0014773.aln: ;
+  charset OG0014774.aln = tree/aln_sp/OG0014774.aln: ;
+  charset OG0014775.aln = tree/aln_sp/OG0014775.aln: ;
+  charset OG0014776.aln = tree/aln_sp/OG0014776.aln: ;
+  charset OG0014777.aln = tree/aln_sp/OG0014777.aln: ;
+  charset OG0014779.aln = tree/aln_sp/OG0014779.aln: ;
+  charset OG0014780.aln = tree/aln_sp/OG0014780.aln: ;
+  charset OG0014781.aln = tree/aln_sp/OG0014781.aln: ;
+  charset OG0014783.aln = tree/aln_sp/OG0014783.aln: ;
+  charset OG0014784.aln = tree/aln_sp/OG0014784.aln: ;
+  charset OG0014785.aln = tree/aln_sp/OG0014785.aln: ;
+  charset OG0014787.aln = tree/aln_sp/OG0014787.aln: ;
+  charpartition mymodels =
+    DAYHOFF+G4{0.348352}: OG0013647.aln{1.82073},
+    Q.PLANT+G4{0.60777}: OG0013649.aln{2.83143},
+    Q.PLANT+G4{0.372467}: OG0013651.aln{2.25918},
+    Q.BIRD+I{0.221514}+R2{0.621483,0.643609,0.157003,3.82163}: OG0013653.aln{3.20015},
+    Q.PLANT+I{0.283637}+G4{0.965588}: OG0013656.aln{1.80593},
+    Q.PLANT+G4{0.644375}: OG0013662.aln{2.77845},
+    Q.PLANT+G4{0.442139}: OG0013666.aln{2.51522},
+    Q.PLANT+G4{0.493998}: OG0013669.aln{3.40423},
+    Q.BIRD+G4{1.05544}: OG0013670.aln{2.88983},
+    Q.PLANT+G4{0.31476}: OG0013677.aln{1.15319},
+    Q.PLANT+G4{0.465464}: OG0013680.aln{3.23685},
+    Q.PLANT+G4{0.379263}: OG0013681.aln{1.34793},
+    Q.PLANT+G4{0.355799}: OG0013682.aln{1.52525},
+    Q.BIRD+I{0.125741}+G4{1.84866}: OG0013686.aln{5.97738},
+    Q.PLANT+R3{0.59993,0.115162,0.355952,1.57501,0.0441175,8.39306}: OG0013687.aln{3.79626},
+    Q.PLANT+G4{0.493384}: OG0013695.aln{1.73667},
+    Q.PLANT+G4{0.327219}: OG0013696.aln{0.75853},
+    JTTDCMUT+G4{1.28702}: OG0013699.aln{3.71641},
+    Q.PLANT+G4{1.14135}: OG0013705.aln{3.26635},
+    Q.PLANT+G4{0.442337}: OG0013707.aln{2.17981},
+    DAYHOFF+G4{0.677634}: OG0013709.aln{2.16538},
+    Q.PLANT+G4{0.811562}: OG0013711.aln{2.62342},
+    Q.BIRD+I{0.294555}+G4{2.22101}: OG0013712.aln{1.88696},
+    Q.PLANT+G4{0.515679}: OG0013714.aln{1.35179},
+    Q.PLANT+G4{0.611744}: OG0013715.aln{2.34182},
+    Q.MAMMAL+F+I{0.0475659}+G4{6.50425}: OG0013719.aln{4.57024},
+    Q.PLANT+G4{0.461048}: OG0013720.aln{2.22333},
+    WAG+G4{0.279796}: OG0013722.aln{1.69946},
+    Q.PLANT+G4{0.432779}: OG0013725.aln{1.53773},
+    Q.MAMMAL+G4{1.36276}: OG0013726.aln{5.33115},
+    JTTDCMUT+G4{0.481441}: OG0013733.aln{2.20563},
+    Q.PLANT+G4{0.396035}: OG0013737.aln{1.77674},
+    JTT+G4{0.577446}: OG0013738.aln{1.7693},
+    Q.PLANT+G4{0.937849}: OG0013739.aln{3.53606},
+    Q.PLANT+R2{0.825575,0.275461,0.174425,4.42934}: OG0013741.aln{1.16243},
+    Q.PLANT+G4{0.468311}: OG0013742.aln{1.58568},
+    Q.PLANT+F+G4{0.609197}: OG0013744.aln{1.90085},
+    Q.PLANT+G4{0.763922}: OG0013749.aln{1.88215},
+    Q.PLANT+F+I{0.194059}+G4{0.872459}: OG0013751.aln{3.78694},
+    Q.PLANT+I{0.336636}+G4{0.816959}: OG0013753.aln{3.9609},
+    Q.BIRD+F+G4{1.37896}: OG0013754.aln{3.19783},
+    Q.PLANT+G4{0.912232}: OG0013755.aln{3.31728},
+    Q.PLANT+G4{1.0043}: OG0013759.aln{2.0222},
+    Q.MAMMAL+I{0.120266}+G4{2.16273}: OG0013760.aln{3.77004},
+    Q.BIRD+G4{1.00787}: OG0013761.aln{2.06387},
+    Q.PLANT+G4{0.403215}: OG0013762.aln{2.25229},
+    Q.PLANT+I{0.499044}+G4{0.830439}: OG0013764.aln{0.914938},
+    Q.PLANT+G4{0.767493}: OG0013766.aln{1.95218},
+    Q.PLANT+G4{0.535153}: OG0013767.aln{1.17106},
+    Q.BIRD+G4{1.62259}: OG0013768.aln{2.29443},
+    Q.MAMMAL+G4{0.81264}: OG0013769.aln{2.09076},
+    Q.PLANT+G4{0.784232}: OG0013773.aln{2.16316},
+    Q.MAMMAL+G4{0.422047}: OG0013778.aln{2.77769},
+    Q.PLANT+G4{0.796646}: OG0013779.aln{3.1631},
+    Q.PLANT+G4{0.313831}: OG0013780.aln{1.7099},
+    JTTDCMUT+G4{0.364383}: OG0013781.aln{1.43274},
+    Q.PLANT+I{0.295251}+G4{1.48533}: OG0013782.aln{2.91294},
+    Q.PLANT+I{0.335449}+R2{0.619419,1.00733,0.0451316,8.3321}: OG0013784.aln{1.28211},
+    Q.PLANT+G4{0.733279}: OG0013785.aln{2.6529},
+    Q.PLANT+R3{0.716121,0.149518,0.260949,2.3041,0.0229298,12.7203}: OG0013786.aln{1.66164},
+    Q.BIRD+G4{0.624005}: OG0013788.aln{1.9054},
+    Q.PLANT+G4{0.31514}: OG0013789.aln{1.14324},
+    Q.PLANT+G4{0.691102}: OG0013790.aln{1.47571},
+    Q.MAMMAL+I{0.378932}+G4{0.418383}: OG0013791.aln{1.60717},
+    Q.PLANT+G4{0.693385}: OG0013794.aln{1.79004},
+    Q.PLANT+G4{0.445225}: OG0013795.aln{1.84578},
+    Q.PLANT+G4{0.581004}: OG0013796.aln{4.28848},
+    Q.PLANT+G4{0.718649}: OG0013797.aln{2.97828},
+    JTT+I{0.208649}+G4{2.1685}: OG0013799.aln{3.17239},
+    Q.PLANT+G4{0.507391}: OG0013803.aln{2.12773},
+    Q.MAMMAL+R2{0.807496,0.311185,0.192504,3.88937}: OG0013805.aln{0.945893},
+    Q.MAMMAL+G4{0.646283}: OG0013806.aln{2.29025},
+    Q.PLANT+G4{0.417716}: OG0013807.aln{1.27184},
+    Q.PLANT+G4{0.408771}: OG0013808.aln{1.47319},
+    Q.PLANT+R3{0.639302,0.177097,0.336624,1.93386,0.0240742,9.79469}: OG0013809.aln{1.79159},
+    Q.PLANT+G4{0.570985}: OG0013810.aln{4.86007},
+    Q.PLANT+I{0.276088}+G4{0.749145}: OG0013812.aln{2.20549},
+    Q.PLANT+G4{0.53652}: OG0013813.aln{1.63324},
+    Q.PLANT+G4{0.479343}: OG0013816.aln{2.29192},
+    Q.PLANT+G4{0.463082}: OG0013818.aln{2.83534},
+    Q.MAMMAL+G4{0.36198}: OG0013819.aln{2.7656},
+    JTT+G4{0.632706}: OG0013820.aln{2.6474},
+    JTT+G4{0.483982}: OG0013821.aln{2.0762},
+    Q.PLANT+G4{0.752321}: OG0013822.aln{2.32159},
+    Q.PLANT+G4{0.407353}: OG0013824.aln{2.06151},
+    Q.MAMMAL+G4{0.574542}: OG0013825.aln{1.98909},
+    Q.PLANT+G4{0.576775}: OG0013826.aln{1.13906},
+    Q.PLANT+G4{0.524709}: OG0013827.aln{1.89752},
+    Q.PLANT+G4{0.650504}: OG0013831.aln{0.803722},
+    Q.PLANT+I{0.513162}+R2{0.410891,1.33122,0.0759477,5.96482}: OG0013832.aln{1.15732},
+    Q.BIRD+G4{0.6732}: OG0013834.aln{1.83572},
+    Q.PLANT+I{0.211426}+R2{0.648102,0.798084,0.140472,3.43671}: OG0013835.aln{2.23467},
+    Q.PLANT+G4{0.582923}: OG0013837.aln{1.64529},
+    Q.MAMMAL+I{0.208896}+G4{3.23088}: OG0013838.aln{3.21442},
+    Q.PLANT+I{0.28083}+G4{1.52294}: OG0013839.aln{2.45373},
+    Q.PLANT+G4{0.687743}: OG0013840.aln{2.64568},
+    Q.PLANT+G4{0.584503}: OG0013841.aln{1.71505},
+    Q.PLANT+G4{0.725298}: OG0013843.aln{2.27547},
+    DCMUT+G4{1.14829}: OG0013846.aln{2.49553},
+    Q.PLANT+G4{0.345184}: OG0013847.aln{1.31723},
+    Q.PLANT+G4{0.32179}: OG0013848.aln{1.20095},
+    Q.PLANT+I{0.1799}+G4{1.92907}: OG0013850.aln{4.39134},
+    Q.PLANT+G4{0.522694}: OG0013851.aln{2.74037},
+    Q.PLANT+I{0.347223}+G4{0.872554}: OG0013855.aln{1.53339},
+    Q.PLANT+G4{0.450461}: OG0013857.aln{3.64564},
+    Q.PLANT+I{0.301453}+G4{1.37062}: OG0013859.aln{2.11572},
+    Q.PLANT+R2{0.544,0.140855,0.456,2.02494}: OG0013860.aln{1.96149},
+    Q.PLANT+G4{0.289451}: OG0013861.aln{1.90017},
+    Q.PLANT+F+I{0.129613}+G4{1.72169}: OG0013862.aln{4.63679},
+    Q.PLANT+G4{0.448788}: OG0013863.aln{1.52261},
+    Q.BIRD+R3{0.526525,0.22915,0.448268,1.57909,0.0252069,6.80334}: OG0013867.aln{2.05668},
+    Q.PLANT+G4{0.377592}: OG0013870.aln{2.46827},
+    Q.BIRD+G4{0.696659}: OG0013871.aln{1.9619},
+    Q.PLANT+G4{0.540355}: OG0013873.aln{1.65171},
+    Q.PLANT+G4{0.549979}: OG0013874.aln{1.3424},
+    Q.PLANT+G4{0.718863}: OG0013875.aln{2.20745},
+    Q.MAMMAL+I{0.376262}+G4{2.01515}: OG0013876.aln{2.01318},
+    Q.PLANT+G4{0.881845}: OG0013878.aln{2.68291},
+    Q.PLANT+G4{0.27349}: OG0013880.aln{1.95037},
+    Q.MAMMAL+G4{0.716195}: OG0013881.aln{3.00407},
+    Q.BIRD+I{0.219568}+G4{1.13632}: OG0013882.aln{2.31213},
+    Q.BIRD+G4{1.33698}: OG0013884.aln{2.20032},
+    Q.BIRD+I{0.312092}+R3{0.507096,0.686674,0.172913,3.12312,0.00789929,14.1485}: OG0013886.aln{1.2824},
+    Q.PLANT+G4{0.274821}: OG0013887.aln{1.03708},
+    Q.PLANT+G4{0.424208}: OG0013888.aln{1.6917},
+    Q.PLANT+G4{0.668936}: OG0013889.aln{2.00905},
+    Q.PLANT+G4{0.240759}: OG0013890.aln{1.36399},
+    Q.MAMMAL+G4{0.609533}: OG0013891.aln{3.05126},
+    Q.MAMMAL+G4{0.483312}: OG0013892.aln{3.70714},
+    Q.PLANT+G4{0.290917}: OG0013893.aln{0.828285},
+    Q.PLANT+G4{0.427779}: OG0013894.aln{2.03211},
+    Q.PLANT+I{0.335355}+G4{0.95257}: OG0013896.aln{1.57845},
+    JTT+G4{0.607957}: OG0013897.aln{1.9111},
+    Q.PLANT+I{0.553765}+R2{0.355239,1.06118,0.0909956,6.84679}: OG0013899.aln{0.985469},
+    Q.PLANT+I{0.315137}+G4{1.8688}: OG0013900.aln{2.33398},
+    Q.PLANT+G4{0.309845}: OG0013901.aln{0.804444},
+    Q.PLANT+G4{0.587884}: OG0013902.aln{1.9533},
+    Q.PLANT+G4{0.885819}: OG0013903.aln{2.0642},
+    Q.MAMMAL+G4{0.580551}: OG0013906.aln{1.4437},
+    JTTDCMUT+G4{0.573628}: OG0013909.aln{2.25014},
+    Q.PLANT+I{0.415255}+G4{0.528665}: OG0013910.aln{1.6738},
+    Q.PLANT+G4{0.389015}: OG0013912.aln{2.41783},
+    Q.PLANT+G4{0.934575}: OG0013916.aln{3.32066},
+    Q.PLANT+G4{0.445579}: OG0013917.aln{2.14793},
+    Q.PLANT+G4{0.799728}: OG0013919.aln{2.13477},
+    Q.PLANT+G4{1.0005}: OG0013920.aln{2.37649},
+    Q.PLANT+G4{1.28599}: OG0013925.aln{3.46993},
+    Q.PLANT+G4{0.67824}: OG0013928.aln{1.38542},
+    Q.PLANT+G4{0.549473}: OG0013929.aln{1.63515},
+    Q.PLANT+G4{0.307403}: OG0013930.aln{1.31765},
+    Q.PLANT+G4{0.603484}: OG0013931.aln{3.8657},
+    Q.PLANT+G4{0.159321}: OG0013933.aln{1.0241},
+    Q.PLANT+I{0.260139}+G4{1.12578}: OG0013934.aln{3.89881},
+    Q.PLANT+G4{0.705703}: OG0013935.aln{2.63253},
+    Q.PLANT+G4{0.423697}: OG0013937.aln{2.1583},
+    Q.PLANT+G4{0.516732}: OG0013938.aln{3.27302},
+    Q.PLANT+G4{0.595227}: OG0013941.aln{2.48125},
+    Q.PLANT+G4{0.471566}: OG0013942.aln{2.50134},
+    Q.PLANT+G4{0.434461}: OG0013943.aln{2.62326},
+    Q.PLANT+G4{0.301836}: OG0013945.aln{2.40882},
+    Q.PLANT+G4{0.535659}: OG0013951.aln{2.28243},
+    Q.PLANT+G4{0.439297}: OG0013952.aln{2.23452},
+    Q.PLANT+G4{0.413881}: OG0013953.aln{1.60406},
+    Q.BIRD+I{0.217537}+G4{1.02909}: OG0013958.aln{2.08489},
+    Q.PLANT+G4{0.544256}: OG0013959.aln{1.33583},
+    Q.PLANT+G4{1.1113}: OG0013961.aln{2.99291},
+    Q.MAMMAL+G4{0.594848}: OG0013965.aln{1.56474},
+    Q.BIRD+G4{0.626639}: OG0013969.aln{1.54588},
+    Q.PLANT+G4{0.32998}: OG0013970.aln{1.31942},
+    Q.PLANT+G4{0.6426}: OG0013971.aln{2.36278},
+    Q.MAMMAL+R2{0.844477,0.503437,0.155523,3.69631}: OG0013972.aln{1.47005},
+    Q.PLANT+G4{0.766933}: OG0013973.aln{1.74921},
+    JTT+G4{0.22126}: OG0013975.aln{1.48229},
+    Q.PLANT+G4{0.605876}: OG0013977.aln{3.05378},
+    Q.MAMMAL+G4{0.836728}: OG0013979.aln{4.05942},
+    Q.BIRD+G4{1.00382}: OG0013980.aln{3.01266},
+    Q.PLANT+G4{0.687677}: OG0013983.aln{1.87937},
+    Q.PLANT+G4{0.438729}: OG0013985.aln{2.12609},
+    Q.PLANT+F+I{0.469736}+R2{0.468808,1.25841,0.0614568,6.67214}: OG0013986.aln{1.13268},
+    Q.PLANT+G4{0.461344}: OG0013987.aln{3.08238},
+    Q.PLANT+G4{0.55764}: OG0013988.aln{3.2108},
+    Q.BIRD+G4{0.733099}: OG0013990.aln{2.12771},
+    Q.MAMMAL+G4{0.66098}: OG0013992.aln{1.95162},
+    Q.BIRD+I{0.338543}+G4{1.94357}: OG0013993.aln{1.82226},
+    Q.PLANT+G4{0.583639}: OG0013995.aln{1.68225},
+    JTTDCMUT+I{0.314221}+G4{2.42221}: OG0013996.aln{2.53334},
+    Q.PLANT+I{0.344956}+G4{0.613048}: OG0013997.aln{1.86634},
+    Q.MAMMAL+G4{0.430556}: OG0013998.aln{2.87199},
+    DAYHOFF+G4{0.466911}: OG0014000.aln{2.27519},
+    Q.PLANT+G4{0.608143}: OG0014001.aln{2.33418},
+    Q.PLANT+I{0.57438}: OG0014002.aln{0.658834},
+    Q.BIRD+G4{0.684448}: OG0014003.aln{2.26984},
+    Q.PLANT+G4{0.717808}: OG0014004.aln{2.27869},
+    Q.BIRD+I{0.398467}+R2{0.493986,0.928069,0.107547,5.03545}: OG0014005.aln{1.27806},
+    Q.PLANT+G4{0.409862}: OG0014006.aln{0.86888},
+    JTT+G4{0.357015}: OG0014007.aln{4.16893},
+    Q.PLANT+G4{1.25925}: OG0014008.aln{3.20755},
+    Q.PLANT+G4{0.628736}: OG0014009.aln{3.06075},
+    Q.PLANT+I{0.331873}+G4{0.61847}: OG0014012.aln{2.06653},
+    Q.PLANT+G4{0.888063}: OG0014013.aln{2.45688},
+    Q.PLANT+G4{0.415948}: OG0014014.aln{1.28257},
+    Q.PLANT+I{0.197711}+G4{1.76048}: OG0014017.aln{2.47432},
+    Q.PLANT+G4{0.830862}: OG0014019.aln{1.8135},
+    Q.PLANT+G4{0.427782}: OG0014020.aln{2.60024},
+    Q.PLANT+G4{0.52962}: OG0014021.aln{2.39164},
+    JTTDCMUT+G4{0.466068}: OG0014022.aln{1.59529},
+    Q.PLANT+G4{0.594509}: OG0014024.aln{3.25404},
+    Q.MAMMAL+G4{0.388525}: OG0014025.aln{2.52992},
+    Q.PLANT+G4{0.438194}: OG0014027.aln{1.94931},
+    Q.PLANT+G4{0.823803}: OG0014029.aln{2.82577},
+    VT+G4{0.456346}: OG0014031.aln{1.85604},
+    Q.PLANT+G4{0.577534}: OG0014034.aln{2.12496},
+    Q.PLANT+G4{0.314073}: OG0014036.aln{1.41598},
+    Q.PLANT+G4{0.868858}: OG0014039.aln{2.78246},
+    Q.PLANT+G4{0.246557}: OG0014040.aln{1.01672},
+    Q.PLANT+G4{0.744795}: OG0014044.aln{2.86373},
+    Q.PLANT+G4{0.467658}: OG0014045.aln{2.24549},
+    Q.PLANT+G4{1.04415}: OG0014047.aln{2.29244},
+    Q.PLANT+I{0.394758}+G4{2.68003}: OG0014049.aln{2.61614},
+    Q.MAMMAL+G4{0.538289}: OG0014050.aln{3.13043},
+    Q.PLANT+I{0.531433}+R2{0.367078,0.921091,0.101489,6.52178}: OG0014051.aln{0.954076},
+    Q.PLANT+G4{0.486442}: OG0014052.aln{2.59918},
+    Q.PLANT+G4{0.618034}: OG0014053.aln{2.70317},
+    Q.MAMMAL+G4{0.519516}: OG0014054.aln{2.9039},
+    JTT+G4{0.69829}: OG0014056.aln{2.81458},
+    Q.PLANT+G4{0.377933}: OG0014058.aln{1.91502},
+    Q.MAMMAL+G4{0.754555}: OG0014060.aln{2.28374},
+    Q.PLANT+G4{0.399503}: OG0014062.aln{1.92069},
+    Q.PLANT+G4{0.652677}: OG0014063.aln{2.54784},
+    Q.PLANT+G4{0.769222}: OG0014064.aln{2.79941},
+    Q.PLANT+G4{0.494385}: OG0014066.aln{2.26139},
+    Q.BIRD+F+G4{0.613334}: OG0014067.aln{2.19657},
+    Q.PLANT+G4{0.337759}: OG0014068.aln{1.66864},
+    Q.MAMMAL+R3{0.490231,0.0969198,0.430647,1.19837,0.0791223,5.51568}: OG0014069.aln{2.65088},
+    Q.BIRD+G4{0.357799}: OG0014070.aln{1.72275},
+    Q.PLANT+G4{0.525336}: OG0014071.aln{1.37827},
+    Q.MAMMAL+G4{1.01044}: OG0014072.aln{2.76169},
+    Q.MAMMAL+I{0.360348}+G4{0.656149}: OG0014076.aln{1.6888},
+    JTTDCMUT+G4{0.267494}: OG0014077.aln{1.27827},
+    Q.PLANT+G4{0.661943}: OG0014079.aln{2.36378},
+    Q.MAMMAL+G4{0.506213}: OG0014080.aln{2.47685},
+    Q.PLANT+R3{0.570313,0.213076,0.360471,1.23803,0.069216,6.24429}: OG0014083.aln{3.97878},
+    Q.BIRD+G4{0.682833}: OG0014084.aln{1.98399},
+    Q.BIRD+I{0.142869}+G4{2.01449}: OG0014085.aln{3.27147},
+    Q.PLANT+G4{0.718353}: OG0014086.aln{1.80504},
+    Q.PLANT+G4{0.850101}: OG0014089.aln{1.95022},
+    Q.PLANT+R2{0.791788,0.372115,0.208212,3.38772}: OG0014090.aln{1.20632},
+    JTT+R3{0.48621,0.0993132,0.383502,1.02687,0.130288,4.28209}: OG0014091.aln{2.51294},
+    Q.PLANT+G4{0.130602}: OG0014093.aln{0.334152},
+    Q.PLANT+G4{0.512214}: OG0014094.aln{2.20704},
+    Q.PLANT+G4{0.6057}: OG0014096.aln{1.97425},
+    Q.PLANT+G4{0.485419}: OG0014098.aln{1.11348},
+    Q.PLANT+G4{0.518036}: OG0014100.aln{1.58982},
+    Q.PLANT+G4{0.369905}: OG0014102.aln{1.75751},
+    Q.PLANT+G4{0.604293}: OG0014103.aln{3.11829},
+    Q.PLANT+I{0.251703}+G4{1.48147}: OG0014104.aln{2.36289},
+    Q.PLANT+G4{0.971089}: OG0014105.aln{2.56891},
+    Q.PLANT+G4{0.388601}: OG0014106.aln{2.78257},
+    JTTDCMUT+I{0.33906}+G4{2.39771}: OG0014107.aln{2.47248},
+    Q.BIRD+G4{0.419795}: OG0014108.aln{1.7868},
+    Q.PLANT+G4{0.484029}: OG0014109.aln{0.854019},
+    Q.PLANT+G4{0.843071}: OG0014111.aln{1.3684},
+    JTT+I{0.260226}+G4{2.53484}: OG0014112.aln{2.24293},
+    Q.PLANT+G4{0.603668}: OG0014113.aln{1.36996},
+    Q.PLANT+G4{0.45084}: OG0014114.aln{1.86683},
+    Q.MAMMAL+I{0.295599}+G4{1.15784}: OG0014115.aln{3.98283},
+    Q.BIRD+G4{1.03112}: OG0014116.aln{2.06536},
+    Q.BIRD+G4{0.39516}: OG0014118.aln{2.30967},
+    Q.PLANT+G4{0.8465}: OG0014119.aln{3.20845},
+    Q.PLANT+I{0.199881}+G4{3.05889}: OG0014120.aln{1.8585},
+    Q.PLANT+I{0.501492}+G4{2.23318}: OG0014121.aln{1.67302},
+    Q.PLANT+G4{0.856264}: OG0014123.aln{2.01395},
+    Q.PLANT+R3{0.614879,0.0818314,0.328219,1.44875,0.056902,8.33321}: OG0014124.aln{1.7966},
+    Q.BIRD+G4{0.650187}: OG0014125.aln{2.42246},
+    Q.PLANT+G4{0.477787}: OG0014126.aln{2.77279},
+    Q.PLANT+R2{0.529304,0.162232,0.470696,1.94208}: OG0014127.aln{2.03504},
+    Q.BIRD+G4{1.30152}: OG0014128.aln{2.83436},
+    Q.PLANT+G4{0.605785}: OG0014129.aln{1.77508},
+    Q.PLANT+I{0.386291}+R2{0.461107,0.581268,0.152601,4.79663}: OG0014130.aln{1.94792},
+    Q.PLANT+G4{0.65401}: OG0014131.aln{1.69898},
+    Q.PLANT+I{0.207663}+G4{3.36719}: OG0014132.aln{2.71493},
+    Q.PLANT+G4{1.04185}: OG0014134.aln{2.89791},
+    JTT+G4{0.373195}: OG0014138.aln{1.64422},
+    Q.PLANT+R2{0.924478,0.346003,0.0755224,9.00564}: OG0014139.aln{0.319422},
+    Q.MAMMAL+G4{0.654574}: OG0014141.aln{1.94773},
+    Q.MAMMAL+G4{0.712002}: OG0014143.aln{1.86484},
+    Q.BIRD+G4{0.739555}: OG0014144.aln{2.23493},
+    Q.MAMMAL+G4{0.426067}: OG0014145.aln{2.06409},
+    Q.PLANT+G4{0.332174}: OG0014146.aln{1.48368},
+    Q.PLANT+G4{0.442629}: OG0014150.aln{1.3499},
+    Q.PLANT+G4{0.490201}: OG0014161.aln{1.90865},
+    Q.MAMMAL+G4{0.603016}: OG0014162.aln{2.57805},
+    Q.PLANT+G4{0.260554}: OG0014164.aln{0.840551},
+    Q.PLANT+G4{0.503331}: OG0014165.aln{2.52025},
+    JTT+I{0.430743}+G4{0.406058}: OG0014166.aln{2.29449},
+    Q.PLANT+G4{1.08647}: OG0014169.aln{1.87729},
+    Q.PLANT+G4{0.161888}: OG0014170.aln{1.09521},
+    Q.BIRD+G4{1.02074}: OG0014172.aln{2.62019},
+    FLU+F+G4{0.452669}: OG0014173.aln{1.9495},
+    Q.PLANT+G4{0.558088}: OG0014174.aln{1.06642},
+    Q.PLANT+G4{0.406437}: OG0014175.aln{1.80654},
+    Q.PLANT+G4{0.450799}: OG0014177.aln{1.58061},
+    Q.MAMMAL+G4{0.637847}: OG0014182.aln{2.48739},
+    Q.PLANT+G4{0.656423}: OG0014185.aln{2.53563},
+    Q.BIRD+G4{0.752433}: OG0014186.aln{1.84768},
+    Q.MAMMAL+G4{0.742125}: OG0014187.aln{2.42119},
+    Q.PLANT+G4{1.03246}: OG0014188.aln{1.97809},
+    Q.BIRD+G4{0.782753}: OG0014189.aln{2.70607},
+    JTT+G4{1.38824}: OG0014190.aln{2.86599},
+    Q.PLANT+G4{0.310305}: OG0014191.aln{2.08205},
+    Q.PLANT+I{0.382619}+G4{0.516844}: OG0014192.aln{1.22853},
+    Q.BIRD+G4{0.604188}: OG0014194.aln{3.68486},
+    Q.BIRD+G4{0.984399}: OG0014195.aln{2.30163},
+    Q.PLANT+G4{0.416324}: OG0014196.aln{2.20872},
+    Q.PLANT+G4{0.6387}: OG0014197.aln{2.15597},
+    Q.PLANT+G4{0.373892}: OG0014198.aln{1.42677},
+    Q.BIRD+G4{0.729441}: OG0014199.aln{1.71713},
+    Q.PLANT+G4{0.790369}: OG0014200.aln{2.43208},
+    Q.PLANT+G4{0.606635}: OG0014201.aln{2.60061},
+    JTT+G4{0.654803}: OG0014202.aln{3.1475},
+    Q.PLANT+I{0.421423}+G4{1.60883}: OG0014203.aln{1.38058},
+    Q.PLANT+G4{0.330879}: OG0014205.aln{3.32671},
+    Q.PLANT+G4{0.346409}: OG0014206.aln{3.21049},
+    Q.BIRD+G4{0.54944}: OG0014207.aln{2.20452},
+    JTT+G4{0.439787}: OG0014209.aln{1.97268},
+    Q.PLANT+G4{0.363645}: OG0014211.aln{1.09915},
+    Q.MAMMAL+G4{0.650756}: OG0014212.aln{2.39829},
+    Q.PLANT+G4{0.573992}: OG0014214.aln{1.61225},
+    Q.PLANT+G4{0.338399}: OG0014216.aln{1.61948},
+    Q.PLANT+R3{0.702147,0.0664984,0.269426,2.02846,0.0284273,14.3098}: OG0014217.aln{1.4906},
+    Q.MAMMAL+G4{0.442794}: OG0014218.aln{1.70556},
+    Q.PLANT+G4{0.457373}: OG0014219.aln{1.60031},
+    Q.PLANT+I{0.367802}+G4{0.612219}: OG0014220.aln{2.16046},
+    Q.BIRD+I{0.0623191}+G4{2.61439}: OG0014221.aln{5.19911},
+    Q.PFAM+G4{0.775}: OG0014222.aln{4.29836},
+    Q.PLANT+G4{0.373069}: OG0014224.aln{2.10117},
+    Q.PLANT+G4{0.776105}: OG0014225.aln{2.29055},
+    Q.PLANT+G4{0.417228}: OG0014226.aln{2.80938},
+    Q.PLANT+G4{0.413342}: OG0014227.aln{2.27211},
+    Q.BIRD+G4{0.660436}: OG0014229.aln{2.91615},
+    Q.PLANT+G4{0.478704}: OG0014230.aln{0.847023},
+    Q.PLANT+G4{1.5416}: OG0014231.aln{2.25442},
+    Q.PLANT+I{0.242495}+G4{1.03856}: OG0014232.aln{2.2991},
+    Q.PLANT+G4{0.33556}: OG0014233.aln{1.68698},
+    Q.MAMMAL+I{0.169877}+G4{3.21951}: OG0014235.aln{3.12869},
+    Q.PLANT+G4{0.494073}: OG0014239.aln{1.63416},
+    Q.PLANT+G4{0.549259}: OG0014240.aln{1.96835},
+    JTT+G4{0.638517}: OG0014241.aln{1.57836},
+    Q.PLANT+G4{0.500175}: OG0014242.aln{2.31794},
+    Q.PLANT+G4{0.808488}: OG0014244.aln{4.51266},
+    Q.BIRD+G4{0.747729}: OG0014246.aln{2.12065},
+    Q.PLANT+G4{0.418488}: OG0014247.aln{1.83956},
+    Q.PLANT+G4{1.12906}: OG0014248.aln{2.26544},
+    Q.PLANT+R3{0.711105,0.185031,0.263583,2.25423,0.025312,10.8346}: OG0014250.aln{1.13139},
+    JTT+G4{0.705078}: OG0014251.aln{3.83253},
+    Q.BIRD+F+G4{0.887758}: OG0014252.aln{3.587},
+    Q.MAMMAL+I{0.407634}+G4{1.63896}: OG0014253.aln{4.51055},
+    Q.BIRD+G4{0.691472}: OG0014254.aln{3.21792},
+    Q.MAMMAL+I{0.236542}+G4{1.97786}: OG0014255.aln{2.0077},
+    Q.MAMMAL+G4{1.99716}: OG0014256.aln{2.53658},
+    Q.PLANT+R2{0.903067,0.457328,0.096933,6.05575}: OG0014257.aln{0.548292},
+    Q.MAMMAL+G4{0.377003}: OG0014258.aln{2.18883},
+    Q.PLANT+G4{0.922371}: OG0014259.aln{1.95457},
+    Q.PLANT+G4{0.38485}: OG0014261.aln{1.09367},
+    LG+G4{0.500985}: OG0014262.aln{2.20612},
+    Q.PLANT+G4{0.623587}: OG0014264.aln{2.01051},
+    Q.PLANT+G4{0.742533}: OG0014266.aln{2.0238},
+    Q.PLANT+G4{0.390029}: OG0014267.aln{1.64009},
+    Q.PLANT+G4{0.593939}: OG0014268.aln{2.99274},
+    Q.BIRD+I{0.282232}+G4{2.53741}: OG0014269.aln{1.94349},
+    Q.PLANT+G4{0.413359}: OG0014270.aln{1.88772},
+    Q.INSECT+G4{0.373323}: OG0014271.aln{0.87875},
+    Q.PLANT+G4{1.28786}: OG0014274.aln{3.18576},
+    Q.PLANT+G4{0.752989}: OG0014275.aln{2.34982},
+    Q.PLANT+I{0.251822}+G4{2.41646}: OG0014278.aln{3.46662},
+    Q.BIRD+G4{0.336429}: OG0014281.aln{1.55555},
+    Q.PLANT+G4{0.623768}: OG0014282.aln{2.82086},
+    Q.PLANT+I{0.493937}+R2{0.405704,0.91739,0.100359,6.25564}: OG0014283.aln{0.894314},
+    JTT+G4{1.24933}: OG0014284.aln{3.24407},
+    Q.PLANT+G4{0.867492}: OG0014285.aln{2.50843},
+    Q.PLANT+I{0.497362}+R2{0.431535,1.08737,0.0711037,7.46462}: OG0014290.aln{0.92549},
+    Q.PLANT+G4{0.511525}: OG0014291.aln{2.4386},
+    Q.PLANT+I{0.524067}+G4{1.3273}: OG0014292.aln{1.20559},
+    Q.PLANT+G4{0.964505}: OG0014295.aln{2.51127},
+    Q.PLANT+G4{0.420015}: OG0014296.aln{0.635841},
+    Q.PLANT+G4{0.662096}: OG0014297.aln{1.89028},
+    Q.BIRD+G4{0.734265}: OG0014298.aln{2.1605},
+    JTTDCMUT+G4{0.516188}: OG0014302.aln{2.86213},
+    Q.BIRD+I{0.282401}+G4{1.65748}: OG0014303.aln{2.05153},
+    Q.PLANT+G4{0.444957}: OG0014304.aln{2.09271},
+    Q.PLANT+I{0.485633}+G4{2.14119}: OG0014305.aln{0.945761},
+    Q.BIRD+F+I{0.106758}+G4{2.89226}: OG0014307.aln{3.1116},
+    Q.PLANT+G4{0.28347}: OG0014308.aln{0.829846},
+    Q.PLANT+G4{0.688885}: OG0014309.aln{4.68256},
+    Q.PLANT+G4{0.353865}: OG0014310.aln{3.18404},
+    Q.PLANT+I{0.553986}+R2{0.374837,1.26548,0.0711769,7.38515}: OG0014311.aln{0.826386},
+    Q.PLANT+G4{0.529903}: OG0014312.aln{1.68093},
+    Q.MAMMAL+G4{1.41909}: OG0014313.aln{4.41924},
+    Q.PLANT+G4{0.519211}: OG0014314.aln{2.11387},
+    Q.PLANT+G4{0.327733}: OG0014315.aln{0.91036},
+    Q.PLANT+I{0.335717}+G4{1.21366}: OG0014316.aln{3.80806},
+    Q.PLANT+G4{0.404495}: OG0014317.aln{1.37098},
+    JTT+I{0.451048}+R2{0.422639,0.81854,0.126313,5.17803}: OG0014318.aln{2.27364},
+    JTT+G4{1.32469}: OG0014319.aln{3.66714},
+    Q.PLANT+G4{0.411204}: OG0014320.aln{1.93334},
+    Q.PLANT+I{0.316316}+G4{1.67864}: OG0014321.aln{2.13264},
+    Q.PLANT+I{0.355146}+G4{0.77551}: OG0014322.aln{2.11584},
+    Q.PLANT+I{0.468061}+G4{0.551}: OG0014326.aln{1.1301},
+    Q.PLANT+G4{0.342526}: OG0014327.aln{1.11132},
+    Q.PLANT+G4{0.433272}: OG0014328.aln{2.43723},
+    HIVB+I{0.363628}+R2{0.543105,1.06515,0.0932674,4.5194}: OG0014330.aln{1.89452},
+    Q.MAMMAL+G4{1.15206}: OG0014332.aln{1.5218},
+    Q.PLANT+G4{0.425035}: OG0014333.aln{1.16045},
+    Q.PLANT+G4{0.614664}: OG0014337.aln{1.22785},
+    Q.PLANT+I{0.334419}+G4{1.49895}: OG0014340.aln{1.76127},
+    JTTDCMUT+G4{0.344096}: OG0014341.aln{1.06015},
+    Q.PLANT+G4{0.49168}: OG0014342.aln{1.46525},
+    Q.PLANT+G4{0.548566}: OG0014347.aln{2.45404},
+    Q.PLANT+G4{0.317716}: OG0014349.aln{1.22077},
+    Q.PLANT+G4{0.344809}: OG0014351.aln{1.41576},
+    JTT+R3{0.379926,0.0856955,0.503571,1.00716,0.116503,3.95066}: OG0014352.aln{3.28893},
+    Q.PLANT+R3{0.51633,0.104327,0.419211,1.03237,0.0644593,7.96397}: OG0014353.aln{3.43255},
+    Q.PLANT+R2{0.841821,0.379134,0.158179,4.30422}: OG0014354.aln{0.645269},
+    Q.BIRD+G4{0.314833}: OG0014356.aln{1.22679},
+    JTT+G4{0.880816}: OG0014357.aln{1.3999},
+    Q.PLANT+G4{0.368959}: OG0014358.aln{1.25643},
+    Q.MAMMAL+G4{2.16281}: OG0014359.aln{2.71603},
+    Q.PLANT+G4{0.502241}: OG0014360.aln{2.1847},
+    Q.PLANT+G4{0.867313}: OG0014361.aln{2.41896},
+    Q.PLANT+R3{0.554245,0.145621,0.378632,1.33797,0.0671232,6.1483}: OG0014362.aln{3.73676},
+    Q.BIRD+G4{0.219628}: OG0014363.aln{0.808933},
+    JTTDCMUT+G4{0.494838}: OG0014365.aln{1.4083},
+    Q.PLANT+G4{0.585574}: OG0014366.aln{1.83646},
+    Q.PLANT+G4{0.587159}: OG0014368.aln{1.65265},
+    JTTDCMUT+G4{0.378028}: OG0014372.aln{3.70108},
+    Q.PLANT+G4{0.343544}: OG0014374.aln{2.14705},
+    Q.PLANT+G4{0.354249}: OG0014375.aln{1.50746},
+    Q.PLANT+I{0.334761}+R2{0.555711,1.03727,0.109528,3.8673}: OG0014376.aln{1.67651},
+    Q.PLANT+I{0.590389}+R2{0.34005,1.33663,0.0695613,7.84168}: OG0014379.aln{1.16741},
+    Q.BIRD+G4{0.847741}: OG0014380.aln{2.90248},
+    Q.PLANT+G4{0.762565}: OG0014381.aln{3.80038},
+    Q.PLANT+G4{0.753348}: OG0014384.aln{2.75886},
+    Q.PLANT+G4{0.640943}: OG0014385.aln{2.14347},
+    Q.PLANT+I{0.573889}+R2{0.38239,1.54614,0.0437215,9.34949}: OG0014386.aln{1.40375},
+    Q.PLANT+G4{0.626406}: OG0014387.aln{2.48697},
+    Q.PLANT+I{0.168725}+G4{1.56921}: OG0014388.aln{2.87833},
+    Q.PLANT+G4{0.419844}: OG0014390.aln{1.09181},
+    Q.PLANT+G4{0.72481}: OG0014391.aln{3.11509},
+    Q.PLANT+G4{0.364869}: OG0014392.aln{1.89787},
+    Q.PLANT+I{0.280919}+G4{0.729717}: OG0014393.aln{2.55632},
+    Q.MAMMAL+G4{0.420576}: OG0014394.aln{2.71687},
+    Q.PLANT+G4{1.21339}: OG0014395.aln{2.59998},
+    Q.PLANT+G4{0.639426}: OG0014396.aln{1.27957},
+    Q.PLANT+G4{0.570843}: OG0014397.aln{1.90181},
+    Q.PLANT+G4{0.688756}: OG0014398.aln{2.21962},
+    Q.PLANT+G4{0.496408}: OG0014400.aln{2.01225},
+    Q.PLANT+G4{0.46443}: OG0014401.aln{1.08263},
+    Q.PLANT+G4{0.236918}: OG0014402.aln{0.761221},
+    Q.PLANT+I{0.65978}+R2{0.271625,1.67186,0.0685954,7.958}: OG0014404.aln{0.906166},
+    Q.PLANT+G4{0.606197}: OG0014405.aln{4.82002},
+    Q.PLANT+G4{0.455517}: OG0014406.aln{2.58403},
+    Q.PLANT+G4{0.42831}: OG0014407.aln{1.82552},
+    Q.BIRD+G4{0.992688}: OG0014408.aln{2.64823},
+    Q.PLANT+G4{0.426288}: OG0014409.aln{2.18957},
+    JTTDCMUT+G4{0.531743}: OG0014411.aln{2.15946},
+    Q.PLANT+G4{0.576881}: OG0014412.aln{1.44693},
+    Q.BIRD+F+I{0.0940803}+G4{1.66378}: OG0014413.aln{4.13521},
+    JTT+G4{0.41302}: OG0014414.aln{1.88563},
+    Q.BIRD+R2{0.268102,0.212322,0.731898,1.28853}: OG0014416.aln{4.94441},
+    Q.PLANT+G4{0.427776}: OG0014417.aln{1.28398},
+    Q.BIRD+F+R3{0.532102,0.168506,0.403862,1.5254,0.0640358,4.59569}: OG0014418.aln{1.40019},
+    Q.PLANT+G4{1.91985}: OG0014419.aln{3.3781},
+    Q.PLANT+G4{1.06327}: OG0014421.aln{2.58305},
+    Q.MAMMAL+R2{0.345336,0.148067,0.654664,1.4494}: OG0014424.aln{3.9304},
+    Q.PLANT+G4{0.305338}: OG0014425.aln{1.36797},
+    Q.BIRD+G4{0.71786}: OG0014426.aln{1.79128},
+    Q.PLANT+G4{0.394567}: OG0014429.aln{2.37715},
+    Q.PLANT+G4{0.807941}: OG0014430.aln{2.21832},
+    Q.PLANT+G4{0.433532}: OG0014431.aln{1.22266},
+    Q.PLANT+G4{0.523221}: OG0014432.aln{2.5425},
+    Q.PLANT+G4{0.625596}: OG0014436.aln{2.83439},
+    Q.PLANT+G4{0.541347}: OG0014437.aln{1.94648},
+    Q.PLANT+G4{0.911231}: OG0014438.aln{2.81175},
+    Q.PLANT+G4{0.557884}: OG0014439.aln{1.64213},
+    Q.MAMMAL+G4{0.252873}: OG0014440.aln{1.58938},
+    Q.PLANT+I{0.403807}+G4{1.76775}: OG0014441.aln{3.41236},
+    Q.PLANT+G4{0.815614}: OG0014443.aln{3.70283},
+    Q.PLANT+G4{0.571817}: OG0014444.aln{2.02075},
+    Q.PLANT+G4{0.2455}: OG0014446.aln{1.51264},
+    Q.PLANT+G4{0.361662}: OG0014447.aln{3.89011},
+    Q.INSECT+R3{0.676931,0.125494,0.265171,1.73275,0.0578977,7.86859}: OG0014448.aln{1.9098},
+    Q.BIRD+G4{0.890043}: OG0014449.aln{2.58073},
+    WAG+G4{0.328954}: OG0014451.aln{3.08663},
+    Q.BIRD+G4{0.511509}: OG0014452.aln{2.14574},
+    Q.PLANT+G4{0.436431}: OG0014454.aln{1.83951},
+    Q.MAMMAL+R2{0.460155,0.240173,0.539845,1.64766}: OG0014455.aln{2.54919},
+    Q.MAMMAL+G4{1.05682}: OG0014456.aln{2.81352},
+    Q.MAMMAL+I{0.345567}+G4{0.859105}: OG0014457.aln{2.29897},
+    Q.MAMMAL+G4{0.494707}: OG0014458.aln{2.6069},
+    Q.PLANT+G4{0.437384}: OG0014460.aln{1.59311},
+    Q.MAMMAL+G4{0.692244}: OG0014461.aln{2.24672},
+    Q.PLANT+G4{0.56592}: OG0014462.aln{2.297},
+    Q.MAMMAL+G4{0.751193}: OG0014463.aln{2.99784},
+    Q.PLANT+I{0.244165}+G4{0.906999}: OG0014464.aln{3.60041},
+    Q.BIRD+G4{1.08629}: OG0014465.aln{3.55728},
+    Q.PLANT+G4{0.271665}: OG0014466.aln{1.2669},
+    Q.PLANT+G4{0.356384}: OG0014467.aln{1.1803},
+    Q.MAMMAL+G4{0.373287}: OG0014468.aln{2.0585},
+    Q.BIRD+I{0.214742}+G4{2.05294}: OG0014469.aln{2.86176},
+    Q.PLANT+G4{0.395675}: OG0014470.aln{1.12579},
+    Q.PLANT+G4{0.701279}: OG0014471.aln{2.07466},
+    Q.PLANT+F+G4{0.541037}: OG0014476.aln{2.57371},
+    Q.PLANT+G4{0.327617}: OG0014481.aln{1.33466},
+    Q.PLANT+G4{0.803316}: OG0014482.aln{3.10251},
+    JTTDCMUT+I{0.292429}+G4{0.965756}: OG0014483.aln{2.00742},
+    Q.PLANT+G4{0.550799}: OG0014484.aln{2.85675},
+    Q.PLANT+G4{0.736738}: OG0014486.aln{2.40225},
+    Q.PLANT+G4{0.737555}: OG0014488.aln{2.12707},
+    Q.BIRD+I{0.186848}+G4{1.62371}: OG0014489.aln{2.77739},
+    Q.MAMMAL+G4{0.745593}: OG0014490.aln{3.4049},
+    Q.PLANT+G4{0.610473}: OG0014491.aln{1.48999},
+    Q.BIRD+G4{0.300497}: OG0014492.aln{1.66338},
+    Q.BIRD+I{0.466681}+G4{1.2061}: OG0014493.aln{1.3365},
+    Q.BIRD+G4{0.967022}: OG0014494.aln{2.75539},
+    Q.PLANT+G4{0.460971}: OG0014495.aln{2.97454},
+    Q.PLANT+G4{0.667901}: OG0014496.aln{2.53602},
+    Q.PLANT+G4{0.476629}: OG0014498.aln{0.68797},
+    Q.PLANT+I{0.334996}+G4{1.79399}: OG0014499.aln{2.10351},
+    Q.MAMMAL+G4{0.378859}: OG0014500.aln{1.37179},
+    Q.PLANT+G4{0.432859}: OG0014501.aln{1.37897},
+    JTT+F+G4{0.479217}: OG0014504.aln{2.8607},
+    Q.PLANT+G4{0.47458}: OG0014505.aln{1.62214},
+    Q.PLANT+G4{0.261195}: OG0014506.aln{2.01754},
+    Q.PLANT+I{0.451324}+R2{0.441818,0.960559,0.106859,5.38663}: OG0014508.aln{1.39066},
+    Q.PLANT+G4{0.548023}: OG0014509.aln{3.37548},
+    Q.PLANT+I{0.1998}+G4{2.21245}: OG0014510.aln{2.26511},
+    Q.PLANT+G4{0.542333}: OG0014512.aln{2.17402},
+    Q.MAMMAL+G4{0.40102}: OG0014514.aln{3.21629},
+    Q.PLANT+G4{0.521519}: OG0014515.aln{2.03437},
+    Q.BIRD+G4{0.638272}: OG0014517.aln{1.47179},
+    Q.PLANT+G4{0.501954}: OG0014518.aln{3.06835},
+    Q.PLANT+I{0.168368}+R2{0.654344,0.704729,0.177288,3.03949}: OG0014519.aln{2.90683},
+    Q.PLANT+G4{0.388924}: OG0014520.aln{2.23986},
+    Q.PLANT+G4{0.431955}: OG0014522.aln{1.72631},
+    Q.PLANT+G4{0.598702}: OG0014523.aln{2.04507},
+    Q.PLANT+I{0.280507}+G4{0.677944}: OG0014525.aln{2.58926},
+    Q.PLANT+G4{0.555506}: OG0014526.aln{2.42558},
+    Q.PLANT+G4{0.619523}: OG0014527.aln{1.91994},
+    Q.PLANT+G4{0.35056}: OG0014528.aln{2.00165},
+    Q.PLANT+G4{0.574602}: OG0014530.aln{2.89678},
+    Q.BIRD+G4{0.937217}: OG0014534.aln{2.16964},
+    Q.MAMMAL+G4{0.514825}: OG0014535.aln{1.54209},
+    Q.PLANT+G4{0.438439}: OG0014536.aln{1.4499},
+    JTT+G4{0.706643}: OG0014537.aln{1.63678},
+    Q.BIRD+I{0.188277}+G4{1.39786}: OG0014538.aln{2.28561},
+    Q.PLANT+I{0.360259}+G4{1.3421}: OG0014539.aln{3.27319},
+    Q.PLANT+G4{0.543695}: OG0014540.aln{1.27775},
+    Q.BIRD+I{0.399736}+R2{0.451603,0.9571,0.14866,3.81924}: OG0014541.aln{1.69676},
+    Q.MAMMAL+G4{0.766855}: OG0014544.aln{3.34353},
+    Q.PLANT+G4{0.389316}: OG0014545.aln{1.12021},
+    Q.PLANT+G4{0.482078}: OG0014546.aln{1.55645},
+    JTT+G4{0.582467}: OG0014547.aln{3.45104},
+    Q.PLANT+G4{0.275096}: OG0014549.aln{1.54302},
+    Q.PLANT+G4{0.290752}: OG0014551.aln{1.12928},
+    FLU+I{0.369369}+R2{0.514873,0.835143,0.115758,4.92412}: OG0014552.aln{2.04691},
+    Q.PLANT+R2{0.890203,0.213777,0.109797,7.37449}: OG0014555.aln{0.643073},
+    Q.PLANT+I{0.313623}+G4{0.488134}: OG0014557.aln{2.61493},
+    Q.BIRD+G4{0.889982}: OG0014558.aln{2.9407},
+    Q.PLANT+I{0.344213}+G4{0.627081}: OG0014560.aln{3.41365},
+    Q.PLANT+G4{0.390154}: OG0014563.aln{3.3008},
+    Q.BIRD+G4{1.20428}: OG0014565.aln{2.60332},
+    JTTDCMUT+G4{0.705309}: OG0014566.aln{3.37622},
+    Q.PLANT+G4{0.592948}: OG0014567.aln{1.38605},
+    Q.PLANT+G4{0.65971}: OG0014571.aln{2.47101},
+    Q.PLANT+I{0.382785}+G4{0.766547}: OG0014572.aln{1.07231},
+    Q.MAMMAL+G4{0.392248}: OG0014573.aln{1.75264},
+    Q.PLANT+I{0.343265}+R2{0.512942,0.924239,0.143793,3.65747}: OG0014574.aln{1.86258},
+    Q.PLANT+G4{0.419221}: OG0014575.aln{1.15277},
+    Q.BIRD+G4{0.565243}: OG0014576.aln{2.46957},
+    Q.PLANT+G4{0.525817}: OG0014578.aln{0.787254},
+    Q.PLANT+F+G4{1.1466}: OG0014579.aln{2.58236},
+    Q.PLANT+G4{0.772054}: OG0014580.aln{1.67615},
+    Q.PLANT+G4{0.474019}: OG0014581.aln{2.05884},
+    Q.PLANT+I{0.28861}+G4{1.8676}: OG0014582.aln{2.05333},
+    Q.MAMMAL+G4{0.425116}: OG0014584.aln{1.89717},
+    Q.MAMMAL+G4{0.463714}: OG0014585.aln{1.47588},
+    Q.PLANT+G4{0.635481}: OG0014588.aln{1.52698},
+    Q.PLANT+I{0.517564}+R2{0.410418,1.06995,0.0720179,7.78798}: OG0014589.aln{0.591481},
+    Q.PLANT+R3{0.663505,0.151175,0.283381,1.76159,0.0531138,7.54027}: OG0014591.aln{1.95939},
+    Q.YEAST+G4{1.59733}: OG0014593.aln{2.76694},
+    Q.PLANT+G4{0.363092}: OG0014594.aln{1.08656},
+    Q.BIRD+G4{0.316988}: OG0014595.aln{1.10423},
+    JTT+F+I{0.25107}+G4{1.26859}: OG0014596.aln{3.10266},
+    Q.PLANT+G4{0.991763}: OG0014597.aln{3.97346},
+    Q.PLANT+G4{0.539941}: OG0014599.aln{2.0677},
+    Q.BIRD+I{0.254557}+G4{1.00339}: OG0014600.aln{2.06925},
+    Q.MAMMAL+I{0.172486}+G4{2.30809}: OG0014601.aln{3.24818},
+    Q.PLANT+G4{0.542904}: OG0014602.aln{1.99054},
+    JTT+G4{0.581496}: OG0014604.aln{2.10987},
+    Q.PLANT+G4{0.822466}: OG0014606.aln{2.02682},
+    Q.MAMMAL+G4{0.453672}: OG0014608.aln{3.59592},
+    Q.PLANT+G4{0.482112}: OG0014609.aln{1.71276},
+    Q.PLANT+G4{0.450125}: OG0014610.aln{1.95032},
+    Q.PLANT+G4{1.20705}: OG0014612.aln{1.90928},
+    Q.PLANT+G4{0.786045}: OG0014613.aln{1.8138},
+    Q.PLANT+G4{0.699448}: OG0014614.aln{1.59796},
+    Q.PLANT+G4{0.486333}: OG0014616.aln{1.94754},
+    Q.PLANT+G4{0.419484}: OG0014617.aln{0.642497},
+    Q.PLANT+G4{0.553927}: OG0014620.aln{4.49107},
+    Q.PLANT+G4{0.644059}: OG0014622.aln{2.44141},
+    Q.MAMMAL+G4{0.276771}: OG0014623.aln{1.23048},
+    Q.PLANT+G4{0.642619}: OG0014624.aln{2.24923},
+    Q.PLANT+G4{0.784846}: OG0014627.aln{3.15641},
+    Q.PLANT+G4{0.331155}: OG0014628.aln{2.57644},
+    Q.BIRD+G4{0.662637}: OG0014629.aln{1.74728},
+    JTT+I{0.23412}+G4{1.00362}: OG0014630.aln{2.75756},
+    Q.PLANT+G4{0.471943}: OG0014632.aln{2.88093},
+    Q.MAMMAL+G4{1.20533}: OG0014634.aln{3.51972},
+    Q.PLANT+G4{0.565131}: OG0014635.aln{0.970737},
+    Q.BIRD+G4{1.13566}: OG0014637.aln{2.08713},
+    Q.MAMMAL+G4{1.10857}: OG0014638.aln{4.34434},
+    Q.PLANT+G4{0.240739}: OG0014640.aln{1.37381},
+    Q.PLANT+G4{0.657116}: OG0014641.aln{1.9912},
+    Q.PLANT+I{0.267165}+G4{1.43485}: OG0014642.aln{5.48138},
+    Q.PLANT+R2{0.820418,0.421347,0.179582,3.64358}: OG0014644.aln{0.865923},
+    JTTDCMUT+R2{0.820524,0.369477,0.179476,3.8826}: OG0014645.aln{1.64269},
+    Q.MAMMAL+G4{0.422802}: OG0014646.aln{2.06883},
+    Q.PLANT+G4{0.608482}: OG0014647.aln{1.24139},
+    Q.PLANT+I{0.201834}+G4{1.38361}: OG0014648.aln{2.99197},
+    Q.PLANT+I{0.151161}+G4{1.3983}: OG0014649.aln{3.48539},
+    Q.PLANT+G4{0.307558}: OG0014653.aln{2.12276},
+    Q.PLANT+G4{1.05899}: OG0014654.aln{3.28719},
+    Q.BIRD+G4{0.881875}: OG0014656.aln{3.19978},
+    Q.PLANT+G4{0.586855}: OG0014659.aln{1.5006},
+    Q.PLANT+R3{0.729316,0.183007,0.229558,2.42288,0.0411266,7.54596}: OG0014660.aln{1.29538},
+    Q.PLANT+G4{0.330537}: OG0014661.aln{1.28402},
+    Q.PLANT+G4{0.384332}: OG0014662.aln{1.3136},
+    Q.PLANT+G4{0.519815}: OG0014663.aln{1.18696},
+    Q.BIRD+G4{0.421724}: OG0014665.aln{1.66721},
+    Q.BIRD+G4{0.606619}: OG0014666.aln{1.96776},
+    JTT+F+R2{0.482584,0.213905,0.517416,1.73318}: OG0014667.aln{3.34134},
+    Q.PLANT+G4{0.538131}: OG0014668.aln{2.08219},
+    Q.PLANT+G4{1.02614}: OG0014669.aln{2.09002},
+    Q.PLANT+G4{0.368285}: OG0014670.aln{1.34039},
+    Q.PLANT+G4{0.829782}: OG0014671.aln{2.19418},
+    Q.PLANT+G4{0.505618}: OG0014676.aln{2.60751},
+    JTTDCMUT+G4{0.60988}: OG0014677.aln{2.70483},
+    Q.PLANT+G4{0.442344}: OG0014678.aln{1.91838},
+    Q.MAMMAL+G4{0.388815}: OG0014679.aln{2.05983},
+    Q.PLANT+R3{0.688511,0.175212,0.280134,2.03916,0.031355,9.82697}: OG0014680.aln{1.43712},
+    Q.PLANT+I{0.255909}+G4{1.52294}: OG0014681.aln{1.73054},
+    JTTDCMUT+G4{0.603825}: OG0014682.aln{3.49134},
+    Q.PLANT+G4{0.734151}: OG0014683.aln{1.73271},
+    Q.PLANT+G4{0.382126}: OG0014684.aln{1.84626},
+    Q.PLANT+G4{0.333456}: OG0014686.aln{1.93337},
+    Q.PLANT+G4{0.758709}: OG0014689.aln{1.93969},
+    Q.PLANT+G4{0.406886}: OG0014690.aln{2.08259},
+    Q.PLANT+G4{1.23604}: OG0014692.aln{2.7777},
+    Q.PLANT+G4{0.707809}: OG0014693.aln{3.27447},
+    Q.PLANT+F+G4{0.541498}: OG0014694.aln{2.39329},
+    Q.PLANT+F+G4{0.672413}: OG0014696.aln{1.07922},
+    Q.PLANT+G4{0.769903}: OG0014697.aln{2.45659},
+    Q.MAMMAL+G4{0.573683}: OG0014698.aln{2.68592},
+    Q.BIRD+G4{1.0588}: OG0014701.aln{2.66102},
+    Q.PLANT+G4{0.394959}: OG0014702.aln{1.27768},
+    Q.PLANT+G4{0.404192}: OG0014704.aln{1.03511},
+    Q.PLANT+G4{0.818721}: OG0014705.aln{2.75105},
+    Q.BIRD+G4{0.881644}: OG0014706.aln{2.08476},
+    Q.PLANT+G4{0.412807}: OG0014708.aln{1.7887},
+    Q.PLANT+I{0.515524}+R2{0.449324,1.40979,0.0351523,10.4274}: OG0014709.aln{0.680732},
+    Q.BIRD+G4{0.816855}: OG0014711.aln{1.87725},
+    Q.PLANT+G4{0.368725}: OG0014712.aln{1.77482},
+    Q.PLANT+G4{0.519045}: OG0014713.aln{1.7593},
+    JTT+G4{0.508747}: OG0014715.aln{1.70454},
+    Q.BIRD+I{0.266678}+G4{1.37436}: OG0014716.aln{2.76102},
+    JTT+G4{0.51016}: OG0014717.aln{1.34698},
+    Q.BIRD+G4{0.730678}: OG0014719.aln{2.87215},
+    Q.PLANT+G4{0.281671}: OG0014721.aln{0.55823},
+    Q.PLANT+R3{0.502067,0.219358,0.481694,1.3575,0.016239,14.5309}: OG0014723.aln{3.67073},
+    Q.BIRD+G4{0.404532}: OG0014724.aln{1.81976},
+    Q.PLANT+G4{0.43492}: OG0014725.aln{1.47187},
+    Q.PLANT+G4{1.02259}: OG0014726.aln{2.63795},
+    Q.PLANT+G4{0.53617}: OG0014728.aln{1.44055},
+    Q.PLANT+G4{0.3036}: OG0014730.aln{1.31078},
+    Q.PLANT+G4{0.446791}: OG0014731.aln{2.59583},
+    JTT+G4{0.962181}: OG0014732.aln{3.87828},
+    Q.MAMMAL+I{0.144306}+G4{2.10172}: OG0014734.aln{3.50312},
+    Q.MAMMAL+G4{0.896268}: OG0014740.aln{4.68921},
+    Q.BIRD+F+I{0.220252}+G4{2.1384}: OG0014741.aln{2.32928},
+    JTT+G4{0.579546}: OG0014742.aln{0.998257},
+    Q.PLANT+G4{0.459596}: OG0014744.aln{1.82348},
+    Q.MAMMAL+G4{1.07587}: OG0014745.aln{3.42366},
+    Q.MAMMAL+G4{1.27739}: OG0014746.aln{1.99643},
+    Q.PLANT+G4{0.484855}: OG0014747.aln{1.89249},
+    Q.MAMMAL+G4{0.408175}: OG0014748.aln{2.78455},
+    DAYHOFF+G4{0.480638}: OG0014749.aln{5.08833},
+    Q.MAMMAL+G4{0.66345}: OG0014750.aln{2.10874},
+    Q.PLANT+G4{0.925138}: OG0014752.aln{3.58744},
+    Q.PLANT+G4{0.456242}: OG0014755.aln{1.99895},
+    Q.BIRD+R3{0.594292,0.120045,0.318119,1.1543,0.0875886,6.41011}: OG0014756.aln{2.39522},
+    Q.YEAST+G4{0.967396}: OG0014757.aln{4.63611},
+    Q.PLANT+G4{0.460071}: OG0014760.aln{1.73559},
+    Q.PLANT+G4{0.662221}: OG0014761.aln{1.19332},
+    Q.MAMMAL+I{0.121466}+G4{0.984471}: OG0014762.aln{4.94959},
+    Q.PLANT+G4{0.486964}: OG0014763.aln{2.82006},
+    Q.PLANT+G4{0.333365}: OG0014764.aln{1.65377},
+    Q.PLANT+G4{0.366659}: OG0014765.aln{2.926},
+    Q.MAMMAL+I{0.126458}+G4{1.3973}: OG0014766.aln{6.92984},
+    Q.PLANT+G4{0.576844}: OG0014768.aln{2.42083},
+    Q.PLANT+G4{0.964799}: OG0014769.aln{2.6302},
+    Q.PLANT+G4{0.482605}: OG0014770.aln{1.4403},
+    Q.PLANT+G4{0.657342}: OG0014771.aln{2.03658},
+    Q.PLANT+G4{0.436002}: OG0014772.aln{1.72627},
+    Q.PLANT+I{0.388439}+R2{0.569175,1.25567,0.0423859,6.73111}: OG0014773.aln{0.759042},
+    Q.PLANT+G4{0.401174}: OG0014774.aln{1.57974},
+    Q.PLANT+G4{0.625328}: OG0014775.aln{2.41553},
+    Q.PLANT+G4{0.476499}: OG0014776.aln{3.42815},
+    Q.BIRD+I{0.0750046}+G4{2.1386}: OG0014777.aln{3.87518},
+    Q.PLANT+R3{0.558612,0.158464,0.408088,1.57968,0.0332994,8.01304}: OG0014779.aln{2.39171},
+    Q.BIRD+G4{0.613646}: OG0014780.aln{2.14129},
+    Q.BIRD+G4{1.07874}: OG0014781.aln{2.246},
+    Q.BIRD+F+I{0.179764}+G4{2.15426}: OG0014783.aln{3.246},
+    Q.PLANT+G4{0.306002}: OG0014784.aln{2.43179},
+    Q.BIRD+G4{0.704538}: OG0014785.aln{2.60077},
+    Q.PLANT+G4{0.261174}: OG0014787.aln{1.76988};
+end;

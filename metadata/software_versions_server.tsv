@@ -1,0 +1,9 @@
+tool	version	environment	how recorded
+R	4.5.2	legume	user-run version check on the server, 2026-10-08
+data.table	1.18.4	legume	user-run version check on the server, 2026-10-08
+ape	5.8.1	legume	user-run version check on the server, 2026-10-08
+MAFFT	7.526	legume	user-run version check on the server, 2026-10-08 (species-tree alignments)
+fastp	1.3.6	legume	user-run version check on the server, 2026-10-08; matches fastp_version in all 142 fastp JSON reports
+GNU parallel	20160622	legume	user-run version check on the server, 2026-10-08
+aria2	1.37.0	legume	user-run version check on the server, 2026-10-08
+Python	3.11.15	legume	user-run version check on the server, 2026-10-08

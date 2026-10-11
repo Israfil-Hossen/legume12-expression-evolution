@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N step3C
+#PBS -q cpu
+#PBS -l nodes=node1:ppn=4
+#PBS -l walltime=6:00:00
+#PBS -j oe
+P=/home/liuchuanfa/israfil/legume2
+cd $P; exec > logs/step3C.log 2>&1
+source ~/miniconda3/etc/profile.d/conda.sh && conda activate legume
+STEP5_HOG=1 Rscript step05_analysis.R $P

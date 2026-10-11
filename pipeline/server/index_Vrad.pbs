@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -N idx_Vrad
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o /home/liuchuanfa/israfil/legume2/logs/index_Vrad.log
+set -euo pipefail
+source ~/miniconda3/etc/profile.d/conda.sh && conda activate legume
+cd /home/liuchuanfa/israfil/legume2/refs/Vrad
+echo "node $(hostname)  start $(date)  $(salmon --version)"
+pigz -dc *_genomic.fna.gz > genome.fa
+pigz -dc *_rna.fna.gz     > transcripts.fa
+python3 /home/liuchuanfa/israfil/legume2/make_maps.py *_genomic.gff.gz /home/liuchuanfa/israfil/legume2/tables/Vrad_tx2gene.tsv /home/liuchuanfa/israfil/legume2/tables/Vrad_prot2gene.tsv
+nt=$(grep -c '^>' transcripts.fa)
+nm=$(grep '^>' transcripts.fa | cut -d' ' -f1 | tr -d '>' | awk 'NR==FNR{a[$1];next} !($1 in a)' /home/liuchuanfa/israfil/legume2/tables/Vrad_tx2gene.tsv - | wc -l)
+echo "transcripts in fasta: $nt   without a gene mapping: $nm"
+grep '^>' genome.fa | cut -d' ' -f1 | sed 's/^>//' > decoys.txt
+cat transcripts.fa genome.fa > gentrome.fa
+salmon index -t gentrome.fa -d decoys.txt -i /home/liuchuanfa/israfil/legume2/index/Vrad -k 31 -p 12 --gencode
+rm -f gentrome.fa genome.fa
+echo "done $(date)"

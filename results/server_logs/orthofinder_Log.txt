@@ -1,0 +1,30 @@
+2026-09-23 12:13:21 : Started OrthoFinder version 3.1.5
+Command Line: /home/liuchuanfa/miniconda3/envs/legume/bin/orthofinder -f /home/liuchuanfa/israfil/legume2/proteomes -t 24 -a 6
+
+Search program: diamond
+MSA program: famsa
+Tree program: fasttree
+Scoring matrix: BLOSUM62
+Gap extend: 1
+Gap open: 11
+
+WorkingDirectory_Base: /home/liuchuanfa/israfil/legume2/proteomes/OrthoFinder/Results_Sep23/WorkingDirectory/
+
+Species used: 
+0: Adur.fa
+1: Atha.fa
+2: Cari.fa
+3: Ccaj.fa
+4: Gmax.fa
+5: Lang.fa
+6: Ljap.fa
+7: Mtru.fa
+8: Psat.fa
+9: Pvul.fa
+10: Tpra.fa
+11: Vrad.fa
+12: Vung.fa
+
+FN_Orthogroups: /home/liuchuanfa/israfil/legume2/proteomes/OrthoFinder/Results_Sep23/WorkingDirectory/clusters_OrthoFinder_I1.2.txt_id_pairs.txt
+WorkingDirectory_Trees: /home/liuchuanfa/israfil/legume2/proteomes/OrthoFinder/Results_Sep23/WorkingDirectory/
+2026-09-23 13:56:47 : OrthoFinder run completed

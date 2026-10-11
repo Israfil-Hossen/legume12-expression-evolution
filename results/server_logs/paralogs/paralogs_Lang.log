@@ -1,0 +1,5 @@
+[Lang] start Fri Sep 25 10:52:01 CST 2026 on node8
+Lang: genes with longest protein 33884; kept with matching CDS 33760; sequences in gff 1853
+[Lang] blast hits 138493; collinear anchor lines 12339
+Lang: reciprocal-best-hit pairs 10174; with Ks 10146; collinear 5414
+[Lang] done Fri Sep 25 11:17:36 CST 2026

@@ -1,0 +1,13 @@
+== R4. Secondary test on matched orthogroup sets (EXPLORATORY, post hoc)
+  rho_within on matched sets: median +0.103 (registered, all orthogroups: median +0.127)
+  mean rho_between - matched rho_within over 66 pairs: -0.033 [-0.053, -0.011]; negative in 56/66 pairs
+
+== R5. Variance-based study share F2 (EXPLORATORY, post hoc)
+  Gmax: F (registered, linear) 0.58; F2 (variance) 0.45
+  Pvul: F (registered, linear) 0.49; F2 (variance) 0.33
+  Mtru: F (registered, linear) 1.09; F2 (variance) 1.18
+  all 33: F 0.72; F2 0.65
+
+== R6. Permutation test of the ohnolog-asymmetry trend (EXPLORATORY, post hoc)
+  all ohnolog pairs (55 species pairs): change -0.224; permutation P = 0.0001 (two-sided, 10000 species-label permutations)
+  collinear pairs (54 species pairs): change -0.298; permutation P = 0.0001 (two-sided, 10000 species-label permutations)

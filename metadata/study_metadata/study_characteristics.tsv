@@ -1,0 +1,16 @@
+species	role	bioproject	genotypes_used	plant_age_or_stage	instrument	layout	read_length_nt	library_selection	source
+Gmax	between-species study	PRJNA186522	lines LD, LDX, RIL-11268, RIL-11272	3 weeks	Illumina HiSeq 2000	single	51	cDNA	BioSample/ENA, retrieved 2026-10-09
+Pvul	between-species study	PRJNA911667	cultivar recorded as 'rion' (10-plant pools)	15 days, V2	Illumina HiSeq 2500	paired	76	Oligo-dT	BioSample/ENA, retrieved 2026-10-09
+Vrad	between-species study	PRJNA764584	not recorded	not recorded	HiSeq X Ten	paired	150	cDNA	BioSample/ENA, retrieved 2026-10-09
+Vung	between-species study	PRJNA743032	CB77	2-3 weeks	Illumina NovaSeq 6000	paired	151	DNase	BioSample/ENA, retrieved 2026-10-09
+Ccaj	between-species study	PRJNA1250142	Pusa Arhar 16, Pusa Arhar 992	15 days	Illumina HiSeq 2000	paired	151	PolyA	BioSample/ENA, retrieved 2026-10-09
+Mtru	between-species study	PRJNA701852	R108	5 weeks	Illumina NovaSeq 6000	paired	151	PCR	BioSample/ENA, retrieved 2026-10-09
+Cari	between-species study	PRJNA436616	ICC14778, ICC8058	6 weeks	Illumina HiSeq 4000	single	90	RANDOM	BioSample/ENA, retrieved 2026-10-09
+Psat	between-species study	PRJNA850002	Messire, P665	not recorded (sampled 24-48 h after treatment)	Illumina HiSeq 2500	single	67-118	cDNA	BioSample/ENA, retrieved 2026-10-09
+Tpra	between-species study	PRJNA1091176	Kenland	6 months-1 year, vegetative regrowth	Illumina HiSeq 2500	paired	150	Oligo-dT	BioSample/ENA, retrieved 2026-10-09
+Ljap	between-species study	PRJDB9534	MG-20	14 days	NextSeq 550	single	80	PolyA	BioSample/ENA, retrieved 2026-10-09
+Lang	between-species study	PRJEB105685	lines 83A:476 and 95826 (Bryanskij-35)	flowering stage	Illumina NovaSeq X	paired	75	RANDOM	BioSample/ENA, retrieved 2026-10-09
+Adur	between-species study	PRJNA726938	V14167	adult	Illumina NovaSeq 6000	paired	151	RANDOM	BioSample/ENA, retrieved 2026-10-09
+Gmax	second study	PRJNA877350	Mengdou 28	R3-R5 (reproductive)	Illumina NovaSeq 6000	paired	137-138	RT-PCR	BioSample/ENA, retrieved 2026-10-09
+Pvul	second study	PRJNA741786	unnamed resistant genotype	not recorded	Illumina HiSeq 2500	paired	101-151	RANDOM	BioSample/ENA, retrieved 2026-10-09
+Mtru	second study	PRJNA975868	A17	4 weeks	Illumina NovaSeq 6000	paired	150	unspecified	BioSample/ENA, retrieved 2026-10-09

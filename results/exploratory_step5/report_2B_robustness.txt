@@ -1,0 +1,6 @@
+EXPLORATORY robustness of 2B (registered estimate -0.224 [-0.281, -0.147])
+  a. without G. max and L. angustifolius                     change -0.227 [-0.279, -0.151]  (36 comparisons)
+  b. only comparisons with >= 100 shared ohnolog pairs       change -0.234 [-0.288, -0.150]  (45 comparisons)
+  c. attenuation-corrected rho_r (Lotus has no ceiling)      change -0.225 [-0.281, -0.145]  (45 comparisons)
+  d. joint OLS rho_r ~ time + mean ceiling: time effect over 46.3 Myr -0.220; ceiling coefficient +0.517;  Spearman(rho_r, mean ceiling) +0.219
+  closest pair: Vrad-Vung 9.7 Myr rho_r +0.822; laboratory ceilings Gmax +0.808, Pvul +0.867, Mtru +0.738

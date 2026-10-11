@@ -1,0 +1,18 @@
+Dated commits of the analysis specifications and analysis code (from the authors' working repository; newest first).
+Steps 2 and 3 were also registered on OSF (https://doi.org/10.17605/OSF.IO/S5QXK); Steps 4 and 5 are documented by these commits.
+
+0983aec  2026-10-09 08:37:16 +0800  Step 5: also save per-species mean ohnolog ratios (2B_mean_ratios.tsv) for the figure
+931a6d6  2026-10-09 08:25:37 +0800  Step 5 analysis code (step5_analysis.py), before it is run on the data
+971cc14  2026-10-09 08:19:21 +0800  Step 5 specification: laboratory vs evolution (1A-1C), ohnolog ratios (2A-2C), relative dosage (3), before any of these analyses
+c76d6b1  2026-10-01 20:40:01 +0800  Step 4 analysis code (step08_step4.R), before any Step 4 data are quantified
+4c6ebb5  2026-09-25 21:22:33 +0800  D3 implementation note: take the legume crown node from the rooted species tree (OrthoFinder 3 node files keep all species columns)
+a8bfbaf  2026-09-25 19:51:45 +0800  Step 3 deviation D3: analysis C uses legume crown-node HOGs (OrthoFinder 3.1 has no N0.tsv), before C is run
+5bc5390  2026-09-24 15:43:09 +0800  Step 3 code (A, B, C) and deviation D2, before any Step 3 data
+277f8fb  2026-09-24 15:24:21 +0800  Step 4 addendum spec: two studies of one species (between-study rung)
+2945c03  2026-09-24 11:22:20 +0800  EXPLORATORY (post hoc) follow-up of Step 2 results
+cc6c979  2026-09-23 22:17:45 +0800  Record OSF pre-registration (project osf.io/94cqj, submitted 2026-09-23)
+be06da4  2026-09-23 21:56:35 +0800  Step 3 addendum spec (paralog design, EVE-type model, HOG robustness)
+cec0c56  2026-09-23 20:07:44 +0800  Step 5: sensitivity 5 (patristic distance) and species-tree job
+5334f4b  2026-09-23 13:36:24 +0800  Step 5 analysis script for the 12-species spec (before any real data)
+fdfdf3f  2026-09-23 11:11:02 +0800  Step 2 spec: freeze divergence times; deviation D1 (Cajanus)
+97b87ea  2026-09-22 15:09:17 +0800  Step 2 specification: 12-species control-leaf design (pre-registered)

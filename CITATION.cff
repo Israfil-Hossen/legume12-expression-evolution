@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite the article."
+title: "Study effects mimic, and conserved duplicate asymmetry reveals, expression evolution across twelve legumes"
+authors:
+  - family-names: "Hossen"
+    given-names: "Md. Isrfil"
+    orcid: "https://orcid.org/0009-0001-2189-1039"
+    affiliation: "State Key Laboratory of Soil and Sustainable Agriculture, Institute of Soil Science, Chinese Academy of Sciences, Nanjing, China"
+  - family-names: "Albaghdady"
+    given-names: "Dosouky Mohammad Dosouky"
+    orcid: "https://orcid.org/0000-0001-9963-4465"
+    affiliation: "Department of Agricultural Zoology and Nematology, Faculty of Agriculture, Al-Azhar University, Cairo, Egypt"
+  - family-names: "Kabir"
+    given-names: "Md. Golam"
+    orcid: "https://orcid.org/0000-0003-3387-9958"
+    affiliation: "State Key Laboratory of Soil and Sustainable Agriculture, Institute of Soil Science, Chinese Academy of Sciences, Nanjing, China"
+  - family-names: "Rahman"
+    given-names: "Md. Mosaddekur"
+    orcid: "https://orcid.org/0009-0002-1274-1837"
+    affiliation: "Department of Agriculture, Faculty of Environmental Science, King Abdulaziz University, Jeddah, Saudi Arabia"
+  - family-names: "Karim"
+    given-names: "Md. Parvez"
+    orcid: "https://orcid.org/0009-0007-3668-6373"
+    affiliation: "Department of Genetics and Plant Breeding, Bangladesh Agricultural University, Mymensingh, Bangladesh"
+  - family-names: "Helal"
+    given-names: "Md. Mostofa Uddin"
+    orcid: "https://orcid.org/0000-0002-7033-3578"
+    affiliation: "Plant Molecular Biotechnology Laboratory, Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh"
+license: MIT
+keywords:
+  - gene duplication
+  - comparative transcriptomics
+  - expression evolution
+  - whole-genome duplication
+  - ohnologs
+  - Fabaceae
+  - batch effects
+  - pre-registration
+  - RNA-seq

@@ -1,0 +1,2 @@
+statistic	n_pairs	estimate	lo	hi	n_negative	median_matched_within
+mean_rho_between_minus_matched_within	66	-0.0326061382687972	-0.05316004215958054	-0.0111856268406478	56	0.10312380811773934

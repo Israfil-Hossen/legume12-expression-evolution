@@ -1,0 +1,42 @@
+Warning message:
+package ‘data.table’ was built under R version 4.5.3 
+Step 3 analyses A and B   2026-10-01 19:49:10   project: /home/liuchuanfa/israfil/legume2
+samples: 108 QC-passed; single-copy orthogroups used for scaling: 862
+
+== A. Paralog expression divergence against Ks (Ks <= 3; pairs with both genes mean TPM < 1 excluded)
+  Gmax  pairs 12204   rho(D,Ks) +0.123   rho(N,Ks) +0.145   rho(D-N,Ks) +0.102   r(m1*m2,Ks) +0.162
+  Pvul  pairs  5108   rho(D,Ks) +0.039   rho(N,Ks) -0.048   rho(D-N,Ks) +0.049   r(m1*m2,Ks) +0.031
+  Vrad  pairs  5254   rho(D,Ks) -0.007   rho(N,Ks) +0.030   rho(D-N,Ks) -0.007   r(m1*m2,Ks) -0.001
+  Vung  pairs  5118   rho(D,Ks) +0.023   rho(N,Ks) -0.009   rho(D-N,Ks) +0.027   r(m1*m2,Ks) +0.011
+  Ccaj  pairs  5064   rho(D,Ks) +0.032   rho(N,Ks) +0.021   rho(D-N,Ks) +0.034   r(m1*m2,Ks) +0.044
+  Mtru  pairs  5221   rho(D,Ks) -0.019   rho(N,Ks) +0.041   rho(D-N,Ks) -0.021   r(m1*m2,Ks) -0.021
+  Cari  pairs  4030   rho(D,Ks) +0.041   rho(N,Ks) +0.041   rho(D-N,Ks) +0.037   r(m1*m2,Ks) +0.037
+  Psat  pairs  4174   rho(D,Ks) -0.021   rho(N,Ks) +0.061   rho(D-N,Ks) -0.022   r(m1*m2,Ks) -0.031
+  Tpra  pairs  5762   rho(D,Ks) +0.185   rho(N,Ks) -0.324   rho(D-N,Ks) +0.238   r(m1*m2,Ks) +0.120
+  Ljap  pairs  4995   rho(D,Ks) +0.003   rho(N,Ks) NA   rho(D-N,Ks) NA   r(m1*m2,Ks) NA
+  Lang  pairs  7518   rho(D,Ks) +0.108   rho(N,Ks) +0.164   rho(D-N,Ks) +0.097   r(m1*m2,Ks) +0.051
+  Adur  pairs  4023   rho(D,Ks) -0.028   rho(N,Ks) -0.067   rho(D-N,Ks) -0.001   r(m1*m2,Ks) -0.072
+  median over 11 species (95% interval, species bootstrap):
+  A1 rho(D, Ks)     +0.0317 [-0.0186, +0.1080]   (reported)
+  A2 rho(N, Ks)     +0.0295 [-0.0482, +0.0607]   -> not confirmed
+  A3 as registered, rho(D-N, Ks)  +0.0338 [-0.0073, +0.0970]   BIASED - reported only (deviation D2)
+  A3 r(mean m1*m2, Ks)             +0.0309 [-0.0215, +0.0507]   -> partial   (PRIMARY, deviation D2)
+  EXPLORATORY (no decision rule): median D - N by duplicate class within Ks bins
+    Ks [0,0.1]    WGD/segmental  n   5482   D-N +0.560
+    Ks [0,0.1]    other          n   6225   D-N +1.004
+    Ks (0.1,0.3]  WGD/segmental  n   8172   D-N +0.631
+    Ks (0.1,0.3]  other          n   6431   D-N +1.116
+    Ks (0.3,0.6]  WGD/segmental  n   4624   D-N +0.979
+    Ks (0.3,0.6]  other          n   4509   D-N +1.352
+    Ks (0.6,1]    WGD/segmental  n   8669   D-N +1.120
+    Ks (0.6,1]    other          n   4446   D-N +1.295
+    Ks (1,3]      WGD/segmental  n   6856   D-N +1.208
+    Ks (1,3]      other          n   8062   D-N +1.322
+
+== B. Brownian-motion rate per orthogroup (12 species on the IQ-TREE tree; 12964 orthogroups present in all)
+  B1 rho(sigma2_naive, copies) +0.0685   (reported)
+     rho(sigma2_me,    copies) +0.0662
+  B2 delta rho -0.0023 [-0.0046, +0.0001]   -> no change (evolutionary)   (PRIMARY)
+  orthogroups whose fitted rate reached the lower bound: naive 0, with variance 226
+
+wrote /home/liuchuanfa/israfil/legume2/results_step3

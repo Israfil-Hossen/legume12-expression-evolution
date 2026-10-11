@@ -1,0 +1,5 @@
+[Tpra] start Fri Sep 25 20:07:09 CST 2026 on node8
+Tpra: genes with longest protein 33610; kept with matching CDS 33601; sequences in gff 26
+[Tpra] blast hits 134729; collinear anchor lines 5648
+Tpra: reciprocal-best-hit pairs 9243; with Ks 9217; collinear 3194
+[Tpra] done Fri Sep 25 20:29:57 CST 2026

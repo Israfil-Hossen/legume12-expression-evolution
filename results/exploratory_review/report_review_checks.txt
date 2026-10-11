@@ -1,0 +1,28 @@
+== R1. Relative dosage by reference expression level (EXPLORATORY, post hoc)
+  study 1: registered estimate reproduced (+0.562); WGD 1620, calibration 862
+  study 2: registered estimate reproduced (+0.419); WGD 1620, calibration 862
+  study  bin  ref_tpm_lo  ref_tpm_hi  n_wgd  n_cal  rel_dosage    lo    hi  full_dosage_expected  fraction_of_full
+study 1    1        0.00        3.08    405    223       0.249 0.145 0.401                 0.442             0.564
+study 1    2        3.08        9.83    405    253       0.559 0.246 0.803                 0.900             0.621
+study 1    3        9.83       22.60    405    206       0.722 0.474 0.994                 0.953             0.758
+study 1    4       22.60         inf    405    180       0.714 0.448 1.013                 0.985             0.725
+study 2    1        0.00        3.08    405    223       0.199 0.100 0.293                 0.442             0.451
+study 2    2        3.08        9.83    405    253       0.416 0.276 0.598                 0.900             0.462
+study 2    3        9.83       22.60    405    206       0.647 0.497 0.769                 0.953             0.680
+study 2    4       22.60         inf    405    180       0.556 0.331 0.752                 0.985             0.565
+
+== R2. Absolute-scale copy-number gradient (EXPLORATORY, post hoc)
+  within studies: diff Gmax +0.066, Pvul +0.030, Vrad +0.013, Vung +0.004, Ccaj +0.029, Mtru +0.012, Cari +0.034, Psat +0.013, Tpra +0.016, Lang +0.007, Adur +0.043
+  within, median diff +0.016, median log2 ratio +0.212
+  between, median diff +0.073, median log2 ratio +0.207
+  between minus within: median excess diff +0.055 (positive in 63/66); median excess log2 ratio -0.017 (positive in 32/66)
+  change over 9.7-56.0 Myr (55 pairs), between-species gradient, difference: -0.030 [-0.093, +0.015]
+  change over 9.7-56.0 Myr (55 pairs), excess over within, difference: -0.032 [-0.095, +0.014]
+  change over 9.7-56.0 Myr (55 pairs), between-species gradient, log2 ratio: -0.103 [-0.218, +0.016]
+  change over 9.7-56.0 Myr (55 pairs), excess over within, log2 ratio: -0.086 [-0.231, +0.048]
+
+== R3. Absolute-scale gradient between studies vs between species on identical orthogroups (EXPLORATORY, post hoc)
+  Gmax: median diff study +0.143 vs species +0.128 (species > study in 4/11); log2 ratio study +0.442 vs species +0.279
+  Pvul: median diff study +0.070 vs species +0.069 (species > study in 6/11); log2 ratio study +0.326 vs species +0.207
+  Mtru: median diff study +0.103 vs species +0.069 (species > study in 2/11); log2 ratio study +0.266 vs species +0.200
+  all 33: diff species minus study, median -0.012 (positive in 12/33); log2 ratio species minus study, median -0.107 (positive in 4/33)

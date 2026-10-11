@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -N orthofinder
+#PBS -q cpu
+#PBS -l nodes=1:ppn=24
+#PBS -l walltime=72:00:00
+#PBS -j oe
+P=/home/liuchuanfa/israfil/legume2
+cd $P; exec > logs/orthofinder.log 2>&1
+source ~/miniconda3/etc/profile.d/conda.sh && conda activate legume
+echo "start $(date) on $(hostname)"; orthofinder --version 2>&1 | head -2
+orthofinder -f $P/proteomes -t 24 -a 6
+echo "done $(date)"

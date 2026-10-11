@@ -1,0 +1,5 @@
+[Mtru] start Fri Sep 25 10:57:51 CST 2026 on node9
+Mtru: genes with longest protein 31928; kept with matching CDS 31904; sequences in gff 32
+[Mtru] blast hits 125742; collinear anchor lines 4103
+Mtru: reciprocal-best-hit pairs 8331; with Ks 8273; collinear 2310
+[Mtru] done Fri Sep 25 11:44:30 CST 2026

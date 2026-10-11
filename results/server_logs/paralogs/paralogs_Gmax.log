@@ -1,0 +1,5 @@
+[Gmax] start Fri Sep 25 10:50:14 CST 2026 on node1
+Gmax: genes with longest protein 47068; kept with matching CDS 46945; sequences in gff 96
+[Gmax] blast hits 201448; collinear anchor lines 30621
+Gmax: reciprocal-best-hit pairs 17004; with Ks 16901; collinear 13686
+[Gmax] done Fri Sep 25 11:44:44 CST 2026

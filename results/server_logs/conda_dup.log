@@ -1,0 +1,1463 @@
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): ...working... WARNING conda.models.version:get_matcher(556): Using .* with relational operator is superfluous and deprecated and will be removed in a future version of conda. Your spec was 1.7.1.*, but conda is ignoring the .* and treating it as 1.7.1
+done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 26.7.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=26.7.2
+
+
+
+## Package Plan ##
+
+  environment location: /home/liuchuanfa/miniconda3/envs/dup
+
+  added / updated specs:
+    - diamond
+    - mafft
+    - mcscanx
+    - pal2nal
+    - paml
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-4.5          |           20_gnu          28 KB  conda-forge
+    diamond-2.2.8              |       he361c42_0         3.2 MB  bioconda
+    gawk-5.4.1                 |       h0a3468a_0         1.5 MB  conda-forge
+    gmp-6.3.0                  |       hfd2156b_3         482 KB  conda-forge
+    libasprintf-0.25.1         |       h0e23cf9_2          52 KB  conda-forge
+    libgcc-16.2.0              |       ha9f2e26_5         1.0 MB  conda-forge
+    libgcc-ng-16.2.0           |       h69a702a_5          28 KB  conda-forge
+    libgettextpo-0.25.1        |       h0e23cf9_2         183 KB  conda-forge
+    libgomp-16.2.0             |       he0feb66_5         627 KB  conda-forge
+    libiconv-1.18              |       h0cb94f2_3         771 KB  conda-forge
+    libsqlite-3.53.4           |       h0737f62_1         946 KB  conda-forge
+    libstdcxx-16.2.0           |       h934c35e_5         6.3 MB  conda-forge
+    libxcrypt-4.4.38           |       h280c20c_0         100 KB  conda-forge
+    libzlib-1.3.2              |       h25fd6f3_3          62 KB  conda-forge
+    mafft-7.525                |       h031d066_1         3.3 MB  bioconda
+    mcscanx-1.0.0              |       h9948957_0         165 KB  bioconda
+    mpfr-4.2.2                 |       ha2cb11d_1         713 KB  conda-forge
+    ncurses-6.6                |       hdb14827_1         890 KB  conda-forge
+    pal2nal-14.1               | pl5321hdfd78af_3          22 KB  bioconda
+    paml-4.10.10               |       h87e0c26_2         675 KB  bioconda
+    perl-5.32.1                | 9_h7cc23a3_perl5        12.8 MB  conda-forge
+    perl-getopt-long-2.58      | pl5321hdfd78af_0          33 KB  bioconda
+    readline-8.3               |       hd6e31c0_1         341 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        34.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-20_gnu 
+  diamond            bioconda/linux-64::diamond-2.2.8-he361c42_0 
+  gawk               conda-forge/linux-64::gawk-5.4.1-h0a3468a_0 
+  gmp                conda-forge/linux-64::gmp-6.3.0-hfd2156b_3 
+  libasprintf        conda-forge/linux-64::libasprintf-0.25.1-h0e23cf9_2 
+  libgcc             conda-forge/linux-64::libgcc-16.2.0-ha9f2e26_5 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-16.2.0-h69a702a_5 
+  libgettextpo       conda-forge/linux-64::libgettextpo-0.25.1-h0e23cf9_2 
+  libgomp            conda-forge/linux-64::libgomp-16.2.0-he0feb66_5 
+  libiconv           conda-forge/linux-64::libiconv-1.18-h0cb94f2_3 
+  libsqlite          conda-forge/linux-64::libsqlite-3.53.4-h0737f62_1 
+  libstdcxx          conda-forge/linux-64::libstdcxx-16.2.0-h934c35e_5 
+  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.38-h280c20c_0 
+  libzlib            conda-forge/linux-64::libzlib-1.3.2-h25fd6f3_3 
+  mafft              bioconda/linux-64::mafft-7.525-h031d066_1 
+  mcscanx            bioconda/linux-64::mcscanx-1.0.0-h9948957_0 
+  mpfr               conda-forge/linux-64::mpfr-4.2.2-ha2cb11d_1 
+  ncurses            conda-forge/linux-64::ncurses-6.6-hdb14827_1 
+  pal2nal            bioconda/noarch::pal2nal-14.1-pl5321hdfd78af_3 
+  paml               bioconda/linux-64::paml-4.10.10-h87e0c26_2 
+  perl               conda-forge/linux-64::perl-5.32.1-9_h7cc23a3_perl5 
+  perl-getopt-long   bioconda/noarch::perl-getopt-long-2.58-pl5321hdfd78af_0 
+  readline           conda-forge/linux-64::readline-8.3-hd6e31c0_1 
+
+
+
+Downloading and Extracting Packages
+libstdcxx-16.2.0     | 6.3 MB    |            |   0% 
+libxcrypt-4.4.38     | 100 KB    |            |   0% [A
+
+pal2nal-14.1         | 22 KB     |            |   0% [A[A
+
+
+libgomp-16.2.0       | 627 KB    |            |   0% [A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   |            |   0% [A[A[A[A
+
+
+
+
+libgcc-ng-16.2.0     | 28 KB     |            |   0% [A[A[A[A[A
+
+
+
+
+
+_openmp_mutex-4.5    | 28 KB     |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libsqlite-3.53.4     | 946 KB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+paml-4.10.10         | 675 KB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mpfr-4.2.2           | 713 KB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libgcc-16.2.0        | 1.0 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgettextpo-0.25.1  | 183 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+perl-getopt-long-2.5 | 33 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+readline-8.3         | 341 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.6          | 890 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.2        | 62 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mcscanx-1.0.0        | 165 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libiconv-1.18        | 771 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+pal2nal-14.1         | 22 KB     | #######2   |  72% [A[A
+
+
+libgomp-16.2.0       | 627 KB    | 2          |   3% [A[A[A
+
+pal2nal-14.1         | 22 KB     | ########## | 100% [A[A
+libxcrypt-4.4.38     | 100 KB    | #6         |  16% [A
+
+
+
+perl-5.32.1          | 12.8 MB   |            |   0% [A[A[A[A
+
+
+libgomp-16.2.0       | 627 KB    | ##5        |  26% [A[A[Alibstdcxx-16.2.0     | 6.3 MB    |            |   0% 
+
+
+
+
+libgcc-ng-16.2.0     | 28 KB     | #####7     |  57% [A[A[A[A[A
+
+
+libgomp-16.2.0       | 627 KB    | #####8     |  59% [A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | 1          |   1% [A[A[A[A
+
+
+
+
+
+_openmp_mutex-4.5    | 28 KB     | #####6     |  57% [A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | 2          |   3% 
+
+
+libgomp-16.2.0       | 627 KB    | #########4 |  94% [A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | 3          |   4% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | 7          |   7% 
+
+
+
+perl-5.32.1          | 12.8 MB   | 5          |   6% [A[A[A[A
+
+
+
+
+
+
+libsqlite-3.53.4     | 946 KB    | 1          |   2% [A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #2         |  12% 
+
+
+
+perl-5.32.1          | 12.8 MB   | 7          |   8% [A[A[A[A
+
+
+
+
+
+
+
+paml-4.10.10         | 675 KB    | 2          |   2% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+paml-4.10.10         | 675 KB    | 4          |   5% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libsqlite-3.53.4     | 946 KB    | ##         |  20% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mpfr-4.2.2           | 713 KB    | 2          |   2% [A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #5         |  16% 
+
+
+
+perl-5.32.1          | 12.8 MB   | 9          |  10% [A[A[A[A
+
+
+
+
+
+
+
+paml-4.10.10         | 675 KB    | #####2     |  52% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libsqlite-3.53.4     | 946 KB    | #####2     |  52% [A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #8         |  19% 
+
+
+
+
+
+
+
+
+mpfr-4.2.2           | 713 KB    | ####7      |  47% [A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #1         |  11% [A[A[A[A
+
+
+
+
+
+
+
+
+mpfr-4.2.2           | 713 KB    | #######4   |  74% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libsqlite-3.53.4     | 946 KB    | ######9    |  69% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+paml-4.10.10         | 675 KB    | #######5   |  76% [A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ##1        |  22% 
+
+
+
+perl-5.32.1          | 12.8 MB   | #2         |  13% [A[A[A[A
+
+
+
+
+
+
+libsqlite-3.53.4     | 946 KB    | ########6  |  86% [A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #4         |  14% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ##4        |  25% 
+
+
+
+
+
+
+
+
+
+
+libgettextpo-0.25.1  | 183 KB    | 8          |   9% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libgcc-16.2.0        | 1.0 MB    | 1          |   2% [A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #6         |  16% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ##8        |  28% 
+
+
+
+perl-5.32.1          | 12.8 MB   | #7         |  18% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ###1       |  32% 
+
+
+
+
+
+
+
+
+
+libgcc-16.2.0        | 1.0 MB    | ##4        |  25% [A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #9         |  20% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ###5       |  36% 
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libgcc-16.2.0        | 1.0 MB    | #####1     |  51% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | #2         |  13% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ##1        |  21% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ###8       |  39% 
+
+
+
+
+
+
+
+
+
+libgcc-16.2.0        | 1.0 MB    | #######7   |  77% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | ##4        |  25% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ##2        |  23% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ####2      |  42% 
+
+
+
+
+
+
+
+
+
+
+
+
+perl-getopt-long-2.5 | 33 KB     | ####8      |  48% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | ###6       |  37% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ##4        |  24% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ####6      |  46% 
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | #####2     |  53% [A[A[A[A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ####9      |  50% 
+
+
+
+perl-5.32.1          | 12.8 MB   | ##6        |  27% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+readline-8.3         | 341 KB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | ######6    |  67% [A[A[A[A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #####3     |  53% 
+
+
+
+perl-5.32.1          | 12.8 MB   | ##8        |  28% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.6          | 890 KB    | 1          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+readline-8.3         | 341 KB    | #######5   |  75% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | #######9   |  80% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ##9        |  30% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #####6     |  57% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.6          | 890 KB    | ##8        |  29% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | #########1 |  91% [A[A[A[A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #####9     |  60% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.6          | 890 KB    | #####3     |  54% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libxcrypt-4.4.38     | 100 KB    | ########## | 100% [A
+libxcrypt-4.4.38     | 100 KB    | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.6          | 890 KB    | ########4  |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+libgcc-ng-16.2.0     | 28 KB     | ########## | 100% [A[A[A[A[A
+
+
+
+
+libgcc-ng-16.2.0     | 28 KB     | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+_openmp_mutex-4.5    | 28 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+_openmp_mutex-4.5    | 28 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.2        | 62 KB     | ##5        |  26% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ######3    |  63% 
+
+
+
+perl-5.32.1          | 12.8 MB   | ###1       |  31% [A[A[A[A
+
+
+libgomp-16.2.0       | 627 KB    | ########## | 100% [A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ######7    |  68% 
+
+
+
+perl-5.32.1          | 12.8 MB   | ###3       |  34% [A[A[A[A
+
+
+
+
+
+
+
+paml-4.10.10         | 675 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+paml-4.10.10         | 675 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mcscanx-1.0.0        | 165 KB    | 9          |  10% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #######1   |  71% 
+
+
+
+perl-5.32.1          | 12.8 MB   | ###5       |  35% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libiconv-1.18        | 771 KB    | 2          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mpfr-4.2.2           | 713 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mpfr-4.2.2           | 713 KB    | ########## | 100% [A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #######4   |  75% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libiconv-1.18        | 771 KB    | ###3       |  33% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ###7       |  37% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mcscanx-1.0.0        | 165 KB    | #######7   |  78% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libsqlite-3.53.4     | 946 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ###8       |  39% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #######8   |  78% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libiconv-1.18        | 771 KB    | #######    |  71% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ####       |  41% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgettextpo-0.25.1  | 183 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgettextpo-0.25.1  | 183 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ########2  |  82% 
+
+
+
+perl-5.32.1          | 12.8 MB   | ####3      |  43% [A[A[A[A
+
+
+
+
+
+
+
+
+
+libgcc-16.2.0        | 1.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libgcc-16.2.0        | 1.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ########6  |  87% 
+
+
+
+
+
+
+
+
+
+
+
+
+perl-getopt-long-2.5 | 33 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+perl-getopt-long-2.5 | 33 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ####5      |  45% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #########  |  91% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+readline-8.3         | 341 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ####7      |  47% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+gawk-5.4.1           | 1.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #########4 |  95% 
+
+
+
+perl-5.32.1          | 12.8 MB   | ####8      |  49% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | #########7 |  98% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.6          | 890 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #####      |  51% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.2        | 62 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.2        | 62 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #####3     |  53% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mcscanx-1.0.0        | 165 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #####5     |  56% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libiconv-1.18        | 771 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libiconv-1.18        | 771 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #####8     |  58% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ######     |  61% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ######3    |  63% [A[A[A[Alibstdcxx-16.2.0     | 6.3 MB    | ########## | 100% 
+
+
+
+perl-5.32.1          | 12.8 MB   | ######7    |  68% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #######    |  71% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #######3   |  73% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #######6   |  76% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | #######9   |  79% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ########1  |  82% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ########4  |  84% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ########7  |  87% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ########9  |  90% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ########## | 100% [A[A[A[A
+
+
+
+perl-5.32.1          | 12.8 MB   | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate dup
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+

@@ -1,0 +1,103 @@
+Step 5 analysis   2026-09-24 10:44:54   project: /home/liuchuanfa/israfil/legume2
+
+== QC (spec section 5)
+samples quantified: 109 of 109;  passing QC: 108
+  Gmax  12 of 12 pass
+  Pvul   9 of  9 pass
+  Vrad  12 of 12 pass
+  Vung  10 of 10 pass
+  Ccaj   6 of  6 pass
+  Mtru  12 of 12 pass
+  Cari   8 of  8 pass
+  Psat  11 of 12 pass
+  Tpra  10 of 10 pass
+  Ljap   3 of  3 pass
+  Lang  10 of 10 pass
+  Adur   5 of  5 pass
+excluded:
+  Psat_Messire_T2_01  < 5M reads after fastp
+
+== Orthogroups: Results_Sep23 (20237 rows in the file)
+orthogroups with >= 1 copy in any legume: 19574;  single-copy in all 12: 862
+
+== variant primary: 12 species, 2 samples per side
+  within  Gmax  n=12  rho = +0.1755  (16261 orthogroups)
+  within  Pvul  n= 9  rho = +0.1894  (15581 orthogroups)
+  within  Vrad  n=12  rho = +0.1325  (15679 orthogroups)
+  within  Vung  n=10  rho = +0.0387  (15806 orthogroups)
+  within  Ccaj  n= 6  rho = +0.1268  (15757 orthogroups)
+  within  Mtru  n=12  rho = +0.1108  (15961 orthogroups)
+  within  Cari  n= 8  rho = +0.1229  (15322 orthogroups)
+  within  Psat  n=11  rho = +0.0278  (15921 orthogroups)
+  within  Tpra  n=10  rho = +0.1369  (15969 orthogroups)
+  within  Lang  n=10  rho = +0.0455  (15173 orthogroups)
+  within  Adur  n= 5  rho = +0.1370  (15768 orthogroups)
+  between: 66 pairs, rho +0.0374 to +0.1263 (median +0.0685)
+  primary: rho_between ~ divergence time           est -0.0307  [-0.0548, +0.0048]  -> supports technical account 
+  secondary: mean rho_between - mean rho_within    est -0.0428  [-0.0706, -0.0138]  -> partial 
+
+== variant S1_per_copy: 12 species, 2 samples per side
+  within  Gmax  n=12  rho = +0.0862  (16261 orthogroups)
+  within  Pvul  n= 9  rho = +0.0927  (15581 orthogroups)
+  within  Vrad  n=12  rho = -0.0195  (15679 orthogroups)
+  within  Vung  n=10  rho = -0.1160  (15806 orthogroups)
+  within  Ccaj  n= 6  rho = +0.0017  (15757 orthogroups)
+  within  Mtru  n=12  rho = -0.0300  (15961 orthogroups)
+  within  Cari  n= 8  rho = +0.0126  (15322 orthogroups)
+  within  Psat  n=11  rho = -0.1015  (15921 orthogroups)
+  within  Tpra  n=10  rho = -0.0517  (15969 orthogroups)
+  within  Lang  n=10  rho = -0.0844  (15173 orthogroups)
+  within  Adur  n= 5  rho = +0.0245  (15768 orthogroups)
+  between: 66 pairs, rho +0.0013 to +0.1037 (median +0.0389)
+  primary: rho_between ~ divergence time           est -0.0024  [-0.0234, +0.0364]  -> supports technical account 
+  secondary: mean rho_between - mean rho_within    est +0.0557  [+0.0141, +0.0942]  -> supports evolutionary account 
+
+== variant S2_three_per_side: 10 species, 3 samples per side
+  within  Gmax  n=12  rho = +0.1801  (16261 orthogroups)
+  within  Pvul  n= 9  rho = +0.1925  (15581 orthogroups)
+  within  Vrad  n=12  rho = +0.1416  (15679 orthogroups)
+  within  Vung  n=10  rho = +0.0384  (15806 orthogroups)
+  within  Mtru  n=12  rho = +0.1166  (15961 orthogroups)
+  within  Cari  n= 8  rho = +0.1210  (15322 orthogroups)
+  within  Psat  n=11  rho = +0.0312  (15921 orthogroups)
+  within  Tpra  n=10  rho = +0.1333  (15969 orthogroups)
+  within  Lang  n=10  rho = +0.0577  (15173 orthogroups)
+  between: 45 pairs, rho +0.0365 to +0.1245 (median +0.0663)
+  primary: rho_between ~ divergence time           est -0.0203  [-0.0483, +0.0221]  -> supports technical account 
+  secondary: mean rho_between - mean rho_within    est -0.0401  [-0.0697, -0.0107]  -> partial 
+
+== variant S3_no_Pisum: 11 species, 2 samples per side
+  within  Gmax  n=12  rho = +0.1818  (16261 orthogroups)
+  within  Pvul  n= 9  rho = +0.1887  (15581 orthogroups)
+  within  Vrad  n=12  rho = +0.1305  (15679 orthogroups)
+  within  Vung  n=10  rho = +0.0308  (15806 orthogroups)
+  within  Ccaj  n= 6  rho = +0.1280  (15757 orthogroups)
+  within  Mtru  n=12  rho = +0.1105  (15961 orthogroups)
+  within  Cari  n= 8  rho = +0.1248  (15322 orthogroups)
+  within  Tpra  n=10  rho = +0.1356  (15969 orthogroups)
+  within  Lang  n=10  rho = +0.0454  (15173 orthogroups)
+  within  Adur  n= 5  rho = +0.1362  (15768 orthogroups)
+  between: 55 pairs, rho +0.0383 to +0.1256 (median +0.0702)
+  primary: rho_between ~ divergence time           est -0.0374  [-0.0607, +0.0065]  -> supports technical account 
+  secondary: mean rho_between - mean rho_within    est -0.0490  [-0.0764, -0.0215]  -> partial 
+
+== variant S4_thinned_5M: 12 species, 2 samples per side
+  within  Gmax  n=12  rho = +0.1582  (16261 orthogroups)
+  within  Pvul  n= 9  rho = +0.1434  (15581 orthogroups)
+  within  Vrad  n=12  rho = +0.0871  (15679 orthogroups)
+  within  Vung  n=10  rho = +0.0207  (15806 orthogroups)
+  within  Ccaj  n= 6  rho = +0.1035  (15757 orthogroups)
+  within  Mtru  n=12  rho = +0.0681  (15961 orthogroups)
+  within  Cari  n= 8  rho = +0.1059  (15322 orthogroups)
+  within  Psat  n=11  rho = +0.0274  (15921 orthogroups)
+  within  Tpra  n=10  rho = +0.1050  (15969 orthogroups)
+  within  Lang  n=10  rho = -0.0130  (15173 orthogroups)
+  within  Adur  n= 5  rho = +0.0968  (15768 orthogroups)
+  between: 66 pairs, rho +0.0357 to +0.1268 (median +0.0662)
+  primary: rho_between ~ divergence time           est -0.0327  [-0.0576, +0.0041]  -> supports technical account 
+  secondary: mean rho_between - mean rho_within    est -0.0131  [-0.0375, +0.0130]  -> supports technical account 
+
+== variant S5_patristic: primary between-species values vs patristic distance (Cajanus included, D1)
+  S5: rho_between ~ patristic distance             est -0.0368  [-0.0665, +0.0034]  -> supports technical account 
+
+wrote /home/liuchuanfa/israfil/legume2/results_step2

@@ -1,0 +1,5 @@
+[Ljap] start Fri Sep 25 20:39:22 CST 2026 on node9
+Ljap: genes with longest protein 32752; kept with matching CDS 32724; sequences in gff 13
+[Ljap] blast hits 130397; collinear anchor lines 4074
+Ljap: reciprocal-best-hit pairs 8182; with Ks 8138; collinear 2532
+[Ljap] done Fri Sep 25 21:00:50 CST 2026

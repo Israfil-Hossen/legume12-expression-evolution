@@ -1,0 +1,5 @@
+[Pvul] start Fri Sep 25 10:51:53 CST 2026 on node3
+Pvul: genes with longest protein 29679; kept with matching CDS 29637; sequences in gff 196
+[Pvul] blast hits 115615; collinear anchor lines 4469
+Pvul: reciprocal-best-hit pairs 7330; with Ks 7289; collinear 2719
+[Pvul] done Fri Sep 25 11:15:48 CST 2026

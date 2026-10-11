@@ -1,0 +1,5 @@
+E4 (EXPLORATORY): 45 pairs with a half-split in both species, Cajanus excluded 
+  Spearman rho(rho_between, mean within rho of the two species) = +0.240 
+  Spearman rho(rho_between, divergence time)                   = -0.512 
+  R2: time alone 0.197 | mean within alone 0.121 | both 0.291 
+  joint model: time -0.00057 per Myr (P = 0.00282) -> change over 46.3 Myr = -0.026;  mean within +0.177 (P = 0.0232) 

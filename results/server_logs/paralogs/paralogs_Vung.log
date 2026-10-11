@@ -1,0 +1,5 @@
+[Vung] start Fri Sep 25 20:33:23 CST 2026 on node3
+Vung: genes with longest protein 28223; kept with matching CDS 28176; sequences in gff 195
+[Vung] blast hits 107528; collinear anchor lines 5462
+Vung: reciprocal-best-hit pairs 7553; with Ks 7427; collinear 3067
+[Vung] done Fri Sep 25 20:54:38 CST 2026

@@ -1,0 +1,7 @@
+tool	version	environment	how recorded
+Python	3.14.0	local (Windows)	read from the interpreter, 2026-10-09; used for Step 5 and the figures
+numpy	2.4.2	local (Windows)	read from the interpreter, 2026-10-09; used for Step 5 and the figures
+pandas	3.0.1	local (Windows)	read from the interpreter, 2026-10-09; used for Step 5 and the figures
+scipy	1.18.1	local (Windows)	read from the interpreter, 2026-10-09; used for Step 5 and the figures
+matplotlib	3.11.1	local (Windows)	read from the interpreter, 2026-10-09; used for Step 5 and the figures
+IQ-TREE	3.1.3	Windows build (official release, sha256 6e0e11c7ed6197a0f4ebfbadafc7e82bebdf5b6e510c8a13f36183fe8eae3aef); tree support analyses	iqtree3.exe --version
