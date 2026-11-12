@@ -1,0 +1,16 @@
+set	species	study	genotype	age	tissue	instrument	layout	read_len	selection
+between-species	Adur	PRJNA726938	V14167	Adult	leaf	Illumina NovaSeq 6000	PAIRED	151	RANDOM
+between-species	Cari	PRJNA436616	ICC14778 / ICC8058	6 weeks	leaf	Illumina HiSeq 4000	SINGLE	90	RANDOM
+between-species	Ccaj	PRJNA1250142	Pusa Arhar 16 / Pusa Arhar 992	15 days	Leaf	Illumina HiSeq 2000	PAIRED	151	PolyA
+between-species	Gmax	PRJNA186522	LD / LDX / R-11268 | RIL-11268 / R-11272 | RIL-11272	3 week	Trifoliolate leaves	Illumina HiSeq 2000	SINGLE	51	cDNA
+between-species	Lang	PRJEB105685	83A:476 | Lupinus angustifolius subsp. Angustifolius | not applicable / Bryanskij-35 | Lupinus angustifolius subsp. Angustifolius | not applicable	44 | whole plant flowering stage / 64 | whole plant flowering stage / 65 | whole plant flowering stage / 71 | whole plant flowering stage / 73 | whole plant flowering stage / 78 | whole plant flowering stage		Illumina NovaSeq X	PAIRED	75	RANDOM
+between-species	Ljap	PRJDB9534	MG-20 | wild type	14 days	leaf	NextSeq 550	SINGLE	80	PolyA
+between-species	Mtru	PRJNA701852	Medicago truncatula ecotype R108 | control / Medicago truncatula ecotype R108 | control-light group	five-week-old	leaf	Illumina NovaSeq 6000	PAIRED	151	PCR
+between-species	Psat	PRJNA850002	Messire / P665	24 hours / 48 hours	Leaves	Illumina HiSeq 2500	SINGLE	67/69/74/75/78/80/83/86/90/95/118	cDNA
+between-species	Pvul	PRJNA911667	10-plant- pool | rion	15-day-old | V2 stage	leaf	Illumina HiSeq 2500	PAIRED	76	Oligo-dT
+between-species	Tpra	PRJNA1091176	Kenland	1 yr | Vegetative Regrowth, Flowering / 6 mo | Vegetative Regrowth, Flowering	leaf	Illumina HiSeq 2500	PAIRED	150	Oligo-dT
+between-species	Vrad	PRJNA764584	Vigna radiata Wilczek | not collected	not collected	leaf	HiSeq X Ten	PAIRED	149/150	cDNA
+between-species	Vung	PRJNA743032	CB77	2 weeks / 3 weeks	Unifoliate leaf	Illumina NovaSeq 6000	PAIRED	151	DNase
+second study	Gmax	PRJNA877350	Mengdou 28	R3-R5	Leaves	Illumina NovaSeq 6000	PAIRED	137/138	RT-PCR
+second study	Mtru	PRJNA975868	A17 | mock	4-week-old	Leaf	Illumina NovaSeq 6000	PAIRED	150	unspecified
+second study	Pvul	PRJNA741786	Resistant Mock Inoculation 0h 1a / Resistant Mock Inoculation 0h 2a / Resistant Mock Inoculation 0h 3a / Resistant Mock Inoculation 24h 1a / Resistant Mock Inoculation 24h 2a / Resistant Mock Inoculation 24h 3b / Resistant Mock Inoculation 48h 1a / Resistant Mock Inoculation 48h 2a / Resistant Mock Inoculation 48h 3b / Resistant Mock Inoculation 8h 1a / Resistant Mock Inoculation 8h 2a / Resistant Mock Inoculation 8h 3a		Leaf	Illumina HiSeq 2500	PAIRED	101/151	RANDOM

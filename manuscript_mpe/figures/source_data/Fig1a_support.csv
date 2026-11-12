@@ -1,0 +1,11 @@
+clade,tips,shalrt_LG,ufboot_LG,shalrt_partitioned,ufboot_partitioned,gCF,gDF1,gDF2,gDFP,gN,sCF,sDF1,sDF2,concordant_beats_alternatives
+Vigna,"Vrad,Vung",100.0,100.0,100.0,100.0,92.4,3.59,3.59,0.41,725,78.1,10.43,11.49,True
+Phaseolus + Vigna,"Pvul,Vrad,Vung",100.0,100.0,100.0,100.0,98.9,0.14,0.0,0.97,725,86.0,7.28,6.69,True
+Glycine + Phaseolus + Vigna,"Gmax,Pvul,Vrad,Vung",100.0,100.0,100.0,100.0,59.3,19.03,16.97,4.69,725,43.2,29.83,26.94,True
+Millettioids,"Ccaj,Gmax,Pvul,Vrad,Vung",100.0,100.0,100.0,100.0,91.6,0.14,0.28,8.0,725,72.7,13.43,13.89,True
+Medicago + Trifolium,"Mtru,Tpra",100.0,100.0,100.0,100.0,44.7,20.83,26.62,7.86,725,39.8,29.29,30.92,True
+Medicago + Trifolium + Pisum,"Mtru,Psat,Tpra",100.0,100.0,100.0,100.0,75.0,5.93,4.97,14.07,725,53.3,23.19,23.49,True
+IRLC,"Cari,Mtru,Psat,Tpra",100.0,100.0,100.0,100.0,94.9,0.28,0.83,4.0,725,79.2,10.47,10.31,True
+Robinioid + IRLC,"Cari,Ljap,Mtru,Psat,Tpra",100.0,100.0,100.0,100.0,50.9,8.28,10.9,29.93,725,42.4,27.6,30.04,True
+Millettioids + Robinioid + IRLC (excludes Lupinus),"Cari,Ccaj,Gmax,Ljap,Mtru,Psat,Pvul,Tpra,Vrad,Vung",100.0,100.0,100.0,100.0,44.1,6.9,6.07,42.9,725,44.4,27.96,27.63,True
+all legumes except Arachis,"Cari,Ccaj,Gmax,Lang,Ljap,Mtru,Psat,Pvul,Tpra,Vrad,Vung",100.0,100.0,100.0,100.0,31.3,23.17,28.14,17.38,725,40.2,34.15,25.68,True

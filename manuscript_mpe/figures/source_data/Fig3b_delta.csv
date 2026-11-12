@@ -1,0 +1,5 @@
+level,n_pairs,delta,lo,hi,verdict,flag
+Gmax,11,-0.0529748638796778,-0.0627336699899565,-0.0431629330178426,partial,NOTE: between-study gradient is the larger one
+Pvul,11,-0.0287345957538133,-0.0355765590885191,-0.0222915776384554,partial,NOTE: between-study gradient is the larger one
+Mtru,11,-0.0241813061171176,-0.0316823025872749,-0.017061923101263,between-species gradient no larger than between-study (study account),
+all,33,-0.0352969219168696,-0.0399276517520224,-0.0304986388563863,partial,NOTE: between-study gradient is the larger one

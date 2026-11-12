@@ -1,0 +1,3 @@
+test	n	estimate	lo	hi	verdict	flag	variant
+primary: rho_between ~ divergence time	55	-0.0273848769503716	-0.0513540169404212	-0.00140010494765771	supports technical account	""	primary
+secondary: mean rho_between - mean rho_within	66	-0.018755688915561	-0.046519679440992	0.0138578239774109	supports technical account	""	primary

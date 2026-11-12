@@ -1,0 +1,1454 @@
+#nexus
+begin sets;
+  charset OG0013647.aln = tree/aln_sp/OG0013647.aln: ;
+  charset OG0013649.aln = tree/aln_sp/OG0013649.aln: ;
+  charset OG0013651.aln = tree/aln_sp/OG0013651.aln: ;
+  charset OG0013653.aln = tree/aln_sp/OG0013653.aln: ;
+  charset OG0013656.aln = tree/aln_sp/OG0013656.aln: ;
+  charset OG0013662.aln = tree/aln_sp/OG0013662.aln: ;
+  charset OG0013666.aln = tree/aln_sp/OG0013666.aln: ;
+  charset OG0013669.aln = tree/aln_sp/OG0013669.aln: ;
+  charset OG0013670.aln = tree/aln_sp/OG0013670.aln: ;
+  charset OG0013677.aln = tree/aln_sp/OG0013677.aln: ;
+  charset OG0013680.aln = tree/aln_sp/OG0013680.aln: ;
+  charset OG0013681.aln = tree/aln_sp/OG0013681.aln: ;
+  charset OG0013682.aln = tree/aln_sp/OG0013682.aln: ;
+  charset OG0013686.aln = tree/aln_sp/OG0013686.aln: ;
+  charset OG0013687.aln = tree/aln_sp/OG0013687.aln: ;
+  charset OG0013695.aln = tree/aln_sp/OG0013695.aln: ;
+  charset OG0013696.aln = tree/aln_sp/OG0013696.aln: ;
+  charset OG0013699.aln = tree/aln_sp/OG0013699.aln: ;
+  charset OG0013705.aln = tree/aln_sp/OG0013705.aln: ;
+  charset OG0013707.aln = tree/aln_sp/OG0013707.aln: ;
+  charset OG0013709.aln = tree/aln_sp/OG0013709.aln: ;
+  charset OG0013711.aln = tree/aln_sp/OG0013711.aln: ;
+  charset OG0013712.aln = tree/aln_sp/OG0013712.aln: ;
+  charset OG0013714.aln = tree/aln_sp/OG0013714.aln: ;
+  charset OG0013715.aln = tree/aln_sp/OG0013715.aln: ;
+  charset OG0013719.aln = tree/aln_sp/OG0013719.aln: ;
+  charset OG0013720.aln = tree/aln_sp/OG0013720.aln: ;
+  charset OG0013722.aln = tree/aln_sp/OG0013722.aln: ;
+  charset OG0013725.aln = tree/aln_sp/OG0013725.aln: ;
+  charset OG0013726.aln = tree/aln_sp/OG0013726.aln: ;
+  charset OG0013733.aln = tree/aln_sp/OG0013733.aln: ;
+  charset OG0013737.aln = tree/aln_sp/OG0013737.aln: ;
+  charset OG0013738.aln = tree/aln_sp/OG0013738.aln: ;
+  charset OG0013739.aln = tree/aln_sp/OG0013739.aln: ;
+  charset OG0013741.aln = tree/aln_sp/OG0013741.aln: ;
+  charset OG0013742.aln = tree/aln_sp/OG0013742.aln: ;
+  charset OG0013744.aln = tree/aln_sp/OG0013744.aln: ;
+  charset OG0013749.aln = tree/aln_sp/OG0013749.aln: ;
+  charset OG0013751.aln = tree/aln_sp/OG0013751.aln: ;
+  charset OG0013753.aln = tree/aln_sp/OG0013753.aln: ;
+  charset OG0013754.aln = tree/aln_sp/OG0013754.aln: ;
+  charset OG0013755.aln = tree/aln_sp/OG0013755.aln: ;
+  charset OG0013759.aln = tree/aln_sp/OG0013759.aln: ;
+  charset OG0013760.aln = tree/aln_sp/OG0013760.aln: ;
+  charset OG0013761.aln = tree/aln_sp/OG0013761.aln: ;
+  charset OG0013762.aln = tree/aln_sp/OG0013762.aln: ;
+  charset OG0013764.aln = tree/aln_sp/OG0013764.aln: ;
+  charset OG0013766.aln = tree/aln_sp/OG0013766.aln: ;
+  charset OG0013767.aln = tree/aln_sp/OG0013767.aln: ;
+  charset OG0013768.aln = tree/aln_sp/OG0013768.aln: ;
+  charset OG0013769.aln = tree/aln_sp/OG0013769.aln: ;
+  charset OG0013773.aln = tree/aln_sp/OG0013773.aln: ;
+  charset OG0013778.aln = tree/aln_sp/OG0013778.aln: ;
+  charset OG0013779.aln = tree/aln_sp/OG0013779.aln: ;
+  charset OG0013780.aln = tree/aln_sp/OG0013780.aln: ;
+  charset OG0013781.aln = tree/aln_sp/OG0013781.aln: ;
+  charset OG0013782.aln = tree/aln_sp/OG0013782.aln: ;
+  charset OG0013784.aln = tree/aln_sp/OG0013784.aln: ;
+  charset OG0013785.aln = tree/aln_sp/OG0013785.aln: ;
+  charset OG0013786.aln = tree/aln_sp/OG0013786.aln: ;
+  charset OG0013788.aln = tree/aln_sp/OG0013788.aln: ;
+  charset OG0013789.aln = tree/aln_sp/OG0013789.aln: ;
+  charset OG0013790.aln = tree/aln_sp/OG0013790.aln: ;
+  charset OG0013791.aln = tree/aln_sp/OG0013791.aln: ;
+  charset OG0013794.aln = tree/aln_sp/OG0013794.aln: ;
+  charset OG0013795.aln = tree/aln_sp/OG0013795.aln: ;
+  charset OG0013796.aln = tree/aln_sp/OG0013796.aln: ;
+  charset OG0013797.aln = tree/aln_sp/OG0013797.aln: ;
+  charset OG0013799.aln = tree/aln_sp/OG0013799.aln: ;
+  charset OG0013803.aln = tree/aln_sp/OG0013803.aln: ;
+  charset OG0013805.aln = tree/aln_sp/OG0013805.aln: ;
+  charset OG0013806.aln = tree/aln_sp/OG0013806.aln: ;
+  charset OG0013807.aln = tree/aln_sp/OG0013807.aln: ;
+  charset OG0013808.aln = tree/aln_sp/OG0013808.aln: ;
+  charset OG0013809.aln = tree/aln_sp/OG0013809.aln: ;
+  charset OG0013810.aln = tree/aln_sp/OG0013810.aln: ;
+  charset OG0013812.aln = tree/aln_sp/OG0013812.aln: ;
+  charset OG0013813.aln = tree/aln_sp/OG0013813.aln: ;
+  charset OG0013816.aln = tree/aln_sp/OG0013816.aln: ;
+  charset OG0013818.aln = tree/aln_sp/OG0013818.aln: ;
+  charset OG0013819.aln = tree/aln_sp/OG0013819.aln: ;
+  charset OG0013820.aln = tree/aln_sp/OG0013820.aln: ;
+  charset OG0013821.aln = tree/aln_sp/OG0013821.aln: ;
+  charset OG0013822.aln = tree/aln_sp/OG0013822.aln: ;
+  charset OG0013824.aln = tree/aln_sp/OG0013824.aln: ;
+  charset OG0013825.aln = tree/aln_sp/OG0013825.aln: ;
+  charset OG0013826.aln = tree/aln_sp/OG0013826.aln: ;
+  charset OG0013827.aln = tree/aln_sp/OG0013827.aln: ;
+  charset OG0013831.aln = tree/aln_sp/OG0013831.aln: ;
+  charset OG0013832.aln = tree/aln_sp/OG0013832.aln: ;
+  charset OG0013834.aln = tree/aln_sp/OG0013834.aln: ;
+  charset OG0013835.aln = tree/aln_sp/OG0013835.aln: ;
+  charset OG0013837.aln = tree/aln_sp/OG0013837.aln: ;
+  charset OG0013838.aln = tree/aln_sp/OG0013838.aln: ;
+  charset OG0013839.aln = tree/aln_sp/OG0013839.aln: ;
+  charset OG0013840.aln = tree/aln_sp/OG0013840.aln: ;
+  charset OG0013841.aln = tree/aln_sp/OG0013841.aln: ;
+  charset OG0013843.aln = tree/aln_sp/OG0013843.aln: ;
+  charset OG0013846.aln = tree/aln_sp/OG0013846.aln: ;
+  charset OG0013847.aln = tree/aln_sp/OG0013847.aln: ;
+  charset OG0013848.aln = tree/aln_sp/OG0013848.aln: ;
+  charset OG0013850.aln = tree/aln_sp/OG0013850.aln: ;
+  charset OG0013851.aln = tree/aln_sp/OG0013851.aln: ;
+  charset OG0013855.aln = tree/aln_sp/OG0013855.aln: ;
+  charset OG0013857.aln = tree/aln_sp/OG0013857.aln: ;
+  charset OG0013859.aln = tree/aln_sp/OG0013859.aln: ;
+  charset OG0013860.aln = tree/aln_sp/OG0013860.aln: ;
+  charset OG0013861.aln = tree/aln_sp/OG0013861.aln: ;
+  charset OG0013862.aln = tree/aln_sp/OG0013862.aln: ;
+  charset OG0013863.aln = tree/aln_sp/OG0013863.aln: ;
+  charset OG0013867.aln = tree/aln_sp/OG0013867.aln: ;
+  charset OG0013870.aln = tree/aln_sp/OG0013870.aln: ;
+  charset OG0013871.aln = tree/aln_sp/OG0013871.aln: ;
+  charset OG0013873.aln = tree/aln_sp/OG0013873.aln: ;
+  charset OG0013874.aln = tree/aln_sp/OG0013874.aln: ;
+  charset OG0013875.aln = tree/aln_sp/OG0013875.aln: ;
+  charset OG0013876.aln = tree/aln_sp/OG0013876.aln: ;
+  charset OG0013878.aln = tree/aln_sp/OG0013878.aln: ;
+  charset OG0013880.aln = tree/aln_sp/OG0013880.aln: ;
+  charset OG0013881.aln = tree/aln_sp/OG0013881.aln: ;
+  charset OG0013882.aln = tree/aln_sp/OG0013882.aln: ;
+  charset OG0013884.aln = tree/aln_sp/OG0013884.aln: ;
+  charset OG0013886.aln = tree/aln_sp/OG0013886.aln: ;
+  charset OG0013887.aln = tree/aln_sp/OG0013887.aln: ;
+  charset OG0013888.aln = tree/aln_sp/OG0013888.aln: ;
+  charset OG0013889.aln = tree/aln_sp/OG0013889.aln: ;
+  charset OG0013890.aln = tree/aln_sp/OG0013890.aln: ;
+  charset OG0013891.aln = tree/aln_sp/OG0013891.aln: ;
+  charset OG0013892.aln = tree/aln_sp/OG0013892.aln: ;
+  charset OG0013893.aln = tree/aln_sp/OG0013893.aln: ;
+  charset OG0013894.aln = tree/aln_sp/OG0013894.aln: ;
+  charset OG0013896.aln = tree/aln_sp/OG0013896.aln: ;
+  charset OG0013897.aln = tree/aln_sp/OG0013897.aln: ;
+  charset OG0013899.aln = tree/aln_sp/OG0013899.aln: ;
+  charset OG0013900.aln = tree/aln_sp/OG0013900.aln: ;
+  charset OG0013901.aln = tree/aln_sp/OG0013901.aln: ;
+  charset OG0013902.aln = tree/aln_sp/OG0013902.aln: ;
+  charset OG0013903.aln = tree/aln_sp/OG0013903.aln: ;
+  charset OG0013906.aln = tree/aln_sp/OG0013906.aln: ;
+  charset OG0013909.aln = tree/aln_sp/OG0013909.aln: ;
+  charset OG0013910.aln = tree/aln_sp/OG0013910.aln: ;
+  charset OG0013912.aln = tree/aln_sp/OG0013912.aln: ;
+  charset OG0013916.aln = tree/aln_sp/OG0013916.aln: ;
+  charset OG0013917.aln = tree/aln_sp/OG0013917.aln: ;
+  charset OG0013919.aln = tree/aln_sp/OG0013919.aln: ;
+  charset OG0013920.aln = tree/aln_sp/OG0013920.aln: ;
+  charset OG0013925.aln = tree/aln_sp/OG0013925.aln: ;
+  charset OG0013928.aln = tree/aln_sp/OG0013928.aln: ;
+  charset OG0013929.aln = tree/aln_sp/OG0013929.aln: ;
+  charset OG0013930.aln = tree/aln_sp/OG0013930.aln: ;
+  charset OG0013931.aln = tree/aln_sp/OG0013931.aln: ;
+  charset OG0013933.aln = tree/aln_sp/OG0013933.aln: ;
+  charset OG0013934.aln = tree/aln_sp/OG0013934.aln: ;
+  charset OG0013935.aln = tree/aln_sp/OG0013935.aln: ;
+  charset OG0013937.aln = tree/aln_sp/OG0013937.aln: ;
+  charset OG0013938.aln = tree/aln_sp/OG0013938.aln: ;
+  charset OG0013941.aln = tree/aln_sp/OG0013941.aln: ;
+  charset OG0013942.aln = tree/aln_sp/OG0013942.aln: ;
+  charset OG0013943.aln = tree/aln_sp/OG0013943.aln: ;
+  charset OG0013945.aln = tree/aln_sp/OG0013945.aln: ;
+  charset OG0013951.aln = tree/aln_sp/OG0013951.aln: ;
+  charset OG0013952.aln = tree/aln_sp/OG0013952.aln: ;
+  charset OG0013953.aln = tree/aln_sp/OG0013953.aln: ;
+  charset OG0013958.aln = tree/aln_sp/OG0013958.aln: ;
+  charset OG0013959.aln = tree/aln_sp/OG0013959.aln: ;
+  charset OG0013961.aln = tree/aln_sp/OG0013961.aln: ;
+  charset OG0013965.aln = tree/aln_sp/OG0013965.aln: ;
+  charset OG0013969.aln = tree/aln_sp/OG0013969.aln: ;
+  charset OG0013970.aln = tree/aln_sp/OG0013970.aln: ;
+  charset OG0013971.aln = tree/aln_sp/OG0013971.aln: ;
+  charset OG0013972.aln = tree/aln_sp/OG0013972.aln: ;
+  charset OG0013973.aln = tree/aln_sp/OG0013973.aln: ;
+  charset OG0013975.aln = tree/aln_sp/OG0013975.aln: ;
+  charset OG0013977.aln = tree/aln_sp/OG0013977.aln: ;
+  charset OG0013979.aln = tree/aln_sp/OG0013979.aln: ;
+  charset OG0013980.aln = tree/aln_sp/OG0013980.aln: ;
+  charset OG0013983.aln = tree/aln_sp/OG0013983.aln: ;
+  charset OG0013985.aln = tree/aln_sp/OG0013985.aln: ;
+  charset OG0013986.aln = tree/aln_sp/OG0013986.aln: ;
+  charset OG0013987.aln = tree/aln_sp/OG0013987.aln: ;
+  charset OG0013988.aln = tree/aln_sp/OG0013988.aln: ;
+  charset OG0013990.aln = tree/aln_sp/OG0013990.aln: ;
+  charset OG0013992.aln = tree/aln_sp/OG0013992.aln: ;
+  charset OG0013993.aln = tree/aln_sp/OG0013993.aln: ;
+  charset OG0013995.aln = tree/aln_sp/OG0013995.aln: ;
+  charset OG0013996.aln = tree/aln_sp/OG0013996.aln: ;
+  charset OG0013997.aln = tree/aln_sp/OG0013997.aln: ;
+  charset OG0013998.aln = tree/aln_sp/OG0013998.aln: ;
+  charset OG0014000.aln = tree/aln_sp/OG0014000.aln: ;
+  charset OG0014001.aln = tree/aln_sp/OG0014001.aln: ;
+  charset OG0014002.aln = tree/aln_sp/OG0014002.aln: ;
+  charset OG0014003.aln = tree/aln_sp/OG0014003.aln: ;
+  charset OG0014004.aln = tree/aln_sp/OG0014004.aln: ;
+  charset OG0014005.aln = tree/aln_sp/OG0014005.aln: ;
+  charset OG0014006.aln = tree/aln_sp/OG0014006.aln: ;
+  charset OG0014007.aln = tree/aln_sp/OG0014007.aln: ;
+  charset OG0014008.aln = tree/aln_sp/OG0014008.aln: ;
+  charset OG0014009.aln = tree/aln_sp/OG0014009.aln: ;
+  charset OG0014012.aln = tree/aln_sp/OG0014012.aln: ;
+  charset OG0014013.aln = tree/aln_sp/OG0014013.aln: ;
+  charset OG0014014.aln = tree/aln_sp/OG0014014.aln: ;
+  charset OG0014017.aln = tree/aln_sp/OG0014017.aln: ;
+  charset OG0014019.aln = tree/aln_sp/OG0014019.aln: ;
+  charset OG0014020.aln = tree/aln_sp/OG0014020.aln: ;
+  charset OG0014021.aln = tree/aln_sp/OG0014021.aln: ;
+  charset OG0014022.aln = tree/aln_sp/OG0014022.aln: ;
+  charset OG0014024.aln = tree/aln_sp/OG0014024.aln: ;
+  charset OG0014025.aln = tree/aln_sp/OG0014025.aln: ;
+  charset OG0014027.aln = tree/aln_sp/OG0014027.aln: ;
+  charset OG0014029.aln = tree/aln_sp/OG0014029.aln: ;
+  charset OG0014031.aln = tree/aln_sp/OG0014031.aln: ;
+  charset OG0014034.aln = tree/aln_sp/OG0014034.aln: ;
+  charset OG0014036.aln = tree/aln_sp/OG0014036.aln: ;
+  charset OG0014039.aln = tree/aln_sp/OG0014039.aln: ;
+  charset OG0014040.aln = tree/aln_sp/OG0014040.aln: ;
+  charset OG0014044.aln = tree/aln_sp/OG0014044.aln: ;
+  charset OG0014045.aln = tree/aln_sp/OG0014045.aln: ;
+  charset OG0014047.aln = tree/aln_sp/OG0014047.aln: ;
+  charset OG0014049.aln = tree/aln_sp/OG0014049.aln: ;
+  charset OG0014050.aln = tree/aln_sp/OG0014050.aln: ;
+  charset OG0014051.aln = tree/aln_sp/OG0014051.aln: ;
+  charset OG0014052.aln = tree/aln_sp/OG0014052.aln: ;
+  charset OG0014053.aln = tree/aln_sp/OG0014053.aln: ;
+  charset OG0014054.aln = tree/aln_sp/OG0014054.aln: ;
+  charset OG0014056.aln = tree/aln_sp/OG0014056.aln: ;
+  charset OG0014058.aln = tree/aln_sp/OG0014058.aln: ;
+  charset OG0014060.aln = tree/aln_sp/OG0014060.aln: ;
+  charset OG0014062.aln = tree/aln_sp/OG0014062.aln: ;
+  charset OG0014063.aln = tree/aln_sp/OG0014063.aln: ;
+  charset OG0014064.aln = tree/aln_sp/OG0014064.aln: ;
+  charset OG0014066.aln = tree/aln_sp/OG0014066.aln: ;
+  charset OG0014067.aln = tree/aln_sp/OG0014067.aln: ;
+  charset OG0014068.aln = tree/aln_sp/OG0014068.aln: ;
+  charset OG0014069.aln = tree/aln_sp/OG0014069.aln: ;
+  charset OG0014070.aln = tree/aln_sp/OG0014070.aln: ;
+  charset OG0014071.aln = tree/aln_sp/OG0014071.aln: ;
+  charset OG0014072.aln = tree/aln_sp/OG0014072.aln: ;
+  charset OG0014076.aln = tree/aln_sp/OG0014076.aln: ;
+  charset OG0014077.aln = tree/aln_sp/OG0014077.aln: ;
+  charset OG0014079.aln = tree/aln_sp/OG0014079.aln: ;
+  charset OG0014080.aln = tree/aln_sp/OG0014080.aln: ;
+  charset OG0014083.aln = tree/aln_sp/OG0014083.aln: ;
+  charset OG0014084.aln = tree/aln_sp/OG0014084.aln: ;
+  charset OG0014085.aln = tree/aln_sp/OG0014085.aln: ;
+  charset OG0014086.aln = tree/aln_sp/OG0014086.aln: ;
+  charset OG0014089.aln = tree/aln_sp/OG0014089.aln: ;
+  charset OG0014090.aln = tree/aln_sp/OG0014090.aln: ;
+  charset OG0014091.aln = tree/aln_sp/OG0014091.aln: ;
+  charset OG0014093.aln = tree/aln_sp/OG0014093.aln: ;
+  charset OG0014094.aln = tree/aln_sp/OG0014094.aln: ;
+  charset OG0014096.aln = tree/aln_sp/OG0014096.aln: ;
+  charset OG0014098.aln = tree/aln_sp/OG0014098.aln: ;
+  charset OG0014100.aln = tree/aln_sp/OG0014100.aln: ;
+  charset OG0014102.aln = tree/aln_sp/OG0014102.aln: ;
+  charset OG0014103.aln = tree/aln_sp/OG0014103.aln: ;
+  charset OG0014104.aln = tree/aln_sp/OG0014104.aln: ;
+  charset OG0014105.aln = tree/aln_sp/OG0014105.aln: ;
+  charset OG0014106.aln = tree/aln_sp/OG0014106.aln: ;
+  charset OG0014107.aln = tree/aln_sp/OG0014107.aln: ;
+  charset OG0014108.aln = tree/aln_sp/OG0014108.aln: ;
+  charset OG0014109.aln = tree/aln_sp/OG0014109.aln: ;
+  charset OG0014111.aln = tree/aln_sp/OG0014111.aln: ;
+  charset OG0014112.aln = tree/aln_sp/OG0014112.aln: ;
+  charset OG0014113.aln = tree/aln_sp/OG0014113.aln: ;
+  charset OG0014114.aln = tree/aln_sp/OG0014114.aln: ;
+  charset OG0014115.aln = tree/aln_sp/OG0014115.aln: ;
+  charset OG0014116.aln = tree/aln_sp/OG0014116.aln: ;
+  charset OG0014118.aln = tree/aln_sp/OG0014118.aln: ;
+  charset OG0014119.aln = tree/aln_sp/OG0014119.aln: ;
+  charset OG0014120.aln = tree/aln_sp/OG0014120.aln: ;
+  charset OG0014121.aln = tree/aln_sp/OG0014121.aln: ;
+  charset OG0014123.aln = tree/aln_sp/OG0014123.aln: ;
+  charset OG0014124.aln = tree/aln_sp/OG0014124.aln: ;
+  charset OG0014125.aln = tree/aln_sp/OG0014125.aln: ;
+  charset OG0014126.aln = tree/aln_sp/OG0014126.aln: ;
+  charset OG0014127.aln = tree/aln_sp/OG0014127.aln: ;
+  charset OG0014128.aln = tree/aln_sp/OG0014128.aln: ;
+  charset OG0014129.aln = tree/aln_sp/OG0014129.aln: ;
+  charset OG0014130.aln = tree/aln_sp/OG0014130.aln: ;
+  charset OG0014131.aln = tree/aln_sp/OG0014131.aln: ;
+  charset OG0014132.aln = tree/aln_sp/OG0014132.aln: ;
+  charset OG0014134.aln = tree/aln_sp/OG0014134.aln: ;
+  charset OG0014138.aln = tree/aln_sp/OG0014138.aln: ;
+  charset OG0014139.aln = tree/aln_sp/OG0014139.aln: ;
+  charset OG0014141.aln = tree/aln_sp/OG0014141.aln: ;
+  charset OG0014143.aln = tree/aln_sp/OG0014143.aln: ;
+  charset OG0014144.aln = tree/aln_sp/OG0014144.aln: ;
+  charset OG0014145.aln = tree/aln_sp/OG0014145.aln: ;
+  charset OG0014146.aln = tree/aln_sp/OG0014146.aln: ;
+  charset OG0014150.aln = tree/aln_sp/OG0014150.aln: ;
+  charset OG0014161.aln = tree/aln_sp/OG0014161.aln: ;
+  charset OG0014162.aln = tree/aln_sp/OG0014162.aln: ;
+  charset OG0014164.aln = tree/aln_sp/OG0014164.aln: ;
+  charset OG0014165.aln = tree/aln_sp/OG0014165.aln: ;
+  charset OG0014166.aln = tree/aln_sp/OG0014166.aln: ;
+  charset OG0014169.aln = tree/aln_sp/OG0014169.aln: ;
+  charset OG0014170.aln = tree/aln_sp/OG0014170.aln: ;
+  charset OG0014172.aln = tree/aln_sp/OG0014172.aln: ;
+  charset OG0014173.aln = tree/aln_sp/OG0014173.aln: ;
+  charset OG0014174.aln = tree/aln_sp/OG0014174.aln: ;
+  charset OG0014175.aln = tree/aln_sp/OG0014175.aln: ;
+  charset OG0014177.aln = tree/aln_sp/OG0014177.aln: ;
+  charset OG0014182.aln = tree/aln_sp/OG0014182.aln: ;
+  charset OG0014185.aln = tree/aln_sp/OG0014185.aln: ;
+  charset OG0014186.aln = tree/aln_sp/OG0014186.aln: ;
+  charset OG0014187.aln = tree/aln_sp/OG0014187.aln: ;
+  charset OG0014188.aln = tree/aln_sp/OG0014188.aln: ;
+  charset OG0014189.aln = tree/aln_sp/OG0014189.aln: ;
+  charset OG0014190.aln = tree/aln_sp/OG0014190.aln: ;
+  charset OG0014191.aln = tree/aln_sp/OG0014191.aln: ;
+  charset OG0014192.aln = tree/aln_sp/OG0014192.aln: ;
+  charset OG0014194.aln = tree/aln_sp/OG0014194.aln: ;
+  charset OG0014195.aln = tree/aln_sp/OG0014195.aln: ;
+  charset OG0014196.aln = tree/aln_sp/OG0014196.aln: ;
+  charset OG0014197.aln = tree/aln_sp/OG0014197.aln: ;
+  charset OG0014198.aln = tree/aln_sp/OG0014198.aln: ;
+  charset OG0014199.aln = tree/aln_sp/OG0014199.aln: ;
+  charset OG0014200.aln = tree/aln_sp/OG0014200.aln: ;
+  charset OG0014201.aln = tree/aln_sp/OG0014201.aln: ;
+  charset OG0014202.aln = tree/aln_sp/OG0014202.aln: ;
+  charset OG0014203.aln = tree/aln_sp/OG0014203.aln: ;
+  charset OG0014205.aln = tree/aln_sp/OG0014205.aln: ;
+  charset OG0014206.aln = tree/aln_sp/OG0014206.aln: ;
+  charset OG0014207.aln = tree/aln_sp/OG0014207.aln: ;
+  charset OG0014209.aln = tree/aln_sp/OG0014209.aln: ;
+  charset OG0014211.aln = tree/aln_sp/OG0014211.aln: ;
+  charset OG0014212.aln = tree/aln_sp/OG0014212.aln: ;
+  charset OG0014214.aln = tree/aln_sp/OG0014214.aln: ;
+  charset OG0014216.aln = tree/aln_sp/OG0014216.aln: ;
+  charset OG0014217.aln = tree/aln_sp/OG0014217.aln: ;
+  charset OG0014218.aln = tree/aln_sp/OG0014218.aln: ;
+  charset OG0014219.aln = tree/aln_sp/OG0014219.aln: ;
+  charset OG0014220.aln = tree/aln_sp/OG0014220.aln: ;
+  charset OG0014221.aln = tree/aln_sp/OG0014221.aln: ;
+  charset OG0014222.aln = tree/aln_sp/OG0014222.aln: ;
+  charset OG0014224.aln = tree/aln_sp/OG0014224.aln: ;
+  charset OG0014225.aln = tree/aln_sp/OG0014225.aln: ;
+  charset OG0014226.aln = tree/aln_sp/OG0014226.aln: ;
+  charset OG0014227.aln = tree/aln_sp/OG0014227.aln: ;
+  charset OG0014229.aln = tree/aln_sp/OG0014229.aln: ;
+  charset OG0014230.aln = tree/aln_sp/OG0014230.aln: ;
+  charset OG0014231.aln = tree/aln_sp/OG0014231.aln: ;
+  charset OG0014232.aln = tree/aln_sp/OG0014232.aln: ;
+  charset OG0014233.aln = tree/aln_sp/OG0014233.aln: ;
+  charset OG0014235.aln = tree/aln_sp/OG0014235.aln: ;
+  charset OG0014239.aln = tree/aln_sp/OG0014239.aln: ;
+  charset OG0014240.aln = tree/aln_sp/OG0014240.aln: ;
+  charset OG0014241.aln = tree/aln_sp/OG0014241.aln: ;
+  charset OG0014242.aln = tree/aln_sp/OG0014242.aln: ;
+  charset OG0014244.aln = tree/aln_sp/OG0014244.aln: ;
+  charset OG0014246.aln = tree/aln_sp/OG0014246.aln: ;
+  charset OG0014247.aln = tree/aln_sp/OG0014247.aln: ;
+  charset OG0014248.aln = tree/aln_sp/OG0014248.aln: ;
+  charset OG0014250.aln = tree/aln_sp/OG0014250.aln: ;
+  charset OG0014251.aln = tree/aln_sp/OG0014251.aln: ;
+  charset OG0014252.aln = tree/aln_sp/OG0014252.aln: ;
+  charset OG0014253.aln = tree/aln_sp/OG0014253.aln: ;
+  charset OG0014254.aln = tree/aln_sp/OG0014254.aln: ;
+  charset OG0014255.aln = tree/aln_sp/OG0014255.aln: ;
+  charset OG0014256.aln = tree/aln_sp/OG0014256.aln: ;
+  charset OG0014257.aln = tree/aln_sp/OG0014257.aln: ;
+  charset OG0014258.aln = tree/aln_sp/OG0014258.aln: ;
+  charset OG0014259.aln = tree/aln_sp/OG0014259.aln: ;
+  charset OG0014261.aln = tree/aln_sp/OG0014261.aln: ;
+  charset OG0014262.aln = tree/aln_sp/OG0014262.aln: ;
+  charset OG0014264.aln = tree/aln_sp/OG0014264.aln: ;
+  charset OG0014266.aln = tree/aln_sp/OG0014266.aln: ;
+  charset OG0014267.aln = tree/aln_sp/OG0014267.aln: ;
+  charset OG0014268.aln = tree/aln_sp/OG0014268.aln: ;
+  charset OG0014269.aln = tree/aln_sp/OG0014269.aln: ;
+  charset OG0014270.aln = tree/aln_sp/OG0014270.aln: ;
+  charset OG0014271.aln = tree/aln_sp/OG0014271.aln: ;
+  charset OG0014274.aln = tree/aln_sp/OG0014274.aln: ;
+  charset OG0014275.aln = tree/aln_sp/OG0014275.aln: ;
+  charset OG0014278.aln = tree/aln_sp/OG0014278.aln: ;
+  charset OG0014281.aln = tree/aln_sp/OG0014281.aln: ;
+  charset OG0014282.aln = tree/aln_sp/OG0014282.aln: ;
+  charset OG0014283.aln = tree/aln_sp/OG0014283.aln: ;
+  charset OG0014284.aln = tree/aln_sp/OG0014284.aln: ;
+  charset OG0014285.aln = tree/aln_sp/OG0014285.aln: ;
+  charset OG0014290.aln = tree/aln_sp/OG0014290.aln: ;
+  charset OG0014291.aln = tree/aln_sp/OG0014291.aln: ;
+  charset OG0014292.aln = tree/aln_sp/OG0014292.aln: ;
+  charset OG0014295.aln = tree/aln_sp/OG0014295.aln: ;
+  charset OG0014296.aln = tree/aln_sp/OG0014296.aln: ;
+  charset OG0014297.aln = tree/aln_sp/OG0014297.aln: ;
+  charset OG0014298.aln = tree/aln_sp/OG0014298.aln: ;
+  charset OG0014302.aln = tree/aln_sp/OG0014302.aln: ;
+  charset OG0014303.aln = tree/aln_sp/OG0014303.aln: ;
+  charset OG0014304.aln = tree/aln_sp/OG0014304.aln: ;
+  charset OG0014305.aln = tree/aln_sp/OG0014305.aln: ;
+  charset OG0014307.aln = tree/aln_sp/OG0014307.aln: ;
+  charset OG0014308.aln = tree/aln_sp/OG0014308.aln: ;
+  charset OG0014309.aln = tree/aln_sp/OG0014309.aln: ;
+  charset OG0014310.aln = tree/aln_sp/OG0014310.aln: ;
+  charset OG0014311.aln = tree/aln_sp/OG0014311.aln: ;
+  charset OG0014312.aln = tree/aln_sp/OG0014312.aln: ;
+  charset OG0014313.aln = tree/aln_sp/OG0014313.aln: ;
+  charset OG0014314.aln = tree/aln_sp/OG0014314.aln: ;
+  charset OG0014315.aln = tree/aln_sp/OG0014315.aln: ;
+  charset OG0014316.aln = tree/aln_sp/OG0014316.aln: ;
+  charset OG0014317.aln = tree/aln_sp/OG0014317.aln: ;
+  charset OG0014318.aln = tree/aln_sp/OG0014318.aln: ;
+  charset OG0014319.aln = tree/aln_sp/OG0014319.aln: ;
+  charset OG0014320.aln = tree/aln_sp/OG0014320.aln: ;
+  charset OG0014321.aln = tree/aln_sp/OG0014321.aln: ;
+  charset OG0014322.aln = tree/aln_sp/OG0014322.aln: ;
+  charset OG0014326.aln = tree/aln_sp/OG0014326.aln: ;
+  charset OG0014327.aln = tree/aln_sp/OG0014327.aln: ;
+  charset OG0014328.aln = tree/aln_sp/OG0014328.aln: ;
+  charset OG0014330.aln = tree/aln_sp/OG0014330.aln: ;
+  charset OG0014332.aln = tree/aln_sp/OG0014332.aln: ;
+  charset OG0014333.aln = tree/aln_sp/OG0014333.aln: ;
+  charset OG0014337.aln = tree/aln_sp/OG0014337.aln: ;
+  charset OG0014340.aln = tree/aln_sp/OG0014340.aln: ;
+  charset OG0014341.aln = tree/aln_sp/OG0014341.aln: ;
+  charset OG0014342.aln = tree/aln_sp/OG0014342.aln: ;
+  charset OG0014347.aln = tree/aln_sp/OG0014347.aln: ;
+  charset OG0014349.aln = tree/aln_sp/OG0014349.aln: ;
+  charset OG0014351.aln = tree/aln_sp/OG0014351.aln: ;
+  charset OG0014352.aln = tree/aln_sp/OG0014352.aln: ;
+  charset OG0014353.aln = tree/aln_sp/OG0014353.aln: ;
+  charset OG0014354.aln = tree/aln_sp/OG0014354.aln: ;
+  charset OG0014356.aln = tree/aln_sp/OG0014356.aln: ;
+  charset OG0014357.aln = tree/aln_sp/OG0014357.aln: ;
+  charset OG0014358.aln = tree/aln_sp/OG0014358.aln: ;
+  charset OG0014359.aln = tree/aln_sp/OG0014359.aln: ;
+  charset OG0014360.aln = tree/aln_sp/OG0014360.aln: ;
+  charset OG0014361.aln = tree/aln_sp/OG0014361.aln: ;
+  charset OG0014362.aln = tree/aln_sp/OG0014362.aln: ;
+  charset OG0014363.aln = tree/aln_sp/OG0014363.aln: ;
+  charset OG0014365.aln = tree/aln_sp/OG0014365.aln: ;
+  charset OG0014366.aln = tree/aln_sp/OG0014366.aln: ;
+  charset OG0014368.aln = tree/aln_sp/OG0014368.aln: ;
+  charset OG0014372.aln = tree/aln_sp/OG0014372.aln: ;
+  charset OG0014374.aln = tree/aln_sp/OG0014374.aln: ;
+  charset OG0014375.aln = tree/aln_sp/OG0014375.aln: ;
+  charset OG0014376.aln = tree/aln_sp/OG0014376.aln: ;
+  charset OG0014379.aln = tree/aln_sp/OG0014379.aln: ;
+  charset OG0014380.aln = tree/aln_sp/OG0014380.aln: ;
+  charset OG0014381.aln = tree/aln_sp/OG0014381.aln: ;
+  charset OG0014384.aln = tree/aln_sp/OG0014384.aln: ;
+  charset OG0014385.aln = tree/aln_sp/OG0014385.aln: ;
+  charset OG0014386.aln = tree/aln_sp/OG0014386.aln: ;
+  charset OG0014387.aln = tree/aln_sp/OG0014387.aln: ;
+  charset OG0014388.aln = tree/aln_sp/OG0014388.aln: ;
+  charset OG0014390.aln = tree/aln_sp/OG0014390.aln: ;
+  charset OG0014391.aln = tree/aln_sp/OG0014391.aln: ;
+  charset OG0014392.aln = tree/aln_sp/OG0014392.aln: ;
+  charset OG0014393.aln = tree/aln_sp/OG0014393.aln: ;
+  charset OG0014394.aln = tree/aln_sp/OG0014394.aln: ;
+  charset OG0014395.aln = tree/aln_sp/OG0014395.aln: ;
+  charset OG0014396.aln = tree/aln_sp/OG0014396.aln: ;
+  charset OG0014397.aln = tree/aln_sp/OG0014397.aln: ;
+  charset OG0014398.aln = tree/aln_sp/OG0014398.aln: ;
+  charset OG0014400.aln = tree/aln_sp/OG0014400.aln: ;
+  charset OG0014401.aln = tree/aln_sp/OG0014401.aln: ;
+  charset OG0014402.aln = tree/aln_sp/OG0014402.aln: ;
+  charset OG0014404.aln = tree/aln_sp/OG0014404.aln: ;
+  charset OG0014405.aln = tree/aln_sp/OG0014405.aln: ;
+  charset OG0014406.aln = tree/aln_sp/OG0014406.aln: ;
+  charset OG0014407.aln = tree/aln_sp/OG0014407.aln: ;
+  charset OG0014408.aln = tree/aln_sp/OG0014408.aln: ;
+  charset OG0014409.aln = tree/aln_sp/OG0014409.aln: ;
+  charset OG0014411.aln = tree/aln_sp/OG0014411.aln: ;
+  charset OG0014412.aln = tree/aln_sp/OG0014412.aln: ;
+  charset OG0014413.aln = tree/aln_sp/OG0014413.aln: ;
+  charset OG0014414.aln = tree/aln_sp/OG0014414.aln: ;
+  charset OG0014416.aln = tree/aln_sp/OG0014416.aln: ;
+  charset OG0014417.aln = tree/aln_sp/OG0014417.aln: ;
+  charset OG0014418.aln = tree/aln_sp/OG0014418.aln: ;
+  charset OG0014419.aln = tree/aln_sp/OG0014419.aln: ;
+  charset OG0014421.aln = tree/aln_sp/OG0014421.aln: ;
+  charset OG0014424.aln = tree/aln_sp/OG0014424.aln: ;
+  charset OG0014425.aln = tree/aln_sp/OG0014425.aln: ;
+  charset OG0014426.aln = tree/aln_sp/OG0014426.aln: ;
+  charset OG0014429.aln = tree/aln_sp/OG0014429.aln: ;
+  charset OG0014430.aln = tree/aln_sp/OG0014430.aln: ;
+  charset OG0014431.aln = tree/aln_sp/OG0014431.aln: ;
+  charset OG0014432.aln = tree/aln_sp/OG0014432.aln: ;
+  charset OG0014436.aln = tree/aln_sp/OG0014436.aln: ;
+  charset OG0014437.aln = tree/aln_sp/OG0014437.aln: ;
+  charset OG0014438.aln = tree/aln_sp/OG0014438.aln: ;
+  charset OG0014439.aln = tree/aln_sp/OG0014439.aln: ;
+  charset OG0014440.aln = tree/aln_sp/OG0014440.aln: ;
+  charset OG0014441.aln = tree/aln_sp/OG0014441.aln: ;
+  charset OG0014443.aln = tree/aln_sp/OG0014443.aln: ;
+  charset OG0014444.aln = tree/aln_sp/OG0014444.aln: ;
+  charset OG0014446.aln = tree/aln_sp/OG0014446.aln: ;
+  charset OG0014447.aln = tree/aln_sp/OG0014447.aln: ;
+  charset OG0014448.aln = tree/aln_sp/OG0014448.aln: ;
+  charset OG0014449.aln = tree/aln_sp/OG0014449.aln: ;
+  charset OG0014451.aln = tree/aln_sp/OG0014451.aln: ;
+  charset OG0014452.aln = tree/aln_sp/OG0014452.aln: ;
+  charset OG0014454.aln = tree/aln_sp/OG0014454.aln: ;
+  charset OG0014455.aln = tree/aln_sp/OG0014455.aln: ;
+  charset OG0014456.aln = tree/aln_sp/OG0014456.aln: ;
+  charset OG0014457.aln = tree/aln_sp/OG0014457.aln: ;
+  charset OG0014458.aln = tree/aln_sp/OG0014458.aln: ;
+  charset OG0014460.aln = tree/aln_sp/OG0014460.aln: ;
+  charset OG0014461.aln = tree/aln_sp/OG0014461.aln: ;
+  charset OG0014462.aln = tree/aln_sp/OG0014462.aln: ;
+  charset OG0014463.aln = tree/aln_sp/OG0014463.aln: ;
+  charset OG0014464.aln = tree/aln_sp/OG0014464.aln: ;
+  charset OG0014465.aln = tree/aln_sp/OG0014465.aln: ;
+  charset OG0014466.aln = tree/aln_sp/OG0014466.aln: ;
+  charset OG0014467.aln = tree/aln_sp/OG0014467.aln: ;
+  charset OG0014468.aln = tree/aln_sp/OG0014468.aln: ;
+  charset OG0014469.aln = tree/aln_sp/OG0014469.aln: ;
+  charset OG0014470.aln = tree/aln_sp/OG0014470.aln: ;
+  charset OG0014471.aln = tree/aln_sp/OG0014471.aln: ;
+  charset OG0014476.aln = tree/aln_sp/OG0014476.aln: ;
+  charset OG0014481.aln = tree/aln_sp/OG0014481.aln: ;
+  charset OG0014482.aln = tree/aln_sp/OG0014482.aln: ;
+  charset OG0014483.aln = tree/aln_sp/OG0014483.aln: ;
+  charset OG0014484.aln = tree/aln_sp/OG0014484.aln: ;
+  charset OG0014486.aln = tree/aln_sp/OG0014486.aln: ;
+  charset OG0014488.aln = tree/aln_sp/OG0014488.aln: ;
+  charset OG0014489.aln = tree/aln_sp/OG0014489.aln: ;
+  charset OG0014490.aln = tree/aln_sp/OG0014490.aln: ;
+  charset OG0014491.aln = tree/aln_sp/OG0014491.aln: ;
+  charset OG0014492.aln = tree/aln_sp/OG0014492.aln: ;
+  charset OG0014493.aln = tree/aln_sp/OG0014493.aln: ;
+  charset OG0014494.aln = tree/aln_sp/OG0014494.aln: ;
+  charset OG0014495.aln = tree/aln_sp/OG0014495.aln: ;
+  charset OG0014496.aln = tree/aln_sp/OG0014496.aln: ;
+  charset OG0014498.aln = tree/aln_sp/OG0014498.aln: ;
+  charset OG0014499.aln = tree/aln_sp/OG0014499.aln: ;
+  charset OG0014500.aln = tree/aln_sp/OG0014500.aln: ;
+  charset OG0014501.aln = tree/aln_sp/OG0014501.aln: ;
+  charset OG0014504.aln = tree/aln_sp/OG0014504.aln: ;
+  charset OG0014505.aln = tree/aln_sp/OG0014505.aln: ;
+  charset OG0014506.aln = tree/aln_sp/OG0014506.aln: ;
+  charset OG0014508.aln = tree/aln_sp/OG0014508.aln: ;
+  charset OG0014509.aln = tree/aln_sp/OG0014509.aln: ;
+  charset OG0014510.aln = tree/aln_sp/OG0014510.aln: ;
+  charset OG0014512.aln = tree/aln_sp/OG0014512.aln: ;
+  charset OG0014514.aln = tree/aln_sp/OG0014514.aln: ;
+  charset OG0014515.aln = tree/aln_sp/OG0014515.aln: ;
+  charset OG0014517.aln = tree/aln_sp/OG0014517.aln: ;
+  charset OG0014518.aln = tree/aln_sp/OG0014518.aln: ;
+  charset OG0014519.aln = tree/aln_sp/OG0014519.aln: ;
+  charset OG0014520.aln = tree/aln_sp/OG0014520.aln: ;
+  charset OG0014522.aln = tree/aln_sp/OG0014522.aln: ;
+  charset OG0014523.aln = tree/aln_sp/OG0014523.aln: ;
+  charset OG0014525.aln = tree/aln_sp/OG0014525.aln: ;
+  charset OG0014526.aln = tree/aln_sp/OG0014526.aln: ;
+  charset OG0014527.aln = tree/aln_sp/OG0014527.aln: ;
+  charset OG0014528.aln = tree/aln_sp/OG0014528.aln: ;
+  charset OG0014530.aln = tree/aln_sp/OG0014530.aln: ;
+  charset OG0014534.aln = tree/aln_sp/OG0014534.aln: ;
+  charset OG0014535.aln = tree/aln_sp/OG0014535.aln: ;
+  charset OG0014536.aln = tree/aln_sp/OG0014536.aln: ;
+  charset OG0014537.aln = tree/aln_sp/OG0014537.aln: ;
+  charset OG0014538.aln = tree/aln_sp/OG0014538.aln: ;
+  charset OG0014539.aln = tree/aln_sp/OG0014539.aln: ;
+  charset OG0014540.aln = tree/aln_sp/OG0014540.aln: ;
+  charset OG0014541.aln = tree/aln_sp/OG0014541.aln: ;
+  charset OG0014544.aln = tree/aln_sp/OG0014544.aln: ;
+  charset OG0014545.aln = tree/aln_sp/OG0014545.aln: ;
+  charset OG0014546.aln = tree/aln_sp/OG0014546.aln: ;
+  charset OG0014547.aln = tree/aln_sp/OG0014547.aln: ;
+  charset OG0014549.aln = tree/aln_sp/OG0014549.aln: ;
+  charset OG0014551.aln = tree/aln_sp/OG0014551.aln: ;
+  charset OG0014552.aln = tree/aln_sp/OG0014552.aln: ;
+  charset OG0014555.aln = tree/aln_sp/OG0014555.aln: ;
+  charset OG0014557.aln = tree/aln_sp/OG0014557.aln: ;
+  charset OG0014558.aln = tree/aln_sp/OG0014558.aln: ;
+  charset OG0014560.aln = tree/aln_sp/OG0014560.aln: ;
+  charset OG0014563.aln = tree/aln_sp/OG0014563.aln: ;
+  charset OG0014565.aln = tree/aln_sp/OG0014565.aln: ;
+  charset OG0014566.aln = tree/aln_sp/OG0014566.aln: ;
+  charset OG0014567.aln = tree/aln_sp/OG0014567.aln: ;
+  charset OG0014571.aln = tree/aln_sp/OG0014571.aln: ;
+  charset OG0014572.aln = tree/aln_sp/OG0014572.aln: ;
+  charset OG0014573.aln = tree/aln_sp/OG0014573.aln: ;
+  charset OG0014574.aln = tree/aln_sp/OG0014574.aln: ;
+  charset OG0014575.aln = tree/aln_sp/OG0014575.aln: ;
+  charset OG0014576.aln = tree/aln_sp/OG0014576.aln: ;
+  charset OG0014578.aln = tree/aln_sp/OG0014578.aln: ;
+  charset OG0014579.aln = tree/aln_sp/OG0014579.aln: ;
+  charset OG0014580.aln = tree/aln_sp/OG0014580.aln: ;
+  charset OG0014581.aln = tree/aln_sp/OG0014581.aln: ;
+  charset OG0014582.aln = tree/aln_sp/OG0014582.aln: ;
+  charset OG0014584.aln = tree/aln_sp/OG0014584.aln: ;
+  charset OG0014585.aln = tree/aln_sp/OG0014585.aln: ;
+  charset OG0014588.aln = tree/aln_sp/OG0014588.aln: ;
+  charset OG0014589.aln = tree/aln_sp/OG0014589.aln: ;
+  charset OG0014591.aln = tree/aln_sp/OG0014591.aln: ;
+  charset OG0014593.aln = tree/aln_sp/OG0014593.aln: ;
+  charset OG0014594.aln = tree/aln_sp/OG0014594.aln: ;
+  charset OG0014595.aln = tree/aln_sp/OG0014595.aln: ;
+  charset OG0014596.aln = tree/aln_sp/OG0014596.aln: ;
+  charset OG0014597.aln = tree/aln_sp/OG0014597.aln: ;
+  charset OG0014599.aln = tree/aln_sp/OG0014599.aln: ;
+  charset OG0014600.aln = tree/aln_sp/OG0014600.aln: ;
+  charset OG0014601.aln = tree/aln_sp/OG0014601.aln: ;
+  charset OG0014602.aln = tree/aln_sp/OG0014602.aln: ;
+  charset OG0014604.aln = tree/aln_sp/OG0014604.aln: ;
+  charset OG0014606.aln = tree/aln_sp/OG0014606.aln: ;
+  charset OG0014608.aln = tree/aln_sp/OG0014608.aln: ;
+  charset OG0014609.aln = tree/aln_sp/OG0014609.aln: ;
+  charset OG0014610.aln = tree/aln_sp/OG0014610.aln: ;
+  charset OG0014612.aln = tree/aln_sp/OG0014612.aln: ;
+  charset OG0014613.aln = tree/aln_sp/OG0014613.aln: ;
+  charset OG0014614.aln = tree/aln_sp/OG0014614.aln: ;
+  charset OG0014616.aln = tree/aln_sp/OG0014616.aln: ;
+  charset OG0014617.aln = tree/aln_sp/OG0014617.aln: ;
+  charset OG0014620.aln = tree/aln_sp/OG0014620.aln: ;
+  charset OG0014622.aln = tree/aln_sp/OG0014622.aln: ;
+  charset OG0014623.aln = tree/aln_sp/OG0014623.aln: ;
+  charset OG0014624.aln = tree/aln_sp/OG0014624.aln: ;
+  charset OG0014627.aln = tree/aln_sp/OG0014627.aln: ;
+  charset OG0014628.aln = tree/aln_sp/OG0014628.aln: ;
+  charset OG0014629.aln = tree/aln_sp/OG0014629.aln: ;
+  charset OG0014630.aln = tree/aln_sp/OG0014630.aln: ;
+  charset OG0014632.aln = tree/aln_sp/OG0014632.aln: ;
+  charset OG0014634.aln = tree/aln_sp/OG0014634.aln: ;
+  charset OG0014635.aln = tree/aln_sp/OG0014635.aln: ;
+  charset OG0014637.aln = tree/aln_sp/OG0014637.aln: ;
+  charset OG0014638.aln = tree/aln_sp/OG0014638.aln: ;
+  charset OG0014640.aln = tree/aln_sp/OG0014640.aln: ;
+  charset OG0014641.aln = tree/aln_sp/OG0014641.aln: ;
+  charset OG0014642.aln = tree/aln_sp/OG0014642.aln: ;
+  charset OG0014644.aln = tree/aln_sp/OG0014644.aln: ;
+  charset OG0014645.aln = tree/aln_sp/OG0014645.aln: ;
+  charset OG0014646.aln = tree/aln_sp/OG0014646.aln: ;
+  charset OG0014647.aln = tree/aln_sp/OG0014647.aln: ;
+  charset OG0014648.aln = tree/aln_sp/OG0014648.aln: ;
+  charset OG0014649.aln = tree/aln_sp/OG0014649.aln: ;
+  charset OG0014653.aln = tree/aln_sp/OG0014653.aln: ;
+  charset OG0014654.aln = tree/aln_sp/OG0014654.aln: ;
+  charset OG0014656.aln = tree/aln_sp/OG0014656.aln: ;
+  charset OG0014659.aln = tree/aln_sp/OG0014659.aln: ;
+  charset OG0014660.aln = tree/aln_sp/OG0014660.aln: ;
+  charset OG0014661.aln = tree/aln_sp/OG0014661.aln: ;
+  charset OG0014662.aln = tree/aln_sp/OG0014662.aln: ;
+  charset OG0014663.aln = tree/aln_sp/OG0014663.aln: ;
+  charset OG0014665.aln = tree/aln_sp/OG0014665.aln: ;
+  charset OG0014666.aln = tree/aln_sp/OG0014666.aln: ;
+  charset OG0014667.aln = tree/aln_sp/OG0014667.aln: ;
+  charset OG0014668.aln = tree/aln_sp/OG0014668.aln: ;
+  charset OG0014669.aln = tree/aln_sp/OG0014669.aln: ;
+  charset OG0014670.aln = tree/aln_sp/OG0014670.aln: ;
+  charset OG0014671.aln = tree/aln_sp/OG0014671.aln: ;
+  charset OG0014676.aln = tree/aln_sp/OG0014676.aln: ;
+  charset OG0014677.aln = tree/aln_sp/OG0014677.aln: ;
+  charset OG0014678.aln = tree/aln_sp/OG0014678.aln: ;
+  charset OG0014679.aln = tree/aln_sp/OG0014679.aln: ;
+  charset OG0014680.aln = tree/aln_sp/OG0014680.aln: ;
+  charset OG0014681.aln = tree/aln_sp/OG0014681.aln: ;
+  charset OG0014682.aln = tree/aln_sp/OG0014682.aln: ;
+  charset OG0014683.aln = tree/aln_sp/OG0014683.aln: ;
+  charset OG0014684.aln = tree/aln_sp/OG0014684.aln: ;
+  charset OG0014686.aln = tree/aln_sp/OG0014686.aln: ;
+  charset OG0014689.aln = tree/aln_sp/OG0014689.aln: ;
+  charset OG0014690.aln = tree/aln_sp/OG0014690.aln: ;
+  charset OG0014692.aln = tree/aln_sp/OG0014692.aln: ;
+  charset OG0014693.aln = tree/aln_sp/OG0014693.aln: ;
+  charset OG0014694.aln = tree/aln_sp/OG0014694.aln: ;
+  charset OG0014696.aln = tree/aln_sp/OG0014696.aln: ;
+  charset OG0014697.aln = tree/aln_sp/OG0014697.aln: ;
+  charset OG0014698.aln = tree/aln_sp/OG0014698.aln: ;
+  charset OG0014701.aln = tree/aln_sp/OG0014701.aln: ;
+  charset OG0014702.aln = tree/aln_sp/OG0014702.aln: ;
+  charset OG0014704.aln = tree/aln_sp/OG0014704.aln: ;
+  charset OG0014705.aln = tree/aln_sp/OG0014705.aln: ;
+  charset OG0014706.aln = tree/aln_sp/OG0014706.aln: ;
+  charset OG0014708.aln = tree/aln_sp/OG0014708.aln: ;
+  charset OG0014709.aln = tree/aln_sp/OG0014709.aln: ;
+  charset OG0014711.aln = tree/aln_sp/OG0014711.aln: ;
+  charset OG0014712.aln = tree/aln_sp/OG0014712.aln: ;
+  charset OG0014713.aln = tree/aln_sp/OG0014713.aln: ;
+  charset OG0014715.aln = tree/aln_sp/OG0014715.aln: ;
+  charset OG0014716.aln = tree/aln_sp/OG0014716.aln: ;
+  charset OG0014717.aln = tree/aln_sp/OG0014717.aln: ;
+  charset OG0014719.aln = tree/aln_sp/OG0014719.aln: ;
+  charset OG0014721.aln = tree/aln_sp/OG0014721.aln: ;
+  charset OG0014723.aln = tree/aln_sp/OG0014723.aln: ;
+  charset OG0014724.aln = tree/aln_sp/OG0014724.aln: ;
+  charset OG0014725.aln = tree/aln_sp/OG0014725.aln: ;
+  charset OG0014726.aln = tree/aln_sp/OG0014726.aln: ;
+  charset OG0014728.aln = tree/aln_sp/OG0014728.aln: ;
+  charset OG0014730.aln = tree/aln_sp/OG0014730.aln: ;
+  charset OG0014731.aln = tree/aln_sp/OG0014731.aln: ;
+  charset OG0014732.aln = tree/aln_sp/OG0014732.aln: ;
+  charset OG0014734.aln = tree/aln_sp/OG0014734.aln: ;
+  charset OG0014740.aln = tree/aln_sp/OG0014740.aln: ;
+  charset OG0014741.aln = tree/aln_sp/OG0014741.aln: ;
+  charset OG0014742.aln = tree/aln_sp/OG0014742.aln: ;
+  charset OG0014744.aln = tree/aln_sp/OG0014744.aln: ;
+  charset OG0014745.aln = tree/aln_sp/OG0014745.aln: ;
+  charset OG0014746.aln = tree/aln_sp/OG0014746.aln: ;
+  charset OG0014747.aln = tree/aln_sp/OG0014747.aln: ;
+  charset OG0014748.aln = tree/aln_sp/OG0014748.aln: ;
+  charset OG0014749.aln = tree/aln_sp/OG0014749.aln: ;
+  charset OG0014750.aln = tree/aln_sp/OG0014750.aln: ;
+  charset OG0014752.aln = tree/aln_sp/OG0014752.aln: ;
+  charset OG0014755.aln = tree/aln_sp/OG0014755.aln: ;
+  charset OG0014756.aln = tree/aln_sp/OG0014756.aln: ;
+  charset OG0014757.aln = tree/aln_sp/OG0014757.aln: ;
+  charset OG0014760.aln = tree/aln_sp/OG0014760.aln: ;
+  charset OG0014761.aln = tree/aln_sp/OG0014761.aln: ;
+  charset OG0014762.aln = tree/aln_sp/OG0014762.aln: ;
+  charset OG0014763.aln = tree/aln_sp/OG0014763.aln: ;
+  charset OG0014764.aln = tree/aln_sp/OG0014764.aln: ;
+  charset OG0014765.aln = tree/aln_sp/OG0014765.aln: ;
+  charset OG0014766.aln = tree/aln_sp/OG0014766.aln: ;
+  charset OG0014768.aln = tree/aln_sp/OG0014768.aln: ;
+  charset OG0014769.aln = tree/aln_sp/OG0014769.aln: ;
+  charset OG0014770.aln = tree/aln_sp/OG0014770.aln: ;
+  charset OG0014771.aln = tree/aln_sp/OG0014771.aln: ;
+  charset OG0014772.aln = tree/aln_sp/OG0014772.aln: ;
+  charset OG0014773.aln = tree/aln_sp/OG0014773.aln: ;
+  charset OG0014774.aln = tree/aln_sp/OG0014774.aln: ;
+  charset OG0014775.aln = tree/aln_sp/OG0014775.aln: ;
+  charset OG0014776.aln = tree/aln_sp/OG0014776.aln: ;
+  charset OG0014777.aln = tree/aln_sp/OG0014777.aln: ;
+  charset OG0014779.aln = tree/aln_sp/OG0014779.aln: ;
+  charset OG0014780.aln = tree/aln_sp/OG0014780.aln: ;
+  charset OG0014781.aln = tree/aln_sp/OG0014781.aln: ;
+  charset OG0014783.aln = tree/aln_sp/OG0014783.aln: ;
+  charset OG0014784.aln = tree/aln_sp/OG0014784.aln: ;
+  charset OG0014785.aln = tree/aln_sp/OG0014785.aln: ;
+  charset OG0014787.aln = tree/aln_sp/OG0014787.aln: ;
+  charpartition mymodels =
+    DAYHOFF+G4: OG0013647.aln,
+    Q.PLANT+G4: OG0013649.aln,
+    Q.PLANT+G4: OG0013651.aln,
+    Q.BIRD+I+R2: OG0013653.aln,
+    Q.PLANT+I+G4: OG0013656.aln,
+    Q.PLANT+G4: OG0013662.aln,
+    Q.PLANT+G4: OG0013666.aln,
+    Q.PLANT+G4: OG0013669.aln,
+    Q.BIRD+G4: OG0013670.aln,
+    Q.PLANT+G4: OG0013677.aln,
+    Q.PLANT+G4: OG0013680.aln,
+    Q.PLANT+G4: OG0013681.aln,
+    Q.PLANT+G4: OG0013682.aln,
+    Q.BIRD+I+G4: OG0013686.aln,
+    Q.PLANT+R3: OG0013687.aln,
+    Q.PLANT+G4: OG0013695.aln,
+    Q.PLANT+G4: OG0013696.aln,
+    JTTDCMUT+G4: OG0013699.aln,
+    Q.PLANT+G4: OG0013705.aln,
+    Q.PLANT+G4: OG0013707.aln,
+    DAYHOFF+G4: OG0013709.aln,
+    Q.PLANT+G4: OG0013711.aln,
+    Q.BIRD+I+G4: OG0013712.aln,
+    Q.PLANT+G4: OG0013714.aln,
+    Q.PLANT+G4: OG0013715.aln,
+    Q.MAMMAL+F+I+G4: OG0013719.aln,
+    Q.PLANT+G4: OG0013720.aln,
+    WAG+G4: OG0013722.aln,
+    Q.PLANT+G4: OG0013725.aln,
+    Q.MAMMAL+G4: OG0013726.aln,
+    JTTDCMUT+G4: OG0013733.aln,
+    Q.PLANT+G4: OG0013737.aln,
+    JTT+G4: OG0013738.aln,
+    Q.PLANT+G4: OG0013739.aln,
+    Q.PLANT+R2: OG0013741.aln,
+    Q.PLANT+G4: OG0013742.aln,
+    Q.PLANT+F+G4: OG0013744.aln,
+    Q.PLANT+G4: OG0013749.aln,
+    Q.PLANT+F+I+G4: OG0013751.aln,
+    Q.PLANT+I+G4: OG0013753.aln,
+    Q.BIRD+F+G4: OG0013754.aln,
+    Q.PLANT+G4: OG0013755.aln,
+    Q.PLANT+G4: OG0013759.aln,
+    Q.MAMMAL+I+G4: OG0013760.aln,
+    Q.BIRD+G4: OG0013761.aln,
+    Q.PLANT+G4: OG0013762.aln,
+    Q.PLANT+I+G4: OG0013764.aln,
+    Q.PLANT+G4: OG0013766.aln,
+    Q.PLANT+G4: OG0013767.aln,
+    Q.BIRD+G4: OG0013768.aln,
+    Q.MAMMAL+G4: OG0013769.aln,
+    Q.PLANT+G4: OG0013773.aln,
+    Q.MAMMAL+G4: OG0013778.aln,
+    Q.PLANT+G4: OG0013779.aln,
+    Q.PLANT+G4: OG0013780.aln,
+    JTTDCMUT+G4: OG0013781.aln,
+    Q.PLANT+I+G4: OG0013782.aln,
+    Q.PLANT+I+R2: OG0013784.aln,
+    Q.PLANT+G4: OG0013785.aln,
+    Q.PLANT+R3: OG0013786.aln,
+    Q.BIRD+G4: OG0013788.aln,
+    Q.PLANT+G4: OG0013789.aln,
+    Q.PLANT+G4: OG0013790.aln,
+    Q.MAMMAL+I+G4: OG0013791.aln,
+    Q.PLANT+G4: OG0013794.aln,
+    Q.PLANT+G4: OG0013795.aln,
+    Q.PLANT+G4: OG0013796.aln,
+    Q.PLANT+G4: OG0013797.aln,
+    JTT+I+G4: OG0013799.aln,
+    Q.PLANT+G4: OG0013803.aln,
+    Q.MAMMAL+R2: OG0013805.aln,
+    Q.MAMMAL+G4: OG0013806.aln,
+    Q.PLANT+G4: OG0013807.aln,
+    Q.PLANT+G4: OG0013808.aln,
+    Q.PLANT+R3: OG0013809.aln,
+    Q.PLANT+G4: OG0013810.aln,
+    Q.PLANT+I+G4: OG0013812.aln,
+    Q.PLANT+G4: OG0013813.aln,
+    Q.PLANT+G4: OG0013816.aln,
+    Q.PLANT+G4: OG0013818.aln,
+    Q.MAMMAL+G4: OG0013819.aln,
+    JTT+G4: OG0013820.aln,
+    JTT+G4: OG0013821.aln,
+    Q.PLANT+G4: OG0013822.aln,
+    Q.PLANT+G4: OG0013824.aln,
+    Q.MAMMAL+G4: OG0013825.aln,
+    Q.PLANT+G4: OG0013826.aln,
+    Q.PLANT+G4: OG0013827.aln,
+    Q.PLANT+G4: OG0013831.aln,
+    Q.PLANT+I+R2: OG0013832.aln,
+    Q.BIRD+G4: OG0013834.aln,
+    Q.PLANT+I+R2: OG0013835.aln,
+    Q.PLANT+G4: OG0013837.aln,
+    Q.MAMMAL+I+G4: OG0013838.aln,
+    Q.PLANT+I+G4: OG0013839.aln,
+    Q.PLANT+G4: OG0013840.aln,
+    Q.PLANT+G4: OG0013841.aln,
+    Q.PLANT+G4: OG0013843.aln,
+    DCMUT+G4: OG0013846.aln,
+    Q.PLANT+G4: OG0013847.aln,
+    Q.PLANT+G4: OG0013848.aln,
+    Q.PLANT+I+G4: OG0013850.aln,
+    Q.PLANT+G4: OG0013851.aln,
+    Q.PLANT+I+G4: OG0013855.aln,
+    Q.PLANT+G4: OG0013857.aln,
+    Q.PLANT+I+G4: OG0013859.aln,
+    Q.PLANT+R2: OG0013860.aln,
+    Q.PLANT+G4: OG0013861.aln,
+    Q.PLANT+F+I+G4: OG0013862.aln,
+    Q.PLANT+G4: OG0013863.aln,
+    Q.BIRD+R3: OG0013867.aln,
+    Q.PLANT+G4: OG0013870.aln,
+    Q.BIRD+G4: OG0013871.aln,
+    Q.PLANT+G4: OG0013873.aln,
+    Q.PLANT+G4: OG0013874.aln,
+    Q.PLANT+G4: OG0013875.aln,
+    Q.MAMMAL+I+G4: OG0013876.aln,
+    Q.PLANT+G4: OG0013878.aln,
+    Q.PLANT+G4: OG0013880.aln,
+    Q.MAMMAL+G4: OG0013881.aln,
+    Q.BIRD+I+G4: OG0013882.aln,
+    Q.BIRD+G4: OG0013884.aln,
+    Q.BIRD+I+R3: OG0013886.aln,
+    Q.PLANT+G4: OG0013887.aln,
+    Q.PLANT+G4: OG0013888.aln,
+    Q.PLANT+G4: OG0013889.aln,
+    Q.PLANT+G4: OG0013890.aln,
+    Q.MAMMAL+G4: OG0013891.aln,
+    Q.MAMMAL+G4: OG0013892.aln,
+    Q.PLANT+G4: OG0013893.aln,
+    Q.PLANT+G4: OG0013894.aln,
+    Q.PLANT+I+G4: OG0013896.aln,
+    JTT+G4: OG0013897.aln,
+    Q.PLANT+I+R2: OG0013899.aln,
+    Q.PLANT+I+G4: OG0013900.aln,
+    Q.PLANT+G4: OG0013901.aln,
+    Q.PLANT+G4: OG0013902.aln,
+    Q.PLANT+G4: OG0013903.aln,
+    Q.MAMMAL+G4: OG0013906.aln,
+    JTTDCMUT+G4: OG0013909.aln,
+    Q.PLANT+I+G4: OG0013910.aln,
+    Q.PLANT+G4: OG0013912.aln,
+    Q.PLANT+G4: OG0013916.aln,
+    Q.PLANT+G4: OG0013917.aln,
+    Q.PLANT+G4: OG0013919.aln,
+    Q.PLANT+G4: OG0013920.aln,
+    Q.PLANT+G4: OG0013925.aln,
+    Q.PLANT+G4: OG0013928.aln,
+    Q.PLANT+G4: OG0013929.aln,
+    Q.PLANT+G4: OG0013930.aln,
+    Q.PLANT+G4: OG0013931.aln,
+    Q.PLANT+G4: OG0013933.aln,
+    Q.PLANT+I+G4: OG0013934.aln,
+    Q.PLANT+G4: OG0013935.aln,
+    Q.PLANT+G4: OG0013937.aln,
+    Q.PLANT+G4: OG0013938.aln,
+    Q.PLANT+G4: OG0013941.aln,
+    Q.PLANT+G4: OG0013942.aln,
+    Q.PLANT+G4: OG0013943.aln,
+    Q.PLANT+G4: OG0013945.aln,
+    Q.PLANT+G4: OG0013951.aln,
+    Q.PLANT+G4: OG0013952.aln,
+    Q.PLANT+G4: OG0013953.aln,
+    Q.BIRD+I+G4: OG0013958.aln,
+    Q.PLANT+G4: OG0013959.aln,
+    Q.PLANT+G4: OG0013961.aln,
+    Q.MAMMAL+G4: OG0013965.aln,
+    Q.BIRD+G4: OG0013969.aln,
+    Q.PLANT+G4: OG0013970.aln,
+    Q.PLANT+G4: OG0013971.aln,
+    Q.MAMMAL+R2: OG0013972.aln,
+    Q.PLANT+G4: OG0013973.aln,
+    JTT+G4: OG0013975.aln,
+    Q.PLANT+G4: OG0013977.aln,
+    Q.MAMMAL+G4: OG0013979.aln,
+    Q.BIRD+G4: OG0013980.aln,
+    Q.PLANT+G4: OG0013983.aln,
+    Q.PLANT+G4: OG0013985.aln,
+    Q.PLANT+F+I+R2: OG0013986.aln,
+    Q.PLANT+G4: OG0013987.aln,
+    Q.PLANT+G4: OG0013988.aln,
+    Q.BIRD+G4: OG0013990.aln,
+    Q.MAMMAL+G4: OG0013992.aln,
+    Q.BIRD+I+G4: OG0013993.aln,
+    Q.PLANT+G4: OG0013995.aln,
+    JTTDCMUT+I+G4: OG0013996.aln,
+    Q.PLANT+I+G4: OG0013997.aln,
+    Q.MAMMAL+G4: OG0013998.aln,
+    DAYHOFF+G4: OG0014000.aln,
+    Q.PLANT+G4: OG0014001.aln,
+    Q.PLANT+I: OG0014002.aln,
+    Q.BIRD+G4: OG0014003.aln,
+    Q.PLANT+G4: OG0014004.aln,
+    Q.BIRD+I+R2: OG0014005.aln,
+    Q.PLANT+G4: OG0014006.aln,
+    JTT+G4: OG0014007.aln,
+    Q.PLANT+G4: OG0014008.aln,
+    Q.PLANT+G4: OG0014009.aln,
+    Q.PLANT+I+G4: OG0014012.aln,
+    Q.PLANT+G4: OG0014013.aln,
+    Q.PLANT+G4: OG0014014.aln,
+    Q.PLANT+I+G4: OG0014017.aln,
+    Q.PLANT+G4: OG0014019.aln,
+    Q.PLANT+G4: OG0014020.aln,
+    Q.PLANT+G4: OG0014021.aln,
+    JTTDCMUT+G4: OG0014022.aln,
+    Q.PLANT+G4: OG0014024.aln,
+    Q.MAMMAL+G4: OG0014025.aln,
+    Q.PLANT+G4: OG0014027.aln,
+    Q.PLANT+G4: OG0014029.aln,
+    VT+G4: OG0014031.aln,
+    Q.PLANT+G4: OG0014034.aln,
+    Q.PLANT+G4: OG0014036.aln,
+    Q.PLANT+G4: OG0014039.aln,
+    Q.PLANT+G4: OG0014040.aln,
+    Q.PLANT+G4: OG0014044.aln,
+    Q.PLANT+G4: OG0014045.aln,
+    Q.PLANT+G4: OG0014047.aln,
+    Q.PLANT+I+G4: OG0014049.aln,
+    Q.MAMMAL+G4: OG0014050.aln,
+    Q.PLANT+I+R2: OG0014051.aln,
+    Q.PLANT+G4: OG0014052.aln,
+    Q.PLANT+G4: OG0014053.aln,
+    Q.MAMMAL+G4: OG0014054.aln,
+    JTT+G4: OG0014056.aln,
+    Q.PLANT+G4: OG0014058.aln,
+    Q.MAMMAL+G4: OG0014060.aln,
+    Q.PLANT+G4: OG0014062.aln,
+    Q.PLANT+G4: OG0014063.aln,
+    Q.PLANT+G4: OG0014064.aln,
+    Q.PLANT+G4: OG0014066.aln,
+    Q.BIRD+F+G4: OG0014067.aln,
+    Q.PLANT+G4: OG0014068.aln,
+    Q.MAMMAL+R3: OG0014069.aln,
+    Q.BIRD+G4: OG0014070.aln,
+    Q.PLANT+G4: OG0014071.aln,
+    Q.MAMMAL+G4: OG0014072.aln,
+    Q.MAMMAL+I+G4: OG0014076.aln,
+    JTTDCMUT+G4: OG0014077.aln,
+    Q.PLANT+G4: OG0014079.aln,
+    Q.MAMMAL+G4: OG0014080.aln,
+    Q.PLANT+R3: OG0014083.aln,
+    Q.BIRD+G4: OG0014084.aln,
+    Q.BIRD+I+G4: OG0014085.aln,
+    Q.PLANT+G4: OG0014086.aln,
+    Q.PLANT+G4: OG0014089.aln,
+    Q.PLANT+R2: OG0014090.aln,
+    JTT+R3: OG0014091.aln,
+    Q.PLANT+G4: OG0014093.aln,
+    Q.PLANT+G4: OG0014094.aln,
+    Q.PLANT+G4: OG0014096.aln,
+    Q.PLANT+G4: OG0014098.aln,
+    Q.PLANT+G4: OG0014100.aln,
+    Q.PLANT+G4: OG0014102.aln,
+    Q.PLANT+G4: OG0014103.aln,
+    Q.PLANT+I+G4: OG0014104.aln,
+    Q.PLANT+G4: OG0014105.aln,
+    Q.PLANT+G4: OG0014106.aln,
+    JTTDCMUT+I+G4: OG0014107.aln,
+    Q.BIRD+G4: OG0014108.aln,
+    Q.PLANT+G4: OG0014109.aln,
+    Q.PLANT+G4: OG0014111.aln,
+    JTT+I+G4: OG0014112.aln,
+    Q.PLANT+G4: OG0014113.aln,
+    Q.PLANT+G4: OG0014114.aln,
+    Q.MAMMAL+I+G4: OG0014115.aln,
+    Q.BIRD+G4: OG0014116.aln,
+    Q.BIRD+G4: OG0014118.aln,
+    Q.PLANT+G4: OG0014119.aln,
+    Q.PLANT+I+G4: OG0014120.aln,
+    Q.PLANT+I+G4: OG0014121.aln,
+    Q.PLANT+G4: OG0014123.aln,
+    Q.PLANT+R3: OG0014124.aln,
+    Q.BIRD+G4: OG0014125.aln,
+    Q.PLANT+G4: OG0014126.aln,
+    Q.PLANT+R2: OG0014127.aln,
+    Q.BIRD+G4: OG0014128.aln,
+    Q.PLANT+G4: OG0014129.aln,
+    Q.PLANT+I+R2: OG0014130.aln,
+    Q.PLANT+G4: OG0014131.aln,
+    Q.PLANT+I+G4: OG0014132.aln,
+    Q.PLANT+G4: OG0014134.aln,
+    JTT+G4: OG0014138.aln,
+    Q.PLANT+R2: OG0014139.aln,
+    Q.MAMMAL+G4: OG0014141.aln,
+    Q.MAMMAL+G4: OG0014143.aln,
+    Q.BIRD+G4: OG0014144.aln,
+    Q.MAMMAL+G4: OG0014145.aln,
+    Q.PLANT+G4: OG0014146.aln,
+    Q.PLANT+G4: OG0014150.aln,
+    Q.PLANT+G4: OG0014161.aln,
+    Q.MAMMAL+G4: OG0014162.aln,
+    Q.PLANT+G4: OG0014164.aln,
+    Q.PLANT+G4: OG0014165.aln,
+    JTT+I+G4: OG0014166.aln,
+    Q.PLANT+G4: OG0014169.aln,
+    Q.PLANT+G4: OG0014170.aln,
+    Q.BIRD+G4: OG0014172.aln,
+    FLU+F+G4: OG0014173.aln,
+    Q.PLANT+G4: OG0014174.aln,
+    Q.PLANT+G4: OG0014175.aln,
+    Q.PLANT+G4: OG0014177.aln,
+    Q.MAMMAL+G4: OG0014182.aln,
+    Q.PLANT+G4: OG0014185.aln,
+    Q.BIRD+G4: OG0014186.aln,
+    Q.MAMMAL+G4: OG0014187.aln,
+    Q.PLANT+G4: OG0014188.aln,
+    Q.BIRD+G4: OG0014189.aln,
+    JTT+G4: OG0014190.aln,
+    Q.PLANT+G4: OG0014191.aln,
+    Q.PLANT+I+G4: OG0014192.aln,
+    Q.BIRD+G4: OG0014194.aln,
+    Q.BIRD+G4: OG0014195.aln,
+    Q.PLANT+G4: OG0014196.aln,
+    Q.PLANT+G4: OG0014197.aln,
+    Q.PLANT+G4: OG0014198.aln,
+    Q.BIRD+G4: OG0014199.aln,
+    Q.PLANT+G4: OG0014200.aln,
+    Q.PLANT+G4: OG0014201.aln,
+    JTT+G4: OG0014202.aln,
+    Q.PLANT+I+G4: OG0014203.aln,
+    Q.PLANT+G4: OG0014205.aln,
+    Q.PLANT+G4: OG0014206.aln,
+    Q.BIRD+G4: OG0014207.aln,
+    JTT+G4: OG0014209.aln,
+    Q.PLANT+G4: OG0014211.aln,
+    Q.MAMMAL+G4: OG0014212.aln,
+    Q.PLANT+G4: OG0014214.aln,
+    Q.PLANT+G4: OG0014216.aln,
+    Q.PLANT+R3: OG0014217.aln,
+    Q.MAMMAL+G4: OG0014218.aln,
+    Q.PLANT+G4: OG0014219.aln,
+    Q.PLANT+I+G4: OG0014220.aln,
+    Q.BIRD+I+G4: OG0014221.aln,
+    Q.PFAM+G4: OG0014222.aln,
+    Q.PLANT+G4: OG0014224.aln,
+    Q.PLANT+G4: OG0014225.aln,
+    Q.PLANT+G4: OG0014226.aln,
+    Q.PLANT+G4: OG0014227.aln,
+    Q.BIRD+G4: OG0014229.aln,
+    Q.PLANT+G4: OG0014230.aln,
+    Q.PLANT+G4: OG0014231.aln,
+    Q.PLANT+I+G4: OG0014232.aln,
+    Q.PLANT+G4: OG0014233.aln,
+    Q.MAMMAL+I+G4: OG0014235.aln,
+    Q.PLANT+G4: OG0014239.aln,
+    Q.PLANT+G4: OG0014240.aln,
+    JTT+G4: OG0014241.aln,
+    Q.PLANT+G4: OG0014242.aln,
+    Q.PLANT+G4: OG0014244.aln,
+    Q.BIRD+G4: OG0014246.aln,
+    Q.PLANT+G4: OG0014247.aln,
+    Q.PLANT+G4: OG0014248.aln,
+    Q.PLANT+R3: OG0014250.aln,
+    JTT+G4: OG0014251.aln,
+    Q.BIRD+F+G4: OG0014252.aln,
+    Q.MAMMAL+I+G4: OG0014253.aln,
+    Q.BIRD+G4: OG0014254.aln,
+    Q.MAMMAL+I+G4: OG0014255.aln,
+    Q.MAMMAL+G4: OG0014256.aln,
+    Q.PLANT+R2: OG0014257.aln,
+    Q.MAMMAL+G4: OG0014258.aln,
+    Q.PLANT+G4: OG0014259.aln,
+    Q.PLANT+G4: OG0014261.aln,
+    LG+G4: OG0014262.aln,
+    Q.PLANT+G4: OG0014264.aln,
+    Q.PLANT+G4: OG0014266.aln,
+    Q.PLANT+G4: OG0014267.aln,
+    Q.PLANT+G4: OG0014268.aln,
+    Q.BIRD+I+G4: OG0014269.aln,
+    Q.PLANT+G4: OG0014270.aln,
+    Q.INSECT+G4: OG0014271.aln,
+    Q.PLANT+G4: OG0014274.aln,
+    Q.PLANT+G4: OG0014275.aln,
+    Q.PLANT+I+G4: OG0014278.aln,
+    Q.BIRD+G4: OG0014281.aln,
+    Q.PLANT+G4: OG0014282.aln,
+    Q.PLANT+I+R2: OG0014283.aln,
+    JTT+G4: OG0014284.aln,
+    Q.PLANT+G4: OG0014285.aln,
+    Q.PLANT+I+R2: OG0014290.aln,
+    Q.PLANT+G4: OG0014291.aln,
+    Q.PLANT+I+G4: OG0014292.aln,
+    Q.PLANT+G4: OG0014295.aln,
+    Q.PLANT+G4: OG0014296.aln,
+    Q.PLANT+G4: OG0014297.aln,
+    Q.BIRD+G4: OG0014298.aln,
+    JTTDCMUT+G4: OG0014302.aln,
+    Q.BIRD+I+G4: OG0014303.aln,
+    Q.PLANT+G4: OG0014304.aln,
+    Q.PLANT+I+G4: OG0014305.aln,
+    Q.BIRD+F+I+G4: OG0014307.aln,
+    Q.PLANT+G4: OG0014308.aln,
+    Q.PLANT+G4: OG0014309.aln,
+    Q.PLANT+G4: OG0014310.aln,
+    Q.PLANT+I+R2: OG0014311.aln,
+    Q.PLANT+G4: OG0014312.aln,
+    Q.MAMMAL+G4: OG0014313.aln,
+    Q.PLANT+G4: OG0014314.aln,
+    Q.PLANT+G4: OG0014315.aln,
+    Q.PLANT+I+G4: OG0014316.aln,
+    Q.PLANT+G4: OG0014317.aln,
+    JTT+I+R2: OG0014318.aln,
+    JTT+G4: OG0014319.aln,
+    Q.PLANT+G4: OG0014320.aln,
+    Q.PLANT+I+G4: OG0014321.aln,
+    Q.PLANT+I+G4: OG0014322.aln,
+    Q.PLANT+I+G4: OG0014326.aln,
+    Q.PLANT+G4: OG0014327.aln,
+    Q.PLANT+G4: OG0014328.aln,
+    HIVB+I+R2: OG0014330.aln,
+    Q.MAMMAL+G4: OG0014332.aln,
+    Q.PLANT+G4: OG0014333.aln,
+    Q.PLANT+G4: OG0014337.aln,
+    Q.PLANT+I+G4: OG0014340.aln,
+    JTTDCMUT+G4: OG0014341.aln,
+    Q.PLANT+G4: OG0014342.aln,
+    Q.PLANT+G4: OG0014347.aln,
+    Q.PLANT+G4: OG0014349.aln,
+    Q.PLANT+G4: OG0014351.aln,
+    JTT+R3: OG0014352.aln,
+    Q.PLANT+R3: OG0014353.aln,
+    Q.PLANT+R2: OG0014354.aln,
+    Q.BIRD+G4: OG0014356.aln,
+    JTT+G4: OG0014357.aln,
+    Q.PLANT+G4: OG0014358.aln,
+    Q.MAMMAL+G4: OG0014359.aln,
+    Q.PLANT+G4: OG0014360.aln,
+    Q.PLANT+G4: OG0014361.aln,
+    Q.PLANT+R3: OG0014362.aln,
+    Q.BIRD+G4: OG0014363.aln,
+    JTTDCMUT+G4: OG0014365.aln,
+    Q.PLANT+G4: OG0014366.aln,
+    Q.PLANT+G4: OG0014368.aln,
+    JTTDCMUT+G4: OG0014372.aln,
+    Q.PLANT+G4: OG0014374.aln,
+    Q.PLANT+G4: OG0014375.aln,
+    Q.PLANT+I+R2: OG0014376.aln,
+    Q.PLANT+I+R2: OG0014379.aln,
+    Q.BIRD+G4: OG0014380.aln,
+    Q.PLANT+G4: OG0014381.aln,
+    Q.PLANT+G4: OG0014384.aln,
+    Q.PLANT+G4: OG0014385.aln,
+    Q.PLANT+I+R2: OG0014386.aln,
+    Q.PLANT+G4: OG0014387.aln,
+    Q.PLANT+I+G4: OG0014388.aln,
+    Q.PLANT+G4: OG0014390.aln,
+    Q.PLANT+G4: OG0014391.aln,
+    Q.PLANT+G4: OG0014392.aln,
+    Q.PLANT+I+G4: OG0014393.aln,
+    Q.MAMMAL+G4: OG0014394.aln,
+    Q.PLANT+G4: OG0014395.aln,
+    Q.PLANT+G4: OG0014396.aln,
+    Q.PLANT+G4: OG0014397.aln,
+    Q.PLANT+G4: OG0014398.aln,
+    Q.PLANT+G4: OG0014400.aln,
+    Q.PLANT+G4: OG0014401.aln,
+    Q.PLANT+G4: OG0014402.aln,
+    Q.PLANT+I+R2: OG0014404.aln,
+    Q.PLANT+G4: OG0014405.aln,
+    Q.PLANT+G4: OG0014406.aln,
+    Q.PLANT+G4: OG0014407.aln,
+    Q.BIRD+G4: OG0014408.aln,
+    Q.PLANT+G4: OG0014409.aln,
+    JTTDCMUT+G4: OG0014411.aln,
+    Q.PLANT+G4: OG0014412.aln,
+    Q.BIRD+F+I+G4: OG0014413.aln,
+    JTT+G4: OG0014414.aln,
+    Q.BIRD+R2: OG0014416.aln,
+    Q.PLANT+G4: OG0014417.aln,
+    Q.BIRD+F+R3: OG0014418.aln,
+    Q.PLANT+G4: OG0014419.aln,
+    Q.PLANT+G4: OG0014421.aln,
+    Q.MAMMAL+R2: OG0014424.aln,
+    Q.PLANT+G4: OG0014425.aln,
+    Q.BIRD+G4: OG0014426.aln,
+    Q.PLANT+G4: OG0014429.aln,
+    Q.PLANT+G4: OG0014430.aln,
+    Q.PLANT+G4: OG0014431.aln,
+    Q.PLANT+G4: OG0014432.aln,
+    Q.PLANT+G4: OG0014436.aln,
+    Q.PLANT+G4: OG0014437.aln,
+    Q.PLANT+G4: OG0014438.aln,
+    Q.PLANT+G4: OG0014439.aln,
+    Q.MAMMAL+G4: OG0014440.aln,
+    Q.PLANT+I+G4: OG0014441.aln,
+    Q.PLANT+G4: OG0014443.aln,
+    Q.PLANT+G4: OG0014444.aln,
+    Q.PLANT+G4: OG0014446.aln,
+    Q.PLANT+G4: OG0014447.aln,
+    Q.INSECT+R3: OG0014448.aln,
+    Q.BIRD+G4: OG0014449.aln,
+    WAG+G4: OG0014451.aln,
+    Q.BIRD+G4: OG0014452.aln,
+    Q.PLANT+G4: OG0014454.aln,
+    Q.MAMMAL+R2: OG0014455.aln,
+    Q.MAMMAL+G4: OG0014456.aln,
+    Q.MAMMAL+I+G4: OG0014457.aln,
+    Q.MAMMAL+G4: OG0014458.aln,
+    Q.PLANT+G4: OG0014460.aln,
+    Q.MAMMAL+G4: OG0014461.aln,
+    Q.PLANT+G4: OG0014462.aln,
+    Q.MAMMAL+G4: OG0014463.aln,
+    Q.PLANT+I+G4: OG0014464.aln,
+    Q.BIRD+G4: OG0014465.aln,
+    Q.PLANT+G4: OG0014466.aln,
+    Q.PLANT+G4: OG0014467.aln,
+    Q.MAMMAL+G4: OG0014468.aln,
+    Q.BIRD+I+G4: OG0014469.aln,
+    Q.PLANT+G4: OG0014470.aln,
+    Q.PLANT+G4: OG0014471.aln,
+    Q.PLANT+F+G4: OG0014476.aln,
+    Q.PLANT+G4: OG0014481.aln,
+    Q.PLANT+G4: OG0014482.aln,
+    JTTDCMUT+I+G4: OG0014483.aln,
+    Q.PLANT+G4: OG0014484.aln,
+    Q.PLANT+G4: OG0014486.aln,
+    Q.PLANT+G4: OG0014488.aln,
+    Q.BIRD+I+G4: OG0014489.aln,
+    Q.MAMMAL+G4: OG0014490.aln,
+    Q.PLANT+G4: OG0014491.aln,
+    Q.BIRD+G4: OG0014492.aln,
+    Q.BIRD+I+G4: OG0014493.aln,
+    Q.BIRD+G4: OG0014494.aln,
+    Q.PLANT+G4: OG0014495.aln,
+    Q.PLANT+G4: OG0014496.aln,
+    Q.PLANT+G4: OG0014498.aln,
+    Q.PLANT+I+G4: OG0014499.aln,
+    Q.MAMMAL+G4: OG0014500.aln,
+    Q.PLANT+G4: OG0014501.aln,
+    JTT+F+G4: OG0014504.aln,
+    Q.PLANT+G4: OG0014505.aln,
+    Q.PLANT+G4: OG0014506.aln,
+    Q.PLANT+I+R2: OG0014508.aln,
+    Q.PLANT+G4: OG0014509.aln,
+    Q.PLANT+I+G4: OG0014510.aln,
+    Q.PLANT+G4: OG0014512.aln,
+    Q.MAMMAL+G4: OG0014514.aln,
+    Q.PLANT+G4: OG0014515.aln,
+    Q.BIRD+G4: OG0014517.aln,
+    Q.PLANT+G4: OG0014518.aln,
+    Q.PLANT+I+R2: OG0014519.aln,
+    Q.PLANT+G4: OG0014520.aln,
+    Q.PLANT+G4: OG0014522.aln,
+    Q.PLANT+G4: OG0014523.aln,
+    Q.PLANT+I+G4: OG0014525.aln,
+    Q.PLANT+G4: OG0014526.aln,
+    Q.PLANT+G4: OG0014527.aln,
+    Q.PLANT+G4: OG0014528.aln,
+    Q.PLANT+G4: OG0014530.aln,
+    Q.BIRD+G4: OG0014534.aln,
+    Q.MAMMAL+G4: OG0014535.aln,
+    Q.PLANT+G4: OG0014536.aln,
+    JTT+G4: OG0014537.aln,
+    Q.BIRD+I+G4: OG0014538.aln,
+    Q.PLANT+I+G4: OG0014539.aln,
+    Q.PLANT+G4: OG0014540.aln,
+    Q.BIRD+I+R2: OG0014541.aln,
+    Q.MAMMAL+G4: OG0014544.aln,
+    Q.PLANT+G4: OG0014545.aln,
+    Q.PLANT+G4: OG0014546.aln,
+    JTT+G4: OG0014547.aln,
+    Q.PLANT+G4: OG0014549.aln,
+    Q.PLANT+G4: OG0014551.aln,
+    FLU+I+R2: OG0014552.aln,
+    Q.PLANT+R2: OG0014555.aln,
+    Q.PLANT+I+G4: OG0014557.aln,
+    Q.BIRD+G4: OG0014558.aln,
+    Q.PLANT+I+G4: OG0014560.aln,
+    Q.PLANT+G4: OG0014563.aln,
+    Q.BIRD+G4: OG0014565.aln,
+    JTTDCMUT+G4: OG0014566.aln,
+    Q.PLANT+G4: OG0014567.aln,
+    Q.PLANT+G4: OG0014571.aln,
+    Q.PLANT+I+G4: OG0014572.aln,
+    Q.MAMMAL+G4: OG0014573.aln,
+    Q.PLANT+I+R2: OG0014574.aln,
+    Q.PLANT+G4: OG0014575.aln,
+    Q.BIRD+G4: OG0014576.aln,
+    Q.PLANT+G4: OG0014578.aln,
+    Q.PLANT+F+G4: OG0014579.aln,
+    Q.PLANT+G4: OG0014580.aln,
+    Q.PLANT+G4: OG0014581.aln,
+    Q.PLANT+I+G4: OG0014582.aln,
+    Q.MAMMAL+G4: OG0014584.aln,
+    Q.MAMMAL+G4: OG0014585.aln,
+    Q.PLANT+G4: OG0014588.aln,
+    Q.PLANT+I+R2: OG0014589.aln,
+    Q.PLANT+R3: OG0014591.aln,
+    Q.YEAST+G4: OG0014593.aln,
+    Q.PLANT+G4: OG0014594.aln,
+    Q.BIRD+G4: OG0014595.aln,
+    JTT+F+I+G4: OG0014596.aln,
+    Q.PLANT+G4: OG0014597.aln,
+    Q.PLANT+G4: OG0014599.aln,
+    Q.BIRD+I+G4: OG0014600.aln,
+    Q.MAMMAL+I+G4: OG0014601.aln,
+    Q.PLANT+G4: OG0014602.aln,
+    JTT+G4: OG0014604.aln,
+    Q.PLANT+G4: OG0014606.aln,
+    Q.MAMMAL+G4: OG0014608.aln,
+    Q.PLANT+G4: OG0014609.aln,
+    Q.PLANT+G4: OG0014610.aln,
+    Q.PLANT+G4: OG0014612.aln,
+    Q.PLANT+G4: OG0014613.aln,
+    Q.PLANT+G4: OG0014614.aln,
+    Q.PLANT+G4: OG0014616.aln,
+    Q.PLANT+G4: OG0014617.aln,
+    Q.PLANT+G4: OG0014620.aln,
+    Q.PLANT+G4: OG0014622.aln,
+    Q.MAMMAL+G4: OG0014623.aln,
+    Q.PLANT+G4: OG0014624.aln,
+    Q.PLANT+G4: OG0014627.aln,
+    Q.PLANT+G4: OG0014628.aln,
+    Q.BIRD+G4: OG0014629.aln,
+    JTT+I+G4: OG0014630.aln,
+    Q.PLANT+G4: OG0014632.aln,
+    Q.MAMMAL+G4: OG0014634.aln,
+    Q.PLANT+G4: OG0014635.aln,
+    Q.BIRD+G4: OG0014637.aln,
+    Q.MAMMAL+G4: OG0014638.aln,
+    Q.PLANT+G4: OG0014640.aln,
+    Q.PLANT+G4: OG0014641.aln,
+    Q.PLANT+I+G4: OG0014642.aln,
+    Q.PLANT+R2: OG0014644.aln,
+    JTTDCMUT+R2: OG0014645.aln,
+    Q.MAMMAL+G4: OG0014646.aln,
+    Q.PLANT+G4: OG0014647.aln,
+    Q.PLANT+I+G4: OG0014648.aln,
+    Q.PLANT+I+G4: OG0014649.aln,
+    Q.PLANT+G4: OG0014653.aln,
+    Q.PLANT+G4: OG0014654.aln,
+    Q.BIRD+G4: OG0014656.aln,
+    Q.PLANT+G4: OG0014659.aln,
+    Q.PLANT+R3: OG0014660.aln,
+    Q.PLANT+G4: OG0014661.aln,
+    Q.PLANT+G4: OG0014662.aln,
+    Q.PLANT+G4: OG0014663.aln,
+    Q.BIRD+G4: OG0014665.aln,
+    Q.BIRD+G4: OG0014666.aln,
+    JTT+F+R2: OG0014667.aln,
+    Q.PLANT+G4: OG0014668.aln,
+    Q.PLANT+G4: OG0014669.aln,
+    Q.PLANT+G4: OG0014670.aln,
+    Q.PLANT+G4: OG0014671.aln,
+    Q.PLANT+G4: OG0014676.aln,
+    JTTDCMUT+G4: OG0014677.aln,
+    Q.PLANT+G4: OG0014678.aln,
+    Q.MAMMAL+G4: OG0014679.aln,
+    Q.PLANT+R3: OG0014680.aln,
+    Q.PLANT+I+G4: OG0014681.aln,
+    JTTDCMUT+G4: OG0014682.aln,
+    Q.PLANT+G4: OG0014683.aln,
+    Q.PLANT+G4: OG0014684.aln,
+    Q.PLANT+G4: OG0014686.aln,
+    Q.PLANT+G4: OG0014689.aln,
+    Q.PLANT+G4: OG0014690.aln,
+    Q.PLANT+G4: OG0014692.aln,
+    Q.PLANT+G4: OG0014693.aln,
+    Q.PLANT+F+G4: OG0014694.aln,
+    Q.PLANT+F+G4: OG0014696.aln,
+    Q.PLANT+G4: OG0014697.aln,
+    Q.MAMMAL+G4: OG0014698.aln,
+    Q.BIRD+G4: OG0014701.aln,
+    Q.PLANT+G4: OG0014702.aln,
+    Q.PLANT+G4: OG0014704.aln,
+    Q.PLANT+G4: OG0014705.aln,
+    Q.BIRD+G4: OG0014706.aln,
+    Q.PLANT+G4: OG0014708.aln,
+    Q.PLANT+I+R2: OG0014709.aln,
+    Q.BIRD+G4: OG0014711.aln,
+    Q.PLANT+G4: OG0014712.aln,
+    Q.PLANT+G4: OG0014713.aln,
+    JTT+G4: OG0014715.aln,
+    Q.BIRD+I+G4: OG0014716.aln,
+    JTT+G4: OG0014717.aln,
+    Q.BIRD+G4: OG0014719.aln,
+    Q.PLANT+G4: OG0014721.aln,
+    Q.PLANT+R3: OG0014723.aln,
+    Q.BIRD+G4: OG0014724.aln,
+    Q.PLANT+G4: OG0014725.aln,
+    Q.PLANT+G4: OG0014726.aln,
+    Q.PLANT+G4: OG0014728.aln,
+    Q.PLANT+G4: OG0014730.aln,
+    Q.PLANT+G4: OG0014731.aln,
+    JTT+G4: OG0014732.aln,
+    Q.MAMMAL+I+G4: OG0014734.aln,
+    Q.MAMMAL+G4: OG0014740.aln,
+    Q.BIRD+F+I+G4: OG0014741.aln,
+    JTT+G4: OG0014742.aln,
+    Q.PLANT+G4: OG0014744.aln,
+    Q.MAMMAL+G4: OG0014745.aln,
+    Q.MAMMAL+G4: OG0014746.aln,
+    Q.PLANT+G4: OG0014747.aln,
+    Q.MAMMAL+G4: OG0014748.aln,
+    DAYHOFF+G4: OG0014749.aln,
+    Q.MAMMAL+G4: OG0014750.aln,
+    Q.PLANT+G4: OG0014752.aln,
+    Q.PLANT+G4: OG0014755.aln,
+    Q.BIRD+R3: OG0014756.aln,
+    Q.YEAST+G4: OG0014757.aln,
+    Q.PLANT+G4: OG0014760.aln,
+    Q.PLANT+G4: OG0014761.aln,
+    Q.MAMMAL+I+G4: OG0014762.aln,
+    Q.PLANT+G4: OG0014763.aln,
+    Q.PLANT+G4: OG0014764.aln,
+    Q.PLANT+G4: OG0014765.aln,
+    Q.MAMMAL+I+G4: OG0014766.aln,
+    Q.PLANT+G4: OG0014768.aln,
+    Q.PLANT+G4: OG0014769.aln,
+    Q.PLANT+G4: OG0014770.aln,
+    Q.PLANT+G4: OG0014771.aln,
+    Q.PLANT+G4: OG0014772.aln,
+    Q.PLANT+I+R2: OG0014773.aln,
+    Q.PLANT+G4: OG0014774.aln,
+    Q.PLANT+G4: OG0014775.aln,
+    Q.PLANT+G4: OG0014776.aln,
+    Q.BIRD+I+G4: OG0014777.aln,
+    Q.PLANT+R3: OG0014779.aln,
+    Q.BIRD+G4: OG0014780.aln,
+    Q.BIRD+G4: OG0014781.aln,
+    Q.BIRD+F+I+G4: OG0014783.aln,
+    Q.PLANT+G4: OG0014784.aln,
+    Q.BIRD+G4: OG0014785.aln,
+    Q.PLANT+G4: OG0014787.aln;
+end;

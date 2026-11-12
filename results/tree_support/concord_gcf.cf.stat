@@ -1,0 +1,28 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('support/concord_gcf.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   gCF: Gene concordance factor (=gCF_N/gN %)
+#   gCF_N: Number of trees concordant with the branch
+#   gDF1: Gene discordance factor for NNI-1 branch (=gDF1_N/gN %)
+#   gDF1_N: Number of trees concordant with NNI-1 branch
+#   gDF2: Gene discordance factor for NNI-2 branch (=gDF2_N/gN %)
+#   gDF2_N: Number of trees concordant with NNI-2 branch
+#   gDFP: Gene discordance factor due to polyphyly (=gDFP_N/gN %)
+#   gDFP_N: Number of trees decisive but discordant due to polyphyly
+#   gN: Number of trees decisive for the branch
+#   Label: Existing branch label
+#   Length: Branch length
+# *NOTE*: (gCF+gDF1+gDF2+gDFP) = 100% and (gCF_N+gDF1_N+gDF2_N+gDFP_N) = gN
+ID	gCF	gCF_N	gDF1	gDF1_N	gDF2	gDF2_N	gDFP	gDFP_N	gN	Label	Length
+14	31.31	227	23.17	168	28.14	204	17.38	126	725	100/100	0.0265101
+15	44.14	320	6.9	50	6.07	44	42.9	311	725	100/100	0.0279808
+16	50.9	369	8.28	60	10.9	79	29.93	217	725	100/100	0.0220446
+17	94.9	688	0.28	2	0.83	6	4	29	725	100/100	0.0811991
+18	75.03	544	5.93	43	4.97	36	14.07	102	725	100/100	0.022698
+19	44.69	324	20.83	151	26.62	193	7.86	57	725	100/100	0.0112404
+20	91.59	664	0.14	1	0.28	2	8	58	725	100/100	0.0677511
+21	59.31	430	19.03	138	16.97	123	4.69	34	725	100/100	0.0131353
+22	98.9	717	0.14	1	0	0	0.97	7	725	100/100	0.0587084
+23	92.41	670	3.59	26	3.59	26	0.41	3	725	100/100	0.0212359

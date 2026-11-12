@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N step4
+#PBS -l nodes=1:ppn=4
+#PBS -l walltime=6:00:00
+#PBS -j oe
+# Step 4 analysis (docs/step4_spec.md). Run after all Step 4 samples are quantified.
+P=${PROJECT_DIR:-${PBS_O_WORKDIR:-$PWD}}   # project folder: set PROJECT_DIR, or run/submit from it
+cd $P; exec > logs/step4.log 2>&1
+source ~/miniconda3/etc/profile.d/conda.sh && conda activate legume
+Rscript pipeline10/step08_step4.R $P

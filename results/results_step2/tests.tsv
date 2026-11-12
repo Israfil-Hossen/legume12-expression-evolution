@@ -1,0 +1,12 @@
+test	n	estimate	lo	hi	verdict	flag	variant
+primary: rho_between ~ divergence time	55	-0.0306592869240713	-0.0547963688861263	0.00484231608120709	supports technical account	""	primary
+secondary: mean rho_between - mean rho_within	66	-0.0427771819156237	-0.070561797618428	-0.0138309760213386	partial	""	primary
+primary: rho_between ~ divergence time	55	-0.0024005133773518	-0.0234469978440611	0.0364111537157563	supports technical account	""	S1_per_copy
+secondary: mean rho_between - mean rho_within	66	0.0556724983982802	0.0141318793172855	0.0942060139874599	supports evolutionary account	""	S1_per_copy
+primary: rho_between ~ divergence time	36	-0.0203085872616312	-0.0483302512428333	0.0221385440164254	supports technical account	""	S2_three_per_side
+secondary: mean rho_between - mean rho_within	45	-0.0401101266814325	-0.0696980734803255	-0.0106639566780748	partial	""	S2_three_per_side
+primary: rho_between ~ divergence time	45	-0.0374381366677092	-0.0606605586684386	0.00654484484694364	supports technical account	""	S3_no_Pisum
+secondary: mean rho_between - mean rho_within	55	-0.0490097708802071	-0.076449385269574	-0.0214893785319485	partial	""	S3_no_Pisum
+primary: rho_between ~ divergence time	55	-0.0326555633582132	-0.0575907356452998	0.00407729313442516	supports technical account	""	S4_thinned_5M
+secondary: mean rho_between - mean rho_within	66	-0.0131471517527008	-0.037540239606867	0.0129917595066923	supports technical account	""	S4_thinned_5M
+S5: rho_between ~ patristic distance	66	-0.0368475701038978	-0.0664813078882842	0.00337816271898328	supports technical account	""	S5_patristic

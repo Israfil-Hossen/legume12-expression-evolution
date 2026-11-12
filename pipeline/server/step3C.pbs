@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -N step3C
+#PBS -l nodes=1:ppn=4
+#PBS -l walltime=6:00:00
+#PBS -j oe
+P=${PROJECT_DIR:-${PBS_O_WORKDIR:-$PWD}}   # project folder: set PROJECT_DIR, or run/submit from it
+cd $P; exec > logs/step3C.log 2>&1
+source ~/miniconda3/etc/profile.d/conda.sh && conda activate legume
+STEP5_HOG=1 Rscript step05_analysis.R $P

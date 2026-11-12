@@ -1,0 +1,46 @@
+species,comparison,copy_class,median_divergence,n
+Gmax,within one study,1,0.16243808716333,3560
+Gmax,within one study,2,0.2165178357311225,7176
+Gmax,within one study,3,0.23285924892611848,1926
+Gmax,within one study,4,0.235694246195026,2447
+Gmax,within one study,≥5,0.2730542805978,1152
+Gmax,"two studies, same species",1,0.365347624415295,3560
+Gmax,"two studies, same species",2,0.49930240974227247,7176
+Gmax,"two studies, same species",3,0.5829038927674091,1926
+Gmax,"two studies, same species",4,0.611918353294364,2447
+Gmax,"two studies, same species",≥5,0.608309400431838,1152
+Gmax,two species (11 pairs pooled),1,0.58733230245249,29003
+Gmax,two species (11 pairs pooled),2,0.71525245536096,10627
+Gmax,two species (11 pairs pooled),3,0.7896951497753779,1646
+Gmax,two species (11 pairs pooled),4,0.783505379188405,832
+Gmax,two species (11 pairs pooled),≥5,0.8430881722023864,382
+Pvul,within one study,1,0.09681231134799004,10162
+Pvul,within one study,2,0.122272535038609,4211
+Pvul,within one study,3,0.1380213650037975,636
+Pvul,within one study,4,0.151958629739064,229
+Pvul,within one study,≥5,0.176769693163213,343
+Pvul,"two studies, same species",1,0.269456405296703,10162
+Pvul,"two studies, same species",2,0.33647478147797,4211
+Pvul,"two studies, same species",3,0.385182655601376,636
+Pvul,"two studies, same species",4,0.44853976182323,229
+Pvul,"two studies, same species",≥5,0.475172136087236,343
+Pvul,two species (11 pairs pooled),1,0.467316835638229,82528
+Pvul,two species (11 pairs pooled),2,0.5244180553366515,24326
+Pvul,two species (11 pairs pooled),3,0.556319381203362,2147
+Pvul,two species (11 pairs pooled),4,0.58190959213105,531
+Pvul,two species (11 pairs pooled),≥5,0.708943691379651,277
+Mtru,within one study,1,0.0903441514205171,10147
+Mtru,within one study,2,0.09951964606608026,3846
+Mtru,within one study,3,0.106625830560868,891
+Mtru,within one study,4,0.1047388463399315,338
+Mtru,within one study,≥5,0.119169411651418,739
+Mtru,"two studies, same species",1,0.505935217031048,10147
+Mtru,"two studies, same species",2,0.579815408292503,3846
+Mtru,"two studies, same species",3,0.604238869928265,891
+Mtru,"two studies, same species",4,0.5680390158584989,338
+Mtru,"two studies, same species",≥5,0.646060689483105,739
+Mtru,two species (11 pairs pooled),1,0.4778113577285865,80958
+Mtru,two species (11 pairs pooled),2,0.5437547003533105,21090
+Mtru,two species (11 pairs pooled),3,0.573889698300966,2105
+Mtru,two species (11 pairs pooled),4,0.6106217748373115,476
+Mtru,two species (11 pairs pooled),≥5,0.7199557705102375,308

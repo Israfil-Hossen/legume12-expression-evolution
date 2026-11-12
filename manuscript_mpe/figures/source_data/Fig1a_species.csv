@@ -1,0 +1,13 @@
+code,species,clade,samples_step2,samples_step4_study2
+Adur,Arachis duranensis,Dalbergioid,5,0
+Lang,Lupinus angustifolius,Genistoid,10,0
+Ljap,Lotus japonicus,Robinioid,3,0
+Cari,Cicer arietinum,IRLC,8,0
+Psat,Pisum sativum,IRLC,11,0
+Mtru,Medicago truncatula,IRLC,12,12
+Tpra,Trifolium pratense,IRLC,10,0
+Ccaj,Cajanus cajan,Millettioid,6,0
+Gmax,Glycine max,Millettioid,12,9
+Pvul,Phaseolus vulgaris,Millettioid,9,11
+Vrad,Vigna radiata,Millettioid,12,0
+Vung,Vigna unguiculata,Millettioid,10,0

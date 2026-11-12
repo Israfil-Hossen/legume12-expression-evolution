@@ -1,0 +1,35 @@
+EXPLORATORY analyses (post hoc; not part of the pre-registration)  2026-09-24 11:19:37 
+
+== E1 dilution: median between-species divergence vs divergence time (55 pairs, Cajanus excluded) 
+  Spearman rho(median divergence, time) = +0.063 
+  Spearman rho(rho_between, median divergence) = +0.019 
+  time   9.7 Myr  pairs  1  median divergence 0.387  median rho_between +0.1023 
+  time  12.6 Myr  pairs  2  median divergence 0.409  median rho_between +0.0994 
+  time  23.8 Myr  pairs  3  median divergence 0.562  median rho_between +0.1114 
+  time  24.7 Myr  pairs  2  median divergence 0.499  median rho_between +0.0615 
+  time  25.2 Myr  pairs  1  median divergence 0.589  median rho_between +0.0668 
+  time  28.4 Myr  pairs  3  median divergence 0.568  median rho_between +0.0758 
+  time  50.6 Myr  pairs  4  median divergence 0.578  median rho_between +0.0461 
+  time  50.7 Myr  pairs  1  median divergence 0.580  median rho_between +0.0520 
+  time  54.6 Myr  pairs 20  median divergence 0.577  median rho_between +0.0693 
+  time  56.0 Myr  pairs 18  median divergence 0.531  median rho_between +0.0588 
+
+== E2 attenuation reference (45 pairs with a half-split in both species; Lotus has none) 
+  median rho_between observed +0.0687 | expected if extra component copy-neutral +0.0193 
+  observed / expected: median 3.80  (IQR 2.82 - 5.08) 
+  obs/exp ~ time: slope -0.0140 per Myr  ->  change over 9.7-56.0 Myr = -0.647 
+  Spearman rho(obs/exp, time) = -0.237 
+
+== E3 within-species rho vs read depth and replicates (11 species; descriptive only) 
+  Psat  rho +0.0278   median reads   5.6 M   n 11 
+  Vung  rho +0.0387   median reads  57.8 M   n 10 
+  Lang  rho +0.0455   median reads  42.0 M   n 10 
+  Mtru  rho +0.1108   median reads  24.5 M   n 12 
+  Cari  rho +0.1229   median reads  44.0 M   n  8 
+  Ccaj  rho +0.1268   median reads  16.7 M   n  6 
+  Vrad  rho +0.1325   median reads  21.4 M   n 12 
+  Tpra  rho +0.1369   median reads  22.2 M   n 10 
+  Adur  rho +0.1370   median reads  67.1 M   n  5 
+  Gmax  rho +0.1755   median reads  60.6 M   n 12 
+  Pvul  rho +0.1894   median reads  48.6 M   n  9 
+  Spearman rho(within rho, depth) = +0.436;  rho(within rho, n) = -0.185 
