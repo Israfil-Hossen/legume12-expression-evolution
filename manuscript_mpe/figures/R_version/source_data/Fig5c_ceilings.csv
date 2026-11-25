@@ -1,0 +1,15 @@
+species,ceiling,rho
+Gmax,replicate,0.967430157261795
+Pvul,replicate,0.983535277613007
+Vrad,replicate,0.98774298924816
+Vung,replicate,0.972820516778072
+Ccaj,replicate,0.958381294017698
+Mtru,replicate,0.986923527479638
+Cari,replicate,0.963518678359837
+Psat,replicate,0.965503172491203
+Tpra,replicate,0.985649187745198
+Lang,replicate,0.975309861521108
+Adur,replicate,0.944075313132901
+Gmax,laboratory,0.807708911501696
+Pvul,laboratory,0.866986927527725
+Mtru,laboratory,0.738315523640376

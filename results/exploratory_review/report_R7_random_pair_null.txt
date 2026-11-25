@@ -1,0 +1,14 @@
+orthogroups single-copy in all 12 legumes: 862
+scaling constant C = 8.3075  (Step 4/5 report: 8.3075)
+ohnolog orthogroups: 572; species-level pairs: 4983
+REPRODUCTION CHECK: median rho_r +0.562 (registered +0.562); change over 46.3 Myr -0.2235 (registered -0.2235)
+  max |rho_r - committed rho_r| over the 66 species pairs: 5.55e-17
+null pool: 199777 random pairs of single-copy orthogroups
+matching bins used: 97; bins with < 50 candidate null pairs: none
+
+RESULT (matched null: non-paralogous gene pairs matched on expression level, |ratio| and species availability)
+  ohnologs:   median rho_r +0.562; change over 46.3 Myr -0.224
+  null sets (1000): median rho_r +0.713 (2.5-97.5%: +0.690 to +0.735); change -0.076 (-0.119 to -0.037)
+  one-sided empirical P: ohnolog conservation higher than null 1.0000; ohnolog decline steeper than null 0.0010
+  unmatched random pairs (200 sets): median rho_r +0.786; change -0.055 (-0.089 to -0.016)
+written: results/exploratory_review/R7_random_pair_null.tsv, R7_random_pair_null_summary.tsv, R7_random_pair_null_lines.tsv

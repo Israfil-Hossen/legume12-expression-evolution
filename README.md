@@ -19,7 +19,8 @@ Code, specifications, metadata and results accompanying the manuscript above.
 | `pipeline/11_manuscript/` | Numbers ledger, figures, supplementary tables, graphical abstract, manuscript rendering, tree-support analyses |
 | `metadata/` | Run tables (ENA accessions, MD5), study characteristics, divergence times, software versions |
 | `results/` | All test results, per-orthogroup divergence tables, exploratory analyses, tree support, server logs |
-| `manuscript_mpe/figures/source_data/` | Source data for every figure panel |
+| `manuscript_mpe/figures/R_version/source_data/` | Source data for every panel of the main figures (drawn in R) |
+| `manuscript_mpe/figures/source_data/` | Source data for the supplementary figures (and earlier versions of the main figures) |
 
 ## Reproducing the analyses
 
@@ -29,7 +30,9 @@ All scripts use paths relative to the project folder. Set `PROJECT_DIR` to that 
 2. Step 2: `Rscript pipeline/08_step2/step05_analysis.R` (needs the quantifications; on the cluster via `pipeline/server/step05.pbs`).
 3. Step 3: `pipeline/server/step3AB.pbs`, `step3C.pbs`. Step 4: `pipeline/10_step4/step08_step4.pbs`.
 4. Step 5 (local): unpack the quantification archive (available on request) to a folder `DATA`, then `python pipeline/12_step5/step5_analysis.py DATA`.
-5. Numbers, figures and supplementary tables: `Rscript pipeline/11_manuscript/make_ledger.R`; `python pipeline/11_manuscript/make_figures.py`;
+   Exploratory matched null for the ohnolog statistics: `python pipeline/12_step5/explore_2B_random_pair_null.py DATA`.
+5. Numbers, figures and supplementary tables: `Rscript pipeline/11_manuscript/make_ledger.R`; main figures `Rscript pipeline/11_manuscript/make_figures.R`;
+   supplementary figures `python pipeline/11_manuscript/make_figures.py`;
    `python pipeline/11_manuscript/make_supp_tables.py`.
 
 Software versions are listed in `metadata/software_versions_*.tsv`.

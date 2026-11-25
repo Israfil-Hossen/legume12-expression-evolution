@@ -529,6 +529,14 @@ S5_1A_F_species_max	1.09	1.09367076845839	results_step5/1A_pairs.tsv	""
 XR6_n_perm	10000	10000	exploratory_review/R6_permutation.tsv	""
 XR6_p_all	0.0001	9.99900009999e-05	exploratory_review/R6_permutation.tsv	""
 XR6_p_col	0.0001	9.99900009999e-05	exploratory_review/R6_permutation.tsv	""
+XR7_null_rho_median	+0.713	0.712533864242912	exploratory_review/R7_random_pair_null_summary.tsv	matched sets; ohnolog value is S5_2B_rho_median
+XR7_null_rho_lo	+0.690	0.689773188684205	exploratory_review/R7_random_pair_null_summary.tsv	2.5% of 1000 matched sets
+XR7_null_rho_hi	+0.735	0.734831144838291	exploratory_review/R7_random_pair_null_summary.tsv	97.5% of 1000 matched sets
+XR7_null_change_est	-0.076	-0.0762229657657759	exploratory_review/R7_random_pair_null_summary.tsv	ohnolog value is S5_2B_trend_est
+XR7_null_change_lo	-0.119	-0.119199749414823	exploratory_review/R7_random_pair_null_summary.tsv	""
+XR7_null_change_hi	-0.037	-0.0374124998119521	exploratory_review/R7_random_pair_null_summary.tsv	""
+XR7_p_decline	0.001	0.000999000999000999	exploratory_review/R7_random_pair_null_summary.tsv	one-sided empirical P, (1 + sets at least as steep) / 1001
+XR7_ratio_change	2.9	2.93274915185716	exploratory_review/R7_random_pair_null_summary.tsv	ohnolog change / median null change
 acc_Gmax	GCF_000004515.6	GCF_000004515.6	pipeline/server/step01_genomes.sh	""
 acc_Pvul	GCF_000499845.2	GCF_000499845.2	pipeline/server/step01_genomes.sh	""
 acc_Mtru	GCF_003473485.1	GCF_003473485.1	pipeline/server/step01_genomes.sh	""
