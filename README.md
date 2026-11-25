@@ -43,4 +43,4 @@ Code: MIT (see `LICENSE`). Data, specifications and documentation: CC BY 4.0.
 
 ## Citation
 
-Hossen MI, Albaghdady DMD, Kabir MG, Rahman MM, Karim MP, Helal MMU. Study effects mimic, and conserved duplicate asymmetry reveals, expression evolution across twelve legumes. Manuscript; the published version will be linked here.
+Hossen MI, Albaghdady DMD, Kabir MG, Helal MMU. Study effects mimic, and conserved duplicate asymmetry reveals, expression evolution across twelve legumes. Manuscript; the published version will be linked here.
